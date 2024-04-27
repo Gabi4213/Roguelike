@@ -21,6 +21,13 @@ public class Item : ScriptableObject
     public string itemName;
     public Rarity rarity;
     public string description;
+
+    [Header("Item Stats")]
+    public float meleeDamage;
+    public float magicDamage;
+    public float criticalStrike;
+    public float attackSpeed;
+    public float movementSpeed;
 }
 
 public enum ItemType

@@ -9,5 +9,6 @@ using UnityEngine.InputSystem.LowLevel;
 public class MeleeWeaponItem : Item
 {
 
+
 }
 

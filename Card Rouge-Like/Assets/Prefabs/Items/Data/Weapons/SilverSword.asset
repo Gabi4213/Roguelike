@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 563949082aaf4c746a71e57d6a93da2e, type: 3}
+  m_Script: {fileID: 11500000, guid: e19e78812e52c604ea70d2b5fc500073, type: 3}
   m_Name: SilverSword
   m_EditorClassIdentifier: 
   type: 2
@@ -17,8 +17,13 @@ MonoBehaviour:
   usablePrefab: {fileID: 7520470784242835758, guid: 2ef5abce8957cd7428f74cc6c4cf5a7c,
     type: 3}
   image: {fileID: 21300000, guid: e19db53c8eeab7d4991cebaac623f906, type: 3}
-  stackable: 0
+  stackable: 1
   maxStackAmount: 0
-  itemName: Solver Sword
+  itemName: Silver Sword
   rarity: 1
-  description: Melee Weapon made out of battered steal and oak wood
+  description: Silver Sword
+  meleeDamage: 2
+  magicDamage: 0
+  criticalStrike: 0
+  attackSpeed: 1
+  movementSpeed: 0

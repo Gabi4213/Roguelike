@@ -9,16 +9,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 563949082aaf4c746a71e57d6a93da2e, type: 3}
-  m_Name: GoldenSword
+  m_Script: {fileID: 11500000, guid: e19e78812e52c604ea70d2b5fc500073, type: 3}
+  m_Name: GoldSword
   m_EditorClassIdentifier: 
   type: 2
   actionType: 2
   usablePrefab: {fileID: 7520470784242835758, guid: d3b4e1294223aa74880b22b1dbd675db,
     type: 3}
   image: {fileID: 21300000, guid: ad998b88fdbcf004a8ac86db3c36676e, type: 3}
-  stackable: 0
+  stackable: 1
   maxStackAmount: 0
-  itemName: Golden Sword
+  itemName: Gold Sword
   rarity: 2
-  description: Golden Sword
+  description: Gold Sword
+  meleeDamage: 3
+  magicDamage: 0
+  criticalStrike: 0
+  attackSpeed: 1
+  movementSpeed: 0

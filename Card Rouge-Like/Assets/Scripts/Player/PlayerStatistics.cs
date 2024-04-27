@@ -12,10 +12,11 @@ public class PlayerStatistics : MonoBehaviour
     public float defence;
 
     // Attacking
-    [Header("Attack Data")]
-    public float damage;
+    [Header("Attack Stats")]
+    public float meleeDamage;
+    public float magicDamage;
+    public float criticalStrike;
     public float attackSpeed;
-    public float critChance;
 
     [Header("Projectile Data")]
     public float projectileSpeed;
@@ -27,6 +28,7 @@ public class PlayerStatistics : MonoBehaviour
 
     //Tracking
     public float currentHealth;
+    public GameObject weaponInventorySlot;
 
 
     private void Awake()
@@ -44,5 +46,34 @@ public class PlayerStatistics : MonoBehaviour
         currentHealth = inHealth;
     }
 
+    private void Update()
+    {
+        if(weaponInventorySlot.transform.childCount > 0)
+        {
+            SetPlayerStats(weaponInventorySlot.GetComponentInChildren<InventoryItem>().item);
+        }
+        else if(meleeDamage !=0)
+        {
+            ResetPlayerStats();
+        }
+    }
+
+    public void SetPlayerStats(Item item)
+    {
+        meleeDamage = item.meleeDamage;
+        magicDamage = item.magicDamage;
+        criticalStrike = item.criticalStrike;
+        attackSpeed = item.attackSpeed;
+        moveSpeed = item.movementSpeed;
+    }
+
+    public void ResetPlayerStats()
+    {
+        meleeDamage = 0;
+        magicDamage = 0;
+        criticalStrike = 0;
+        attackSpeed = 0;
+        moveSpeed = 0;
+    }
 
 }
