@@ -29,6 +29,7 @@ public enum ItemType
     Resource,
     Weapon,
     Armor, 
+    Shield,
     Other
 }
 
