@@ -1,11 +1,24 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class PlayerUIManager : MonoBehaviour
 {
+    public static PlayerUIManager instance;
+
     public Transform healthUIGroup;
     public GameObject healthUIPrefab;
+
+    public TextMeshProUGUI itemNameText, itemDescriptionText;
+
+    private void Awake()
+    {
+        if (!instance)
+        {
+            instance = this;
+        }
+    }
 
     private void Start()
     {

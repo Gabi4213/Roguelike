@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class InventorySlot : MonoBehaviour, IDropHandler, IPointerEnterHandler, IPointerExitHandler
 {
@@ -12,11 +13,18 @@ public class InventorySlot : MonoBehaviour, IDropHandler, IPointerEnterHandler, 
     Vector2 desiredScale;
     public float ScaleFactor = 1.20f;
 
+    private Image inventoryImage;
+
+    public Sprite neutralSprite, hoveredSprite;
+
     void Start()
     {
+        inventoryImage = GetComponent<Image>();
         rect = gameObject.GetComponent<RectTransform>();
+
         originalScale = rect.localScale;
         desiredScale = new Vector2(1, 1);
+        inventoryImage.sprite = neutralSprite;
     }
 
     public void OnDrop(PointerEventData eventData)
@@ -35,6 +43,8 @@ public class InventorySlot : MonoBehaviour, IDropHandler, IPointerEnterHandler, 
             }
             return;
         }
+
+        inventoryImage.sprite = neutralSprite;
     }
     private void Update()
     {
@@ -42,12 +52,31 @@ public class InventorySlot : MonoBehaviour, IDropHandler, IPointerEnterHandler, 
     }
 
     public void OnPointerEnter(PointerEventData eventData)
-    {
+    {       
         desiredScale = new Vector2(originalScale.x * ScaleFactor, originalScale.y * ScaleFactor);
+        inventoryImage.sprite = neutralSprite;
+
+        if (transform.childCount > 0)
+        {
+            InventoryItem inventoryItem = transform.GetChild(0).GetComponent<InventoryItem>();
+            PlayerUIManager.instance.itemNameText.text = inventoryItem.item.itemName;
+            PlayerUIManager.instance.itemDescriptionText.text = inventoryItem.item.description;
+        }
+        else
+        {
+            inventoryImage.sprite = hoveredSprite;
+        }
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
         desiredScale = new Vector2(originalScale.x, originalScale.y);
+        inventoryImage.sprite = neutralSprite;
+
+        if (transform.childCount > 0)
+        {
+            PlayerUIManager.instance.itemNameText.text = "";
+            PlayerUIManager.instance.itemDescriptionText.text = "";
+        }
     }
 }

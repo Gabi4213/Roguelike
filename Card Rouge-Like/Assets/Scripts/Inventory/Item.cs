@@ -45,7 +45,7 @@ public enum Rarity
     Uncommon,
     Rare,
     Ultimate,
-    God,
+    Godly,
     Angelic,
     Demonic,
     Glorious

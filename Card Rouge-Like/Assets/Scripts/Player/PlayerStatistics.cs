@@ -38,4 +38,11 @@ public class PlayerStatistics : MonoBehaviour
 
         currentHealth = health;
     }
+
+    public void SetHealth(int inHealth)
+    {
+        currentHealth = inHealth;
+    }
+
+
 }

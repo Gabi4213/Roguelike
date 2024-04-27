@@ -13,6 +13,8 @@ public class InventoryItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
 {
     [Header("UI")]
     public Image image;
+    public Image rarityBorderImage;
+    public Sprite[] rarityBorders;
     public TextMeshProUGUI countText;
 
     [HideInInspector] public Item item;
@@ -23,7 +25,39 @@ public class InventoryItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
     {
         item = newItem;
         image.sprite = newItem.image;
+        SetUpRarityBorder();
         RefreshCount();
+    }
+
+    public void SetUpRarityBorder()
+    {
+        switch (item.rarity)
+        {
+            case Rarity.Base:
+                rarityBorderImage.sprite = rarityBorders[0];
+                break;
+            case Rarity.Uncommon:
+                rarityBorderImage.sprite = rarityBorders[1];
+                break;
+            case Rarity.Rare:
+                rarityBorderImage.sprite = rarityBorders[2];
+                break;
+            case Rarity.Ultimate:
+                rarityBorderImage.sprite = rarityBorders[3];
+                break;
+            case Rarity.Godly:
+                rarityBorderImage.sprite = rarityBorders[4];
+                break;
+            case Rarity.Angelic:
+                rarityBorderImage.sprite = rarityBorders[5];
+                break;
+            case Rarity.Demonic:
+                rarityBorderImage.sprite = rarityBorders[6];
+                break;
+            case Rarity.Glorious:
+                rarityBorderImage.sprite = rarityBorders[7];
+                break;
+        }
     }
 
     public void RefreshCount()
@@ -42,12 +76,17 @@ public class InventoryItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
 
     public void OnDrag(PointerEventData eventData)
     {
+        rarityBorderImage.gameObject.SetActive(false);
         transform.position = Input.mousePosition;
+
+        transform.localScale = new Vector2(1f, 1f);
     }
 
     public void OnEndDrag(PointerEventData eventData)
     {
+        rarityBorderImage.gameObject.SetActive(true);
         image.raycastTarget = true;
         transform.SetParent(parentAfterDrag);
+        transform.localScale = new Vector2(1f, 1f);
     }
 }
