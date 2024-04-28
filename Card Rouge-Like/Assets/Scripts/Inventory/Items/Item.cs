@@ -28,6 +28,8 @@ public class Item : ScriptableObject
     public float criticalStrike;
     public float attackSpeed;
     public float movementSpeed;
+    public float stability;
+    public float defence;
 }
 
 public enum ItemType

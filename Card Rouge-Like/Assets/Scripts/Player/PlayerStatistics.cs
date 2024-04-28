@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEditor.Progress;
 
 public class PlayerStatistics : MonoBehaviour
 {
@@ -25,10 +26,12 @@ public class PlayerStatistics : MonoBehaviour
     //Movement
     [Header("Movement")]
     public float moveSpeed;
+    public float stability;
 
     //Tracking
     public float currentHealth;
-    public GameObject weaponInventorySlot;
+    private float defaultMoveSpeed;
+    public GameObject[] specialInventorySlots;
 
 
     private void Awake()
@@ -38,6 +41,7 @@ public class PlayerStatistics : MonoBehaviour
             instance = this;
         }
 
+        defaultMoveSpeed = moveSpeed;
         currentHealth = health;
     }
 
@@ -48,32 +52,64 @@ public class PlayerStatistics : MonoBehaviour
 
     private void Update()
     {
-        if(weaponInventorySlot.transform.childCount > 0)
+        float tempMeleeDamage = 0;
+        float tempMagicDamage = 0;
+        float tempCriticalStrike = 0;
+        float tempAttackSpeed = 0;
+        float tempMoveSpeed = 0;
+        float tempStability = 0;
+        float tempDefence = 0;
+
+        foreach(GameObject slot in specialInventorySlots)
         {
-            SetPlayerStats(weaponInventorySlot.GetComponentInChildren<InventoryItem>().item);
+            if(slot.transform.childCount > 0)
+            {
+                InventoryItem inventoryItem = slot.GetComponentInChildren<InventoryItem>();
+
+                tempMeleeDamage += inventoryItem.item.meleeDamage;
+                tempMagicDamage += inventoryItem.item.magicDamage;
+                tempCriticalStrike += inventoryItem.item.criticalStrike;
+                tempAttackSpeed += inventoryItem.item.attackSpeed;
+                tempMoveSpeed += inventoryItem.item.movementSpeed;
+                tempStability += inventoryItem.item.stability;
+                tempDefence += inventoryItem.item.defence;
+            }
         }
-        else if(meleeDamage !=0)
+
+        if(tempMeleeDamage != meleeDamage)
         {
-            ResetPlayerStats();
+            meleeDamage = tempMeleeDamage;
+        }
+        else if (tempMagicDamage != magicDamage)
+        {
+            magicDamage = tempMagicDamage;
+        }
+        else if (tempCriticalStrike != criticalStrike)
+        {
+            criticalStrike = tempCriticalStrike;
+        }
+        else if (tempAttackSpeed != attackSpeed)
+        {
+            attackSpeed = tempAttackSpeed;
+        }
+        else if (tempStability != stability)
+        {
+            stability = tempStability;
+        }
+        else if (tempDefence != defence)
+        {
+            defence = tempDefence;
+        }
+        else if (tempMoveSpeed != moveSpeed)
+        {
+            if(tempMoveSpeed > 0)
+            {
+                moveSpeed = tempMoveSpeed;
+            }
+            else
+            {
+                moveSpeed = defaultMoveSpeed;
+            }
         }
     }
-
-    public void SetPlayerStats(Item item)
-    {
-        meleeDamage = item.meleeDamage;
-        magicDamage = item.magicDamage;
-        criticalStrike = item.criticalStrike;
-        attackSpeed = item.attackSpeed;
-        moveSpeed = item.movementSpeed;
-    }
-
-    public void ResetPlayerStats()
-    {
-        meleeDamage = 0;
-        magicDamage = 0;
-        criticalStrike = 0;
-        attackSpeed = 0;
-        moveSpeed = 0;
-    }
-
 }

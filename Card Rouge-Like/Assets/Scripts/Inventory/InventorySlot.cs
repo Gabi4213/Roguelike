@@ -14,9 +14,9 @@ public class InventorySlot : MonoBehaviour, IDropHandler, IPointerEnterHandler, 
     Vector2 originalScale;
     Vector2 desiredScale;
     public float ScaleFactor = 1.20f;
+    public bool triggerPlayerStats = false;
 
     private Image inventoryImage;
-
     public Sprite neutralSprite, hoveredSprite;
 
     void Start()
@@ -45,7 +45,6 @@ public class InventorySlot : MonoBehaviour, IDropHandler, IPointerEnterHandler, 
             }
             return;
         }
-
         inventoryImage.sprite = neutralSprite;
     }
     private void Update()
@@ -91,36 +90,62 @@ public class InventorySlot : MonoBehaviour, IDropHandler, IPointerEnterHandler, 
 
     public void ItemStatsSetUp(Item item)
     {
-        if(item.type == ItemType.Weapon)
+        if(item.type == ItemType.Weapon || item.type == ItemType.Shield)
         {
             PlayerUIManager.instance.statsText[0].text = item.meleeDamage.ToString() + " Melee Damage";
             PlayerUIManager.instance.statsText[1].text = item.magicDamage.ToString() + " Magic Damage";
             PlayerUIManager.instance.statsText[2].text = item.criticalStrike.ToString() + " Critical Strike";
             PlayerUIManager.instance.statsText[3].text = item.attackSpeed.ToString() + " Attack Speed";
-            PlayerUIManager.instance.statsText[4].text = "";
-            PlayerUIManager.instance.statsText[5].text = "";
+            PlayerUIManager.instance.statsText[4].text = item.movementSpeed.ToString() + " Movement Speed";
+            PlayerUIManager.instance.statsText[5].text = item.stability.ToString() + " Stability";
+            PlayerUIManager.instance.statsText[6].text = item.defence.ToString() + " Defence";
 
-            UpdateTextColor(PlayerStatistics.instance.meleeDamage, item.meleeDamage, PlayerUIManager.instance.statsText[0]);
-            UpdateTextColor(PlayerStatistics.instance.meleeDamage, item.magicDamage, PlayerUIManager.instance.statsText[1]);
-            UpdateTextColor(PlayerStatistics.instance.meleeDamage, item.criticalStrike, PlayerUIManager.instance.statsText[2]);
-            UpdateTextColor(PlayerStatistics.instance.meleeDamage, item.attackSpeed, PlayerUIManager.instance.statsText[3]);
+            UpdateTextColor("meleeDamage", PlayerStatistics.instance.meleeDamage, item.meleeDamage, PlayerUIManager.instance.statsText[0]);
+            UpdateTextColor("magicDamage", PlayerStatistics.instance.magicDamage, item.magicDamage, PlayerUIManager.instance.statsText[1]);
+            UpdateTextColor("criticalStrike", PlayerStatistics.instance.criticalStrike, item.criticalStrike, PlayerUIManager.instance.statsText[2]);
+            UpdateTextColor("attackSpeed", PlayerStatistics.instance.attackSpeed, item.attackSpeed, PlayerUIManager.instance.statsText[3]);
+            UpdateTextColor("moveSpeed", PlayerStatistics.instance.moveSpeed, item.movementSpeed, PlayerUIManager.instance.statsText[4]);
+            UpdateTextColor("stability", PlayerStatistics.instance.stability, item.stability, PlayerUIManager.instance.statsText[5]);
+            UpdateTextColor("defence", PlayerStatistics.instance.defence, item.defence, PlayerUIManager.instance.statsText[6]);
         }
     }
 
-    void UpdateTextColor(float playerStat, float itemStat, TextMeshProUGUI textToUpdate)
+    void UpdateTextColor(string itemStatName, float playerStat, float itemStat, TextMeshProUGUI textToUpdate)
     {
-        if (playerStat > itemStat)
+        //item stats that are better when lower
+        if(itemStatName == "attackSpeed")
         {
-            textToUpdate.color = PlayerUIManager.instance.decreasedStatsColor;
+            if (playerStat == itemStat)
+            {
+                textToUpdate.color = PlayerUIManager.instance.defaultStatsColor;
+            }
+            else if (playerStat < itemStat && playerStat != 0)
+            {
+                textToUpdate.color = PlayerUIManager.instance.decreasedStatsColor;
+            }
+            else if (playerStat > itemStat)
+            {
+                textToUpdate.color = PlayerUIManager.instance.increasedStatsColor;
+            }
+            else if(playerStat == 0)
+            {
+                textToUpdate.color = PlayerUIManager.instance.increasedStatsColor;
+            }
         }
-        else if (playerStat < itemStat)
+        else
         {
-            textToUpdate.color = PlayerUIManager.instance.increasedStatsColor;
-        }
-        else // If playerStat is equal to itemStat
-        {
-            textToUpdate.color = PlayerUIManager.instance.increasedStatsColor; // You can replace this with any color you desire for the case when the stats are equal.
+            if (playerStat == itemStat)
+            {
+                textToUpdate.color = PlayerUIManager.instance.defaultStatsColor;
+            }
+            else if (playerStat > itemStat)
+            {
+                textToUpdate.color = PlayerUIManager.instance.decreasedStatsColor;
+            }
+            else if (playerStat < itemStat)
+            {
+                textToUpdate.color = PlayerUIManager.instance.increasedStatsColor;
+            }
         }
     }
-
 }

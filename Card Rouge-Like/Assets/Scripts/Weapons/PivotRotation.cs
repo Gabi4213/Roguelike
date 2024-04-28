@@ -7,8 +7,11 @@ public class PivotRotation : MonoBehaviour
     public Transform pivot;
     public float distanceFromPlayer = 2f;
 
+    // Reference to the sprite renderer component
+    public SpriteRenderer spriteRenderer;
+
     private void Start()
-    { 
+    {
         pivot = transform.parent;
     }
 
@@ -30,5 +33,17 @@ public class PivotRotation : MonoBehaviour
 
         // Set the rotation of the weapon instantly
         transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
+
+        // Flip the sprite vertically if it's in the right half of the circle
+        if (angle < 90f && angle > -90f)
+        {
+            // Flip the sprite vertically
+            spriteRenderer.flipY = true;
+        }
+        else
+        {
+            // Reset the sprite flipping
+            spriteRenderer.flipY = false;
+        }
     }
 }
