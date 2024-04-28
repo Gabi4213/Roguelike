@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 9013364799203738431}
   - component: {fileID: 465816674969073775}
-  - component: {fileID: 5440212197130442499}
+  - component: {fileID: 5207844843032086388}
   m_Layer: 0
-  m_Name: SwordProjectile
+  m_Name: StaffProjectile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -62,7 +62,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &5440212197130442499
+--- !u!114 &5207844843032086388
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -71,9 +71,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 511180177762784804}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1feecdd8f6d877747aaddd8a402878dd, type: 3}
+  m_Script: {fileID: 11500000, guid: 8626c67ff1e41cc4cbacb72d935b1241, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  projectileLifetime: 1
 --- !u!1 &540868701168840523
 GameObject:
   m_ObjectHideFlags: 0
@@ -100,7 +101,7 @@ Transform:
   m_GameObject: {fileID: 540868701168840523}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.043, y: -0.043, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -179,8 +180,8 @@ Transform:
   m_GameObject: {fileID: 6993633549525021335}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -0.35, y: -0.057, z: 0}
-  m_LocalScale: {x: -1.41771, y: 1.41771, z: 1.41771}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 9013364799203738431}
@@ -226,7 +227,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b419c2b6e4ba0044bbd63b045ef51468, type: 3}
+  m_Sprite: {fileID: 21300000, guid: eab3820c29851594eb4f2c49a11ce63f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -247,7 +248,7 @@ Animator:
   m_GameObject: {fileID: 6993633549525021335}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 5d4521ad28e795742bfa2336dbe9f4a7, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

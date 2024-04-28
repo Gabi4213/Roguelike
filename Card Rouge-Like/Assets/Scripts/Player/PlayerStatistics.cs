@@ -22,6 +22,8 @@ public class PlayerStatistics : MonoBehaviour
     [Header("Projectile Data")]
     public float projectileSpeed;
     public float projectileLifetime;
+    public float staffProjectileLifetime;
+
 
     //Movement
     [Header("Movement")]

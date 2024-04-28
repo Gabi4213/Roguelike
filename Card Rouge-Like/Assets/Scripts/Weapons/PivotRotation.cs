@@ -6,6 +6,9 @@ public class PivotRotation : MonoBehaviour
 {
     public Transform pivot;
     public float distanceFromPlayer = 2f;
+    public GameObject projSpawnPoint;
+
+    private Vector3 normalProjPos;
 
     // Reference to the sprite renderer component
     public SpriteRenderer spriteRenderer;
@@ -13,6 +16,7 @@ public class PivotRotation : MonoBehaviour
     private void Start()
     {
         pivot = transform.parent;
+        normalProjPos = projSpawnPoint.transform.position;
     }
 
     void Update()
@@ -39,11 +43,13 @@ public class PivotRotation : MonoBehaviour
         {
             // Flip the sprite vertically
             spriteRenderer.flipY = true;
+            projSpawnPoint.transform.localPosition = new Vector3(Mathf.Abs(normalProjPos.x), Mathf.Abs(normalProjPos.y), Mathf.Abs(normalProjPos.z));
         }
         else
         {
             // Reset the sprite flipping
             spriteRenderer.flipY = false;
+            projSpawnPoint.transform.localPosition = normalProjPos;
         }
     }
 }

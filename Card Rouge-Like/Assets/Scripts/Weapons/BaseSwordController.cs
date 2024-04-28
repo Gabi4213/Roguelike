@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEditor.Progress;
 
 public class BaseSwordController : MonoBehaviour
 {
@@ -12,6 +13,8 @@ public class BaseSwordController : MonoBehaviour
 
     private Vector3 initialScale;
     private bool canAttack = true; // Flag to check if the player can attack
+
+    public Item item;
 
     private void Start()
     {
@@ -31,7 +34,8 @@ public class BaseSwordController : MonoBehaviour
     private void InstantiateProjectile()
     {
         // Instantiate the projectile at the spawn point
-        Instantiate(projectile, spawnPoint.position, spawnPoint.rotation);
+        GameObject projectileObj = Instantiate(projectile, spawnPoint.position, spawnPoint.rotation);
+        projectileObj.GetComponent<SetableProjectile>().projectileLifetime = item.projectileLifetime;
     }
 
     private IEnumerator ApplyPulsatingEffect()
