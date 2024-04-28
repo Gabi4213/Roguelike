@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 63
+  controlID: 13878
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -150,7 +150,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 64
+  controlID: 13879
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -175,7 +175,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 65
+  controlID: 13880
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -242,9 +242,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 38f8ffff
+      m_SelectedIDs: d0cd0000
       m_LastClickedID: 0
-      m_ExpandedIDs: c4faffff
+      m_ExpandedIDs: c4faffffa26a00002c6b0000aa6b0000ae6b0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -814,9 +814,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 930.93384, y: 519.80566, z: 0}
+    m_Target: {x: 0.35658804, y: -0.33804682, z: -0.068574965}
     speed: 2
-    m_Value: {x: 930.93384, y: 519.80566, z: 0}
+    m_Value: {x: 0.35658804, y: -0.33804682, z: -0.068574965}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -866,9 +866,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 621.8971
+    m_Target: 5.9893494
     speed: 2
-    m_Value: 621.8971
+    m_Value: 5.9893494
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1968,7 +1968,7 @@ MonoBehaviour:
   - {fileID: 14}
   - {fileID: 15}
   m_Selected: 0
-  m_LastSelected: 1
+  m_LastSelected: 2
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -2017,7 +2017,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/UI
+    - Assets/Prefabs/Items/Data/Weapons
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -2027,16 +2027,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts/UI
+  - Assets/Prefabs/Items/Data/Weapons
   m_LastFoldersGridSize: -1
   m_LastProjectPath: G:\Unity\UnityProjects\Git\Roguelike\Card Rouge-Like
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 423}
-    m_SelectedIDs: 246f0000
-    m_LastClickedID: 28452
-    m_ExpandedIDs: 000000008c6e00008e6e0000906e0000926e0000946e0000f06e000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 367}
+    m_SelectedIDs: de6e0000
+    m_LastClickedID: 28382
+    m_ExpandedIDs: 000000008c6e00008e6e0000906e0000926e0000946e0000cc6e0000ea6e00008ead000090ad000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2064,7 +2064,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000008c6e00008e6e0000906e0000926e0000946e0000
+    m_ExpandedIDs: 000000008c6e00008e6e0000906e0000926e0000946e000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2089,10 +2089,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 38f8ffff
-    m_LastClickedInstanceID: -1992
-    m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c62300007e940000dedf0000b0070300c87a0000801c010072c80000f28000009c80000022e100004c6c0000eec700000cc80000aec70000b6c70000aac700007cc70000548400005e840000be6c0000d46c0000f8b8000016b90000b66c0000906d00008a6d00001e330100187f030064f600003277000060960000aea9000080a90000a42d01005ea8000062a800005aa800007e7400002e880000e46b000030880000106f0000ee690000a26d00006c790000e8690000ac7a0000a6780000647b00006ec20000
+    m_SelectedInstanceIDs: d0cd0000
+    m_LastClickedInstanceID: 52688
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c62300007e940000dedf0000b0070300c87a0000801c010072c80000f28000009c80000022e100004c6c0000eec700000cc80000aec70000b6c70000aac700007cc70000548400005e840000be6c0000d46c0000f8b8000016b90000b66c0000906d00008a6d00001e330100187f030064f600003277000060960000aea9000080a90000a42d01005ea8000062a800005aa800007e7400002e880000e46b000030880000106f0000ee690000a26d00006c790000e8690000ac7a0000a6780000647b00006ec20000666c000062b20000126d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2196,7 +2196,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 27436
+  m_LastSelectedObjectID: -36912
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
