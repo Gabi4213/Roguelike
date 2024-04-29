@@ -41,6 +41,7 @@ public enum ItemType
     Weapon,
     Armor, 
     Shield,
+    Ammo,
     Other
 }
 

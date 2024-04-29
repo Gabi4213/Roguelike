@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEditor.Progress;
 
 public class InventoryManager : MonoBehaviour
 {
@@ -85,6 +86,21 @@ public class InventoryManager : MonoBehaviour
         InventoryItem inventoryItem = newItemGo.GetComponent<InventoryItem>();
 
         inventoryItem.InitialiseItem(item);
+    }
+
+    public InventorySlot FindSlotByItemType(ItemType itemType)
+    {
+        for (int i = 0; i < InventorySlots.Length; i++)
+        {
+            InventorySlot slot = InventorySlots[i];
+            InventoryItem itemInSlot = slot.GetComponentInChildren<InventoryItem>();
+
+            if (itemInSlot != null && itemInSlot.item.type == itemType)
+            {
+                return slot;
+            }
+        }
+        return null;
     }
 
 }
