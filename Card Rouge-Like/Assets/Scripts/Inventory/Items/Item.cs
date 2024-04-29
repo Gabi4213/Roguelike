@@ -11,6 +11,7 @@ public class Item : ScriptableObject
     public ItemType type;
     public ActionType actionType;
     public GameObject usablePrefab;
+    public GameObject pickupablePrefab;
 
     [Header("UI")]
     public Sprite image;

@@ -46,6 +46,8 @@ public class InventorySlot : MonoBehaviour, IDropHandler, IPointerEnterHandler, 
             return;
         }
         inventoryImage.sprite = neutralSprite;
+
+        Debug.Log("No slots detected below the item!");
     }
     private void Update()
     {
