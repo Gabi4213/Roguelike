@@ -15,6 +15,7 @@ public class PlayerUIManager : MonoBehaviour
     public TextMeshProUGUI[] statsText;
 
     public Color defaultStatsColor, increasedStatsColor, decreasedStatsColor;
+    public Color[] rarityTextColors;
 
     private void Awake()
     {
