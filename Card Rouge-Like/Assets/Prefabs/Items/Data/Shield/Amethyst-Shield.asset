@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e19e78812e52c604ea70d2b5fc500073, type: 3}
   m_Name: Amethyst-Shield
   m_EditorClassIdentifier: 
-  type: 4
+  type: 6
   actionType: 0
   usablePrefab: {fileID: 7520470784242835758, guid: 14839185bffe56a48b8a08277bbde8fe,
     type: 3}
@@ -20,11 +20,10 @@ MonoBehaviour:
   stackable: 0
   maxStackAmount: 0
   itemName: Amethyst Shield
-  rarity: 3
+  rarity: 0
   description: A shimmering barrier of mystical amethyst, warding off harm with arcane
     grace.
-  meleeDamage: 0
-  magicDamage: 0
+  damage: 0
   criticalStrike: 0
   attackSpeed: 0
   movementSpeed: 0

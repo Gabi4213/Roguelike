@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e19e78812e52c604ea70d2b5fc500073, type: 3}
   m_Name: SilverFirWoodStaff
   m_EditorClassIdentifier: 
-  type: 2
+  type: 3
   actionType: 2
   usablePrefab: {fileID: 7520470784242835758, guid: 99112ff48158f324e8e1a8dc83d0485a,
     type: 3}
@@ -23,8 +23,7 @@ MonoBehaviour:
   rarity: 0
   description: Hewn from noble silver fir trees, this staff gleams with an otherworldly
     luster, imbuing its wielder with clarity and precision.
-  meleeDamage: 1
-  magicDamage: 0
+  damage: 6
   criticalStrike: 0
   attackSpeed: 1
   movementSpeed: 0

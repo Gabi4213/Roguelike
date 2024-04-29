@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e19e78812e52c604ea70d2b5fc500073, type: 3}
   m_Name: MangroveWoodStaff
   m_EditorClassIdentifier: 
-  type: 2
+  type: 3
   actionType: 2
   usablePrefab: {fileID: 7520470784242835758, guid: dcfd13ad071e7944aa179b19322a4018,
     type: 3}
@@ -23,8 +23,7 @@ MonoBehaviour:
   rarity: 0
   description: Crafted from ancient mangrove trees, this staff exudes serene strength,
     channeling the tranquil energy of marshlands.
-  meleeDamage: 1
-  magicDamage: 0
+  damage: 5
   criticalStrike: 0
   attackSpeed: 1
   movementSpeed: 0

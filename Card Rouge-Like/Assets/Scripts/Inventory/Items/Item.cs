@@ -23,8 +23,7 @@ public class Item : ScriptableObject
     public string description;
 
     [Header("Item Stats")]
-    public float meleeDamage;
-    public float magicDamage;
+    public float damage;
     public float criticalStrike;
     public float attackSpeed;
     public float movementSpeed;
@@ -38,7 +37,9 @@ public enum ItemType
 {
     Consumable,
     Resource,
-    Weapon,
+    MeleeWeapon,
+    MagicWeapon,
+    RangedWeapon,
     Armor, 
     Shield,
     Ammo,

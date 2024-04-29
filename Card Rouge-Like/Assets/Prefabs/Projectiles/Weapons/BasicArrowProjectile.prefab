@@ -81,6 +81,8 @@ MonoBehaviour:
     type: 3}
   destroyedDroppedGameObject: {fileID: 1712887914726788661, guid: 1710b4f41f14231458af6e149febed48,
     type: 3}
+  destroyEffect: {fileID: 2784550481307232153, guid: a8a4393932b3ba64eb9a8f1c9e17bfee,
+    type: 3}
 --- !u!61 &3894938434201338924
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -199,7 +201,7 @@ Transform:
   m_GameObject: {fileID: 3222779157968053337}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0.223, y: 0, z: 0}
+  m_LocalPosition: {x: -0.345, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -247,7 +249,7 @@ TrailRenderer:
   m_SortingLayerID: -923456651
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Time: 0.05
+  m_Time: 0.5
   m_PreviewTimeScale: 1
   m_Parameters:
     serializedVersion: 3

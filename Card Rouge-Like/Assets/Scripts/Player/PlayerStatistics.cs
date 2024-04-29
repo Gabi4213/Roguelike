@@ -14,8 +14,7 @@ public class PlayerStatistics : MonoBehaviour
 
     // Attacking
     [Header("Attack Stats")]
-    public float meleeDamage;
-    public float magicDamage;
+    public float damage;
     public float criticalStrike;
     public float attackSpeed;
 
@@ -53,8 +52,7 @@ public class PlayerStatistics : MonoBehaviour
 
     private void Update()
     {
-        float tempMeleeDamage = 0;
-        float tempMagicDamage = 0;
+        float tempDamage = 0;
         float tempCriticalStrike = 0;
         float tempAttackSpeed = 0;
         float tempMoveSpeed = 0;
@@ -69,8 +67,7 @@ public class PlayerStatistics : MonoBehaviour
             {
                 InventoryItem inventoryItem = slot.GetComponentInChildren<InventoryItem>();
 
-                tempMeleeDamage += inventoryItem.item.meleeDamage;
-                tempMagicDamage += inventoryItem.item.magicDamage;
+                tempDamage += inventoryItem.item.damage;
                 tempCriticalStrike += inventoryItem.item.criticalStrike;
                 tempAttackSpeed += inventoryItem.item.attackSpeed;
                 tempMoveSpeed += inventoryItem.item.movementSpeed;
@@ -81,13 +78,9 @@ public class PlayerStatistics : MonoBehaviour
             }
         }
 
-        if(tempMeleeDamage != meleeDamage)
+        if(tempDamage != damage)
         {
-            meleeDamage = tempMeleeDamage;
-        }
-        else if (tempMagicDamage != magicDamage)
-        {
-            magicDamage = tempMagicDamage;
+            damage = tempDamage;
         }
         else if (tempCriticalStrike != criticalStrike)
         {

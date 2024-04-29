@@ -5,6 +5,7 @@ public class ArrowProjectile : MonoBehaviour
 {
     public float projectileLifetime;
     public GameObject droppedGameObject, destroyedDroppedGameObject;
+    public GameObject destroyEffect;
 
     private void Start()
     {
@@ -26,6 +27,11 @@ public class ArrowProjectile : MonoBehaviour
             Instantiate(destroyedDroppedGameObject, transform.position, Quaternion.Euler(transform.rotation.eulerAngles.x, transform.rotation.eulerAngles.y, transform.rotation.eulerAngles.z - 90f));
         }
 
+        if (destroyEffect)
+        {
+            Instantiate(destroyEffect, transform.position, Quaternion.identity);
+        }
+
         // Destroy the projectile after the set lifetime
         Destroy(gameObject);
     }
@@ -38,6 +44,10 @@ public class ArrowProjectile : MonoBehaviour
             if (droppedGameObject)
             {
                 Instantiate(droppedGameObject, transform.position, Quaternion.Euler(transform.rotation.eulerAngles.x, transform.rotation.eulerAngles.y, transform.rotation.eulerAngles.z - 90f));
+            }
+            if (destroyEffect)
+            {
+                Instantiate(destroyEffect, transform.position, Quaternion.identity);
             }
             // Destroy the projectile after the set lifetime
             Destroy(gameObject);

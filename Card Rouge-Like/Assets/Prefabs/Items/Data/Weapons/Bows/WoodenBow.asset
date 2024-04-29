@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e19e78812e52c604ea70d2b5fc500073, type: 3}
   m_Name: WoodenBow
   m_EditorClassIdentifier: 
-  type: 2
+  type: 4
   actionType: 2
   usablePrefab: {fileID: 7520470784242835758, guid: 6d3ecc28fc8288f4994af8a1b5e3a6df,
     type: 3}
@@ -23,10 +23,9 @@ MonoBehaviour:
   rarity: 0
   description: Hewn from noble silver fir trees, this staff gleams with an otherworldly
     luster, imbuing its wielder with clarity and precision.
-  meleeDamage: 1
-  magicDamage: 0
+  damage: 5
   criticalStrike: 0
-  attackSpeed: 1
+  attackSpeed: 0.5
   movementSpeed: 0
   stability: 0
   defence: 0

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e19e78812e52c604ea70d2b5fc500073, type: 3}
   m_Name: Gold-Shield
   m_EditorClassIdentifier: 
-  type: 4
+  type: 6
   actionType: 0
   usablePrefab: {fileID: 7520470784242835758, guid: 4991cfa29e95d374883a183d51c63278,
     type: 3}
@@ -20,11 +20,10 @@ MonoBehaviour:
   stackable: 0
   maxStackAmount: 0
   itemName: Gold Shield
-  rarity: 2
+  rarity: 0
   description: A gleaming guardian of opulent gold, shielding its bearer with regal
     strength and splendor.
-  meleeDamage: 0
-  magicDamage: 0
+  damage: 0
   criticalStrike: 0
   attackSpeed: 0
   movementSpeed: 0

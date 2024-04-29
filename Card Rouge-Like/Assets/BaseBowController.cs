@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class BaseBowController : MonoBehaviour
 {
+    [Header("Animation Info")]
     public float pulseSpeed = 1.0f; // Adjust the pulsating speed
     public float pulseAmount = 0.2f; // Adjust the pulsating amount
 
+    [Header("Gameplay Info")]
     public Transform spawnPoint; // Make sure to assign this in the Inspector
     public GameObject projectile; // Make sure to assign this in the Inspector
 
@@ -14,7 +16,11 @@ public class BaseBowController : MonoBehaviour
     private bool canAttack = true; // Flag to check if the player can attack
 
     private InventoryManager invManager;
-    private bool fired = false;
+
+    [Header("Sprite Info")]
+    public SpriteRenderer bowSprite;
+    public Sprite drawnBowSprite, neutralBowSprite;
+    public float animationTime;
 
     public Item item;
 
@@ -43,6 +49,7 @@ public class BaseBowController : MonoBehaviour
                     item.RefreshCount();
 
                     StartCoroutine(AttackCooldown());
+                    StartCoroutine(AnimateBowSprite());
                     InstantiateProjectile();
                     StartCoroutine(ApplyPulsatingEffect());
                 }
@@ -51,6 +58,7 @@ public class BaseBowController : MonoBehaviour
                     Destroy(item.gameObject);
 
                     StartCoroutine(AttackCooldown());
+                    StartCoroutine(AnimateBowSprite());
                     InstantiateProjectile();
                     StartCoroutine(ApplyPulsatingEffect());
                 }
@@ -86,5 +94,12 @@ public class BaseBowController : MonoBehaviour
         canAttack = false;
         yield return new WaitForSeconds(PlayerStatistics.instance.attackSpeed);
         canAttack = true;
+    }
+
+    private IEnumerator AnimateBowSprite()
+    {
+        bowSprite.sprite = drawnBowSprite;
+        yield return new WaitForSeconds(animationTime);
+        bowSprite.sprite = neutralBowSprite;
     }
 }

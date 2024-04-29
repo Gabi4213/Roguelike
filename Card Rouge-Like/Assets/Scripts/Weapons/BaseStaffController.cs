@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class BaseStaffController : MonoBehaviour
 {
+    [Header("Animation Info")]
     public float pulseSpeed = 1.0f; // Adjust the pulsating speed
     public float pulseAmount = 0.2f; // Adjust the pulsating amount
 
+    [Header("Gameplay Info")]
     public Transform spawnPoint; // Make sure to assign this in the Inspector
     public GameObject projectile; // Make sure to assign this in the Inspector
 

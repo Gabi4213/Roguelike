@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4845103545580766211}
   - component: {fileID: 5405043764062411413}
   m_Layer: 0
-  m_Name: ExplosionEffect-2
+  m_Name: ExplosionEffect-3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -981,7 +981,7 @@ ParticleSystem:
       countCurve:
         serializedVersion: 2
         minMaxState: 0
-        scalar: 5
+        scalar: 3
         minScalar: 30
         maxCurve:
           serializedVersion: 2
@@ -1546,7 +1546,7 @@ ParticleSystem:
     uvChannelMask: -1
     rowMode: 1
     sprites:
-    - sprite: {fileID: 21300000, guid: 378171534dc9a9e40ab896cae896b29e, type: 3}
+    - sprite: {fileID: 21300000, guid: a5286c080e6640f4c983060242ae9eb5, type: 3}
     flipU: 0
     flipV: 0
   VelocityModule:
