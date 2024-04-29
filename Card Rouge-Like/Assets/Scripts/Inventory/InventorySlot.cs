@@ -99,7 +99,8 @@ public class InventorySlot : MonoBehaviour, IDropHandler, IPointerEnterHandler, 
             PlayerUIManager.instance.statsText[4].text = item.movementSpeed.ToString() + " Movement Speed";
             PlayerUIManager.instance.statsText[5].text = item.stability.ToString() + " Stability";
             PlayerUIManager.instance.statsText[6].text = item.defence.ToString() + " Defence";
-            PlayerUIManager.instance.statsText[7].text = item.projectileLifetime.ToString() + " Projectile Lifetime";
+            PlayerUIManager.instance.statsText[7].text = item.projectileSpeed.ToString() + " Projectile Speed";
+            PlayerUIManager.instance.statsText[8].text = item.projectileLifetime.ToString() + " Projectile Lifetime";
 
             UpdateTextColor("meleeDamage", PlayerStatistics.instance.meleeDamage, item.meleeDamage, PlayerUIManager.instance.statsText[0]);
             UpdateTextColor("magicDamage", PlayerStatistics.instance.magicDamage, item.magicDamage, PlayerUIManager.instance.statsText[1]);
@@ -108,7 +109,8 @@ public class InventorySlot : MonoBehaviour, IDropHandler, IPointerEnterHandler, 
             UpdateTextColor("moveSpeed", PlayerStatistics.instance.moveSpeed, item.movementSpeed, PlayerUIManager.instance.statsText[4]);
             UpdateTextColor("stability", PlayerStatistics.instance.stability, item.stability, PlayerUIManager.instance.statsText[5]);
             UpdateTextColor("defence", PlayerStatistics.instance.defence, item.defence, PlayerUIManager.instance.statsText[6]);
-            UpdateTextColor("projectileLifetime", PlayerStatistics.instance.projectileLifetime, item.projectileLifetime, PlayerUIManager.instance.statsText[7]);
+            UpdateTextColor("projectileLifetime", PlayerStatistics.instance.projectileSpeed, item.projectileSpeed, PlayerUIManager.instance.statsText[7]);
+            UpdateTextColor("projectileLifetime", PlayerStatistics.instance.projectileLifetime, item.projectileLifetime, PlayerUIManager.instance.statsText[8]);
         }
     }
 

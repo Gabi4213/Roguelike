@@ -5,6 +5,7 @@ using UnityEngine;
 public class SetableProjectile : MonoBehaviour
 {
     public float projectileLifetime;
+    public GameObject destroyEffect;
 
     private void Start()
     {
@@ -14,13 +15,20 @@ public class SetableProjectile : MonoBehaviour
         //set the velocity
         rb.velocity = transform.right * PlayerStatistics.instance.projectileSpeed;
 
-        // Destroy the projectile after the set lifetime
-        DestroyObject();
+        StartCoroutine(DestroyAfter());
     }
 
-    public void DestroyObject()
+    IEnumerator DestroyAfter()
     {
+        yield return new WaitForSeconds(projectileLifetime);
+
+        if (destroyEffect)
+        {
+            Instantiate(destroyEffect, transform.position, Quaternion.identity);
+        }
+
         // Destroy the projectile after the set lifetime
-        Destroy(gameObject, projectileLifetime);
+        Destroy(gameObject);
     }
+
 }

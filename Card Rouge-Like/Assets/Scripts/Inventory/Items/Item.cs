@@ -30,6 +30,7 @@ public class Item : ScriptableObject
     public float movementSpeed;
     public float stability;
     public float defence;
+    public float projectileSpeed;
     public float projectileLifetime;
 }
 

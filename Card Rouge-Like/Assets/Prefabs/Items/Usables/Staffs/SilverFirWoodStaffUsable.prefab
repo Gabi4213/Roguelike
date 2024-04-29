@@ -24,8 +24,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3893493466464625660}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.18, y: -0.09, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -104,7 +104,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: e19db53c8eeab7d4991cebaac623f906, type: 3}
+  m_Sprite: {fileID: 21300000, guid: cabbbed947f4eb040927e2f1d183d471, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -125,9 +125,9 @@ GameObject:
   m_Component:
   - component: {fileID: 8090779044468530881}
   - component: {fileID: 998898203595614747}
-  - component: {fileID: 120306285185114511}
+  - component: {fileID: 2502575696234013363}
   m_Layer: 0
-  m_Name: SilverSwordUsable
+  m_Name: SilverFirWoodStaffUsable
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -166,7 +166,7 @@ MonoBehaviour:
   distanceFromPlayer: 0.8
   projSpawnPoint: {fileID: 3893493466464625660}
   spriteRenderer: {fileID: 1946241567095839262}
---- !u!114 &120306285185114511
+--- !u!114 &2502575696234013363
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -175,12 +175,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 7520470784242835758}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa67c6e33a391d74fa32103ca4f59dc8, type: 3}
+  m_Script: {fileID: 11500000, guid: 91ce73afb31eaf54282c74be8995fb56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   pulseSpeed: 0.2
   pulseAmount: 0.2
   spawnPoint: {fileID: 6045072827305902589}
-  projectile: {fileID: 511180177762784804, guid: b507c3db575261c4387e1f49e50caf74,
+  projectile: {fileID: 511180177762784804, guid: 91d3f18d5bd78fe4b99da325f64bdbe0,
     type: 3}
-  item: {fileID: 11400000, guid: 4e3ce22642edf2e41aebf728991d2699, type: 2}
+  item: {fileID: 11400000, guid: 6f44c213d97ec674fb863d39b9dd7e3c, type: 2}

@@ -61,6 +61,8 @@ public class PlayerStatistics : MonoBehaviour
         float tempMoveSpeed = 0;
         float tempStability = 0;
         float tempDefence = 0;
+        float tempProjectileSpeed = 0;
+        float tempProjectileLifetime = 0;
 
         foreach(GameObject slot in specialInventorySlots)
         {
@@ -75,6 +77,8 @@ public class PlayerStatistics : MonoBehaviour
                 tempMoveSpeed += inventoryItem.item.movementSpeed;
                 tempStability += inventoryItem.item.stability;
                 tempDefence += inventoryItem.item.defence;
+                tempProjectileSpeed += inventoryItem.item.projectileSpeed;
+                tempProjectileLifetime += inventoryItem.item.projectileLifetime;
             }
         }
 
@@ -101,6 +105,14 @@ public class PlayerStatistics : MonoBehaviour
         else if (tempDefence != defence)
         {
             defence = tempDefence;
+        }
+        else if (tempProjectileLifetime != projectileLifetime)
+        {
+            projectileLifetime = tempProjectileLifetime;
+        }
+        else if (tempProjectileSpeed != projectileSpeed)
+        {
+            projectileSpeed = tempProjectileSpeed;
         }
         else if (tempMoveSpeed != moveSpeed)
         {
