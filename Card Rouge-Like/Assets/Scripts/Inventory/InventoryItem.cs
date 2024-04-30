@@ -69,7 +69,6 @@ public class InventoryItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
 
     public void OnBeginDrag(PointerEventData eventData)
     {
-        Debug.Log("OnBeginDrag");
         image.raycastTarget = false;
         parentAfterDrag = transform.parent;
         transform.SetParent(transform.root);
@@ -77,8 +76,6 @@ public class InventoryItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
 
     public void OnDrag(PointerEventData eventData)
     {
-        Debug.Log("OnDrag");
-
         rarityBorderImage.gameObject.SetActive(false);
         transform.position = Input.mousePosition;
 
@@ -87,8 +84,6 @@ public class InventoryItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        Debug.Log("OnEndDrag");
-
         // Check if the pointer is outside of a slot
         if (IsPointerOverUIObject())
         {
@@ -113,7 +108,12 @@ public class InventoryItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
 
         for (int i = 0; i < results.Count; i++)
         {
-            if (results[i].gameObject.tag == "Background" && !results[i].gameObject.GetComponent<InventorySlot>())
+            if (results[i].gameObject.GetComponent<InventorySlot>())
+            {
+                return false;
+            }
+
+            if (results[i].gameObject.tag == "Background")
             {
                 return true;
             }
