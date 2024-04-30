@@ -8,6 +8,10 @@ public class Enemy : MonoBehaviour
     public EnemyState currentState;
     public float knockbackForce;
     public float knockbackSpeed;
+    public float moveSpeed;
+    public float stoppingDistance;
+
+    public bool enemyHit;
 
     [Header("Animation Data")]
     public Animator anim;
@@ -19,8 +23,8 @@ public class Enemy : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         target = GameObject.FindGameObjectWithTag("Player").transform;
-
-        currentState = EnemyState.Idle;
+        enemyHit =false;
+        currentState = EnemyState.Follow;
     }
 
     private void Update()
@@ -30,20 +34,23 @@ public class Enemy : MonoBehaviour
             case EnemyState.Frozen:
                 Frozen();
                 break;
-            case EnemyState.Idle:
-                Idle();
-                break;
-            case EnemyState.Roaming:
-                Roaming();
-                break;
             case EnemyState.Follow:
                 Follow();
                 break;
             case EnemyState.Attack:
                 Attack();
                 break;
+            case EnemyState.Recover:
+                Recover();
+                break;
             case EnemyState.TakingDamage:
-                TakingDamage();
+
+                if (!enemyHit)
+                {
+                    enemyHit = true;
+                    StartCoroutine(EnemyHit());
+                }
+
                 break;
             case EnemyState.Dead:
                 Dead();
@@ -56,8 +63,9 @@ public class Enemy : MonoBehaviour
         rb.velocity = Vector3.zero;
     }
 
-    void Idle()
+    void Recover()
     {
+        //gradually stop the enemy moving
         if(rb.velocity.magnitude > 0.1f)
         {
             Debug.Log("reducing velocity");
@@ -70,35 +78,39 @@ public class Enemy : MonoBehaviour
         else
         {
             rb.velocity = Vector3.zero;
+            SetState(EnemyState.Follow);
         }
+    }
 
-        anim.SetBool("Moving", false);
-    }
-    void Roaming()
-    {
-        anim.SetBool("Moving", true);
-    }
 
     void Follow()
     {
-        anim.SetBool("Moving", true);
+        if (target != null)
+        {
+            // Calculate the direction towards the target
+            Vector3 direction = (target.position - transform.position).normalized;
+
+            // Calculate the distance to the target
+            float distance = Vector3.Distance(transform.position, target.position);
+
+            // Check if we're within stopping distance
+            if (distance > stoppingDistance)
+            {
+                // Set the velocity of the Rigidbody to move towards the target
+                SetState(EnemyState.Follow);
+                rb.velocity = direction * moveSpeed;
+                anim.SetBool("Moving", true);
+            }
+            else
+            {
+                rb.velocity = Vector3.zero;
+            }
+        }
     }
 
     void Attack()
     {
         anim.SetBool("Moving", false);
-    }
-
-    void TakingDamage()
-    {
-        anim.SetTrigger("Hit");
-
-        Vector3 directionToPlayer = target.position - transform.position;
-        directionToPlayer.Normalize();
-        Vector3 force = -directionToPlayer * knockbackForce;
-        rb.AddForce(force);
-
-        SetState(EnemyState.Idle);
     }
 
     void Dead()
@@ -110,15 +122,31 @@ public class Enemy : MonoBehaviour
     {
         currentState = inState;
     }
+
+    IEnumerator EnemyHit()
+    {
+        anim.SetTrigger("Hit");
+        Debug.Log("Hit");
+        anim.SetBool("Moving", false);
+
+        Vector3 directionToPlayer = target.position - transform.position;
+        directionToPlayer.Normalize();
+        Vector3 force = -directionToPlayer * knockbackForce;
+        rb.AddForce(force);
+
+        yield return new WaitForSeconds(0.3f);
+        enemyHit = false;
+        SetState(EnemyState.Recover);
+    }
+
 }
 
 
 public enum EnemyState
 {
     Frozen,
-    Idle,
-    Roaming,
     Follow,
+    Recover,
     Attack,
     TakingDamage,
     Dead

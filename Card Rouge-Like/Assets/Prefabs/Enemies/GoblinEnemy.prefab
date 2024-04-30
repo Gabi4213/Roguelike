@@ -514,7 +514,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &6298317855125694522
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -559,7 +559,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.4, y: 1}
   m_EdgeRadius: 0
 --- !u!61 &7394266949260388817
 BoxCollider2D:
@@ -605,7 +605,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.4, y: 1}
   m_EdgeRadius: 0
 --- !u!114 &522877090230420467
 MonoBehaviour:
@@ -638,5 +638,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  knockbackForce: 50
+  knockbackForce: 300
+  knockbackSpeed: 8
+  moveSpeed: 2
+  stoppingDistance: 1
   anim: {fileID: 8880943540465644899}

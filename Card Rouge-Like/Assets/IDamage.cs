@@ -14,10 +14,12 @@ public class IDamage : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.GetComponent<IHealth>() && item && !damageDealt)
+        if (other.gameObject.GetComponent<IHealth>() && item && other.GetComponent<Enemy>())
         {
-            other.gameObject.GetComponent<IHealth>().SetHealth(-item.damage);
-            damageDealt = true;
+            if (!other.GetComponent<Enemy>().enemyHit)
+            {
+                other.gameObject.GetComponent<IHealth>().SetHealth(-item.damage);
+            }
         }
     }
 }

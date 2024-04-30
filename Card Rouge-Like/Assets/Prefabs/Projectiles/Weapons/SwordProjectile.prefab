@@ -76,6 +76,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectileLifetime: 0
   destroyEffect: {fileID: 0}
+  destroyOnImpact: 0
 --- !u!1 &540868701168840523
 GameObject:
   m_ObjectHideFlags: 0
@@ -143,7 +144,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.03827113, y: 0.000000014901161}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -153,7 +154,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.2018868, y: 0.9181032}
   m_EdgeRadius: 0
 --- !u!114 &8553589775795619377
 MonoBehaviour:

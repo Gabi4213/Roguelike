@@ -36,6 +36,11 @@ public class IHealth : MonoBehaviour
                 healthBar.SetActive(true);
             }
         }
+
+        if(currentHealth == 0)
+        {
+            GetComponent<Enemy>().SetState(EnemyState.Dead);
+        }
     }
 
     // Function to update the health bar fill size and position based on current health.
