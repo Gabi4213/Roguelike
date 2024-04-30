@@ -45,10 +45,10 @@ public class IHealth : MonoBehaviour
         fillSize = Mathf.Clamp01(fillSize); // Clamp the fill size between 0 and 1.
 
         // Set the local scale of the health bar fill object.
-        healthBarFill.transform.localScale = new Vector3(fillSize, 0.2f, 1f);
+        healthBarFill.transform.localScale = new Vector3(fillSize, 1f, 1f);
 
         // Calculate the x position based on the fill size and ratio.
-        float xOffset = (fillSize - 1f) * 0.5f; // Ratio: 0.5
+        float xOffset = (fillSize - 1f) * 0.44f; // Ratio: 0.5
 
         // Set the local position of the health bar fill object.
         Vector3 newPosition = healthBarFill.transform.localPosition;
