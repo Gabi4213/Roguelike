@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 465816674969073775}
   - component: {fileID: 5207844843032086388}
   - component: {fileID: 4751526211642016574}
+  - component: {fileID: 4125632550212061548}
+  - component: {fileID: 3755308812982235523}
   m_Layer: 0
   m_Name: SilverFirWoodStaffProjectile
   m_TagString: Untagged
@@ -32,7 +34,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2276442594842387076}
   - {fileID: 1348995941318352799}
   - {fileID: 3655333404858823149}
   m_Father: {fileID: 0}
@@ -79,6 +80,7 @@ MonoBehaviour:
   projectileLifetime: 1
   destroyEffect: {fileID: 2784550481307232153, guid: 2a8b21e99357c2e4e843fd468dfbde0a,
     type: 3}
+  destroyOnImpact: 1
 --- !u!114 &4751526211642016574
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -93,45 +95,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationSpeed: 200
   rotationDirection: {x: 0, y: 0, z: 1}
---- !u!1 &540868701168840523
-GameObject:
+--- !u!114 &4125632550212061548
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2276442594842387076}
-  - component: {fileID: 6310161014577267843}
-  m_Layer: 0
-  m_Name: Hitbox
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2276442594842387076
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 540868701168840523}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 9013364799203738431}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &6310161014577267843
+  m_GameObject: {fileID: 511180177762784804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be1f5acbba77f142b1159fd624af85d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &3755308812982235523
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 540868701168840523}
+  m_GameObject: {fileID: 511180177762784804}
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1

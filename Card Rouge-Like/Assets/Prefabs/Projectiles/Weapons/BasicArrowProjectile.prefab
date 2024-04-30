@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7322764580700093349}
   - component: {fileID: 3894938434201338924}
   - component: {fileID: 5755241415311544363}
+  - component: {fileID: 8794933411626351371}
   m_Layer: 0
   m_Name: BasicArrowProjectile
   m_TagString: Ammo
@@ -175,6 +176,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &8794933411626351371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 511180177762784804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be1f5acbba77f142b1159fd624af85d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3222779157968053337
 GameObject:
   m_ObjectHideFlags: 0

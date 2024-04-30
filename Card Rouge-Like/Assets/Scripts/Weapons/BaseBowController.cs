@@ -71,6 +71,7 @@ public class BaseBowController : MonoBehaviour
         // Instantiate the projectile at the spawn point
         GameObject projectileObj = Instantiate(projectile, spawnPoint.position, spawnPoint.rotation);
         projectileObj.GetComponent<ArrowProjectile>().projectileLifetime = item.projectileLifetime;
+        projectileObj.GetComponentInChildren<IDamage>().SetItem(item);
     }
 
     private IEnumerator ApplyPulsatingEffect()

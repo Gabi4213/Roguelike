@@ -7,6 +7,8 @@ public class SetableProjectile : MonoBehaviour
     public float projectileLifetime;
     public GameObject destroyEffect;
 
+    public bool destroyOnImpact;
+
     private void Start()
     {
         // Set initial velocity based on the spawn rotation
@@ -31,4 +33,19 @@ public class SetableProjectile : MonoBehaviour
         Destroy(gameObject);
     }
 
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Player") return;
+
+        if (destroyOnImpact)
+        {
+            if (destroyEffect)
+            {
+                Instantiate(destroyEffect, transform.position, Quaternion.identity);
+            }
+
+            // Destroy the projectile after the set lifetime
+            Destroy(gameObject);
+        }
+    }
 }

@@ -37,6 +37,7 @@ public class BaseStaffController : MonoBehaviour
         // Instantiate the projectile at the spawn point
         GameObject projectileObj = Instantiate(projectile, spawnPoint.position, spawnPoint.rotation);
         projectileObj.GetComponent<SetableProjectile>().projectileLifetime = item.projectileLifetime;
+        projectileObj.GetComponentInChildren<IDamage>().SetItem(item);
     }
 
     private IEnumerator ApplyPulsatingEffect()

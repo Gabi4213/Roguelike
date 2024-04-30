@@ -9,10 +9,14 @@ public class IHealth : MonoBehaviour
 
     public GameObject healthBar;
     public GameObject healthBarFill;
+    private SpriteRenderer healthBarFillSprite;
+
+    public Color healthyColor, moderateColor, criticalColor;
 
     private void Start()
     {
         currentHealth = maxHealth;
+        healthBarFillSprite = healthBarFill.GetComponent<SpriteRenderer>();
         UpdateHealthBar();
     }
 
@@ -50,11 +54,25 @@ public class IHealth : MonoBehaviour
         Vector3 newPosition = healthBarFill.transform.localPosition;
         newPosition.x = xOffset;
         healthBarFill.transform.localPosition = newPosition;
+
+        // Update the color of the health bar based on current health.
+        if (currentHealth >= maxHealth * 0.5f)
+        {
+            healthBarFillSprite.color = healthyColor;
+        }
+        else if (currentHealth >= maxHealth * 0.2f)
+        {
+            healthBarFillSprite.color = moderateColor;
+        }
+        else
+        {
+            healthBarFillSprite.color = criticalColor;
+        }
     }
 
     public void SetHealth(float inHealth)
     {
-        currentHealth -= inHealth;
+        currentHealth += inHealth;
         currentHealth = Mathf.Max(currentHealth, 0f); // Ensure health doesn't go below 0.
         UpdateHealthBar();
     }

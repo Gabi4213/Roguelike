@@ -43,7 +43,8 @@ public class ArrowProjectile : MonoBehaviour
         {
             if (droppedGameObject)
             {
-                Instantiate(droppedGameObject, transform.position, Quaternion.Euler(transform.rotation.eulerAngles.x, transform.rotation.eulerAngles.y, transform.rotation.eulerAngles.z - 90f));
+                GameObject arrow = Instantiate(droppedGameObject, transform.position, Quaternion.Euler(transform.rotation.eulerAngles.x, transform.rotation.eulerAngles.y, transform.rotation.eulerAngles.z - 90f));
+                arrow.transform.parent = other.transform;
             }
             if (destroyEffect)
             {
@@ -53,5 +54,4 @@ public class ArrowProjectile : MonoBehaviour
             Destroy(gameObject);
         }
     }
-
 }
