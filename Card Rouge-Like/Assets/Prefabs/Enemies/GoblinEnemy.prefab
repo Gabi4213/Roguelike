@@ -132,6 +132,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1846899831140827690}
   - component: {fileID: 2366823240492588860}
+  - component: {fileID: 8880943540465644899}
   m_Layer: 0
   m_Name: Sprite
   m_TagString: Untagged
@@ -195,7 +196,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 289d43645c4e9204ab5b79beddc5ffd5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 14c6d0e6f7505254fbd066a8e6efe098, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -206,6 +207,28 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &8880943540465644899
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6030385078731829919}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 62ba478b6a079274fa881dd04c77cc32, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &6296042002969485477
 GameObject:
   m_ObjectHideFlags: 0
@@ -436,11 +459,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8109439142541540146}
-  - component: {fileID: 522877090230420467}
+  - component: {fileID: 3972755483967459655}
   - component: {fileID: 6298317855125694522}
   - component: {fileID: 7394266949260388817}
+  - component: {fileID: 522877090230420467}
+  - component: {fileID: 4204433753857236227}
   m_Layer: 0
-  m_Name: BaseEnemy
+  m_Name: GoblinEnemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -463,24 +488,33 @@ Transform:
   - {fileID: 8011384801990371104}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &522877090230420467
-MonoBehaviour:
+--- !u!50 &3972755483967459655
+Rigidbody2D:
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7108351623830310552}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23ffae2547d293f4ca88546f828a4de9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealth: 200
-  healthBar: {fileID: 101173913684467572}
-  healthBarFill: {fileID: 6296042002969485477}
-  healthyColor: {r: 0.40000004, g: 1, b: 0.4431373, a: 1}
-  moderateColor: {r: 1, g: 0.8836636, b: 0, a: 1}
-  criticalColor: {r: 1, g: 0, b: 0.17174721, a: 1}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!61 &6298317855125694522
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -573,3 +607,36 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &522877090230420467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7108351623830310552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23ffae2547d293f4ca88546f828a4de9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 200
+  healthBar: {fileID: 101173913684467572}
+  healthBarFill: {fileID: 6296042002969485477}
+  healthyColor: {r: 0.40000004, g: 1, b: 0.4431373, a: 1}
+  moderateColor: {r: 1, g: 0.8836636, b: 0, a: 1}
+  criticalColor: {r: 1, g: 0, b: 0.17174721, a: 1}
+--- !u!114 &4204433753857236227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7108351623830310552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a33c22a406988042b80da81da8d613a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentState: 0
+  knockbackForce: 50
+  anim: {fileID: 8880943540465644899}

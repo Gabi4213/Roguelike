@@ -75,6 +75,7 @@ public class IHealth : MonoBehaviour
         currentHealth += inHealth;
         currentHealth = Mathf.Max(currentHealth, 0f); // Ensure health doesn't go below 0.
         UpdateHealthBar();
+        GetComponent<Enemy>().SetState(EnemyState.TakingDamage);
     }
 
     public float GetHealth()
