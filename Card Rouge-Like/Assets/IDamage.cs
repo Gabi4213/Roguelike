@@ -19,6 +19,7 @@ public class IDamage : MonoBehaviour
             if (!other.GetComponent<Enemy>().enemyHit)
             {
                 other.gameObject.GetComponent<IHealth>().SetHealth(-item.damage);
+                other.gameObject.GetComponent<Enemy>().SetKnockbackForce(item.knockbackForce);
             }
         }
     }

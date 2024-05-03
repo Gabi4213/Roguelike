@@ -382,10 +382,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 356441515}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -654.765, y: 1002.4}
-  m_SizeDelta: {x: 540.7023, y: 106.3776}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 305.235, y: -77.599976}
+  m_SizeDelta: {x: 540.7023, y: 106.37756}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &65134117
 MonoBehaviour:
@@ -408,7 +408,7 @@ MonoBehaviour:
   m_StartCorner: 0
   m_StartAxis: 0
   m_CellSize: {x: 100, y: 100}
-  m_Spacing: {x: 0, y: 0}
+  m_Spacing: {x: -17, y: 0}
   m_Constraint: 0
   m_ConstraintCount: 2
 --- !u!114 &65134118
@@ -2750,7 +2750,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.26415092, g: 0.21555711, b: 0.21555711, a: 0}
+  m_BackGroundColor: {r: 0.32156864, g: 0.21176471, b: 0.22745098, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -2997,15 +2997,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: WoodenArrowPickupable (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1712887914726788661, guid: 77c69fb0e6400974c9f60600ef6f2c68,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5633814386030175738, guid: 77c69fb0e6400974c9f60600ef6f2c68,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.5311818
+      value: -0.46450883
       objectReference: {fileID: 0}
     - target: {fileID: 5633814386030175738, guid: 77c69fb0e6400974c9f60600ef6f2c68,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.600932
+      value: -3.358844
       objectReference: {fileID: 0}
     - target: {fileID: 5633814386030175738, guid: 77c69fb0e6400974c9f60600ef6f2c68,
         type: 3}
@@ -3675,31 +3680,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 522877090230420467, guid: f968922b07294c644ae6d58df4b764bb,
-        type: 3}
-      propertyPath: maxHealth
-      value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: 4204433753857236227, guid: f968922b07294c644ae6d58df4b764bb,
-        type: 3}
-      propertyPath: moveSpeed
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4204433753857236227, guid: f968922b07294c644ae6d58df4b764bb,
-        type: 3}
-      propertyPath: knockbackForce
-      value: 300
-      objectReference: {fileID: 0}
-    - target: {fileID: 4204433753857236227, guid: f968922b07294c644ae6d58df4b764bb,
-        type: 3}
-      propertyPath: knockbackSpeed
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 4204433753857236227, guid: f968922b07294c644ae6d58df4b764bb,
-        type: 3}
-      propertyPath: stoppingDistance
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7108351623830310552, guid: f968922b07294c644ae6d58df4b764bb,
         type: 3}
       propertyPath: m_Name
@@ -4710,6 +4690,7 @@ MonoBehaviour:
   damage: 0
   criticalStrike: 0
   attackSpeed: 0.2
+  knockbackForce: 0
   projectileSpeed: 15
   projectileLifetime: 0
   staffProjectileLifetime: 0
@@ -4733,15 +4714,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: SilverFirWoodStaffPickupable
       objectReference: {fileID: 0}
+    - target: {fileID: 1712887914726788661, guid: e3b8a1871b2326945a59b931beda9992,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5633814386030175738, guid: e3b8a1871b2326945a59b931beda9992,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.5129753
+      value: 2.5796483
       objectReference: {fileID: 0}
     - target: {fileID: 5633814386030175738, guid: e3b8a1871b2326945a59b931beda9992,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.909371
+      value: -3.667283
       objectReference: {fileID: 0}
     - target: {fileID: 5633814386030175738, guid: e3b8a1871b2326945a59b931beda9992,
         type: 3}
@@ -4986,15 +4972,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: WoodenArrowPickupable (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1712887914726788661, guid: 77c69fb0e6400974c9f60600ef6f2c68,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5633814386030175738, guid: 77c69fb0e6400974c9f60600ef6f2c68,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.98135614
+      value: 0.08531684
       objectReference: {fileID: 0}
     - target: {fileID: 5633814386030175738, guid: 77c69fb0e6400974c9f60600ef6f2c68,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.097116
+      value: -3.8550282
       objectReference: {fileID: 0}
     - target: {fileID: 5633814386030175738, guid: 77c69fb0e6400974c9f60600ef6f2c68,
         type: 3}
@@ -5245,15 +5236,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: BasicSwordPickupable
       objectReference: {fileID: 0}
+    - target: {fileID: 1712887914726788661, guid: 9192d47d0973fa840a966342093f2bd7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5633814386030175738, guid: 9192d47d0973fa840a966342093f2bd7,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.083568
+      value: 7.150241
       objectReference: {fileID: 0}
     - target: {fileID: 5633814386030175738, guid: 9192d47d0973fa840a966342093f2bd7,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.8444672
+      value: -3.6023793
       objectReference: {fileID: 0}
     - target: {fileID: 5633814386030175738, guid: 9192d47d0973fa840a966342093f2bd7,
         type: 3}
@@ -6666,15 +6662,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: WoodenArrowPickupable
       objectReference: {fileID: 0}
+    - target: {fileID: 1712887914726788661, guid: 77c69fb0e6400974c9f60600ef6f2c68,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5633814386030175738, guid: 77c69fb0e6400974c9f60600ef6f2c68,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.3434367
+      value: -0.38343674
       objectReference: {fileID: 0}
     - target: {fileID: 5633814386030175738, guid: 77c69fb0e6400974c9f60600ef6f2c68,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.486017
+      value: -4.2439294
       objectReference: {fileID: 0}
     - target: {fileID: 5633814386030175738, guid: 77c69fb0e6400974c9f60600ef6f2c68,
         type: 3}
@@ -6765,15 +6766,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: WoodenArrowPickupable (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1712887914726788661, guid: 77c69fb0e6400974c9f60600ef6f2c68,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5633814386030175738, guid: 77c69fb0e6400974c9f60600ef6f2c68,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.906673
+      value: -0.84
       objectReference: {fileID: 0}
     - target: {fileID: 5633814386030175738, guid: 77c69fb0e6400974c9f60600ef6f2c68,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.8020878
+      value: -3.56
       objectReference: {fileID: 0}
     - target: {fileID: 5633814386030175738, guid: 77c69fb0e6400974c9f60600ef6f2c68,
         type: 3}
@@ -6991,15 +6997,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: MangroveWoodStaffPickupable
       objectReference: {fileID: 0}
+    - target: {fileID: 1712887914726788661, guid: 784075d4c8391664a9db8a7498aefa81,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5633814386030175738, guid: 784075d4c8391664a9db8a7498aefa81,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.0149384
+      value: 4.081611
       objectReference: {fileID: 0}
     - target: {fileID: 5633814386030175738, guid: 784075d4c8391664a9db8a7498aefa81,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.7484462
+      value: -3.5063584
       objectReference: {fileID: 0}
     - target: {fileID: 5633814386030175738, guid: 784075d4c8391664a9db8a7498aefa81,
         type: 3}
@@ -7059,15 +7070,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: WoodenBowPickupable
       objectReference: {fileID: 0}
+    - target: {fileID: 1712887914726788661, guid: 1e928eee47dfa6940ab36f558379c803,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5633814386030175738, guid: 1e928eee47dfa6940ab36f558379c803,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.33286142
+      value: 1.3995345
       objectReference: {fileID: 0}
     - target: {fileID: 5633814386030175738, guid: 1e928eee47dfa6940ab36f558379c803,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.2178097
+      value: -3.9757218
       objectReference: {fileID: 0}
     - target: {fileID: 5633814386030175738, guid: 1e928eee47dfa6940ab36f558379c803,
         type: 3}
@@ -7957,6 +7973,79 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 727757717}
   m_SourcePrefab: {fileID: 100100000, guid: d420dd80f877af649a9434c777eb6796, type: 3}
+--- !u!1001 &2055627799
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1712887914726788661, guid: c15ce3bc4eae41142a7825179611a7e7,
+        type: 3}
+      propertyPath: m_Name
+      value: GoldenSwordPickupable
+      objectReference: {fileID: 0}
+    - target: {fileID: 1712887914726788661, guid: c15ce3bc4eae41142a7825179611a7e7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5633814386030175738, guid: c15ce3bc4eae41142a7825179611a7e7,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.6242332
+      objectReference: {fileID: 0}
+    - target: {fileID: 5633814386030175738, guid: c15ce3bc4eae41142a7825179611a7e7,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.7412288
+      objectReference: {fileID: 0}
+    - target: {fileID: 5633814386030175738, guid: c15ce3bc4eae41142a7825179611a7e7,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5633814386030175738, guid: c15ce3bc4eae41142a7825179611a7e7,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5633814386030175738, guid: c15ce3bc4eae41142a7825179611a7e7,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5633814386030175738, guid: c15ce3bc4eae41142a7825179611a7e7,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5633814386030175738, guid: c15ce3bc4eae41142a7825179611a7e7,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5633814386030175738, guid: c15ce3bc4eae41142a7825179611a7e7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5633814386030175738, guid: c15ce3bc4eae41142a7825179611a7e7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5633814386030175738, guid: c15ce3bc4eae41142a7825179611a7e7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c15ce3bc4eae41142a7825179611a7e7, type: 3}
 --- !u!1001 &2116201870
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7965,31 +8054,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 522877090230420467, guid: f968922b07294c644ae6d58df4b764bb,
-        type: 3}
-      propertyPath: maxHealth
-      value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: 4204433753857236227, guid: f968922b07294c644ae6d58df4b764bb,
-        type: 3}
-      propertyPath: moveSpeed
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4204433753857236227, guid: f968922b07294c644ae6d58df4b764bb,
-        type: 3}
-      propertyPath: knockbackForce
-      value: 300
-      objectReference: {fileID: 0}
-    - target: {fileID: 4204433753857236227, guid: f968922b07294c644ae6d58df4b764bb,
-        type: 3}
-      propertyPath: knockbackSpeed
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 4204433753857236227, guid: f968922b07294c644ae6d58df4b764bb,
-        type: 3}
-      propertyPath: stoppingDistance
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7108351623830310552, guid: f968922b07294c644ae6d58df4b764bb,
         type: 3}
       propertyPath: m_Name
@@ -8286,3 +8350,4 @@ SceneRoots:
   - {fileID: 1187862671}
   - {fileID: 1707729338}
   - {fileID: 625307228}
+  - {fileID: 2055627799}

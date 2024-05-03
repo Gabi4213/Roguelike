@@ -27,6 +27,7 @@ public class Item : ScriptableObject
     public float damage;
     public float criticalStrike;
     public float attackSpeed;
+    public float knockbackForce;
     public float movementSpeed;
     public float stability;
     public float defence;

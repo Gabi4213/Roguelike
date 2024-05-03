@@ -110,14 +110,17 @@ public class InventorySlot : MonoBehaviour, IDropHandler, IPointerEnterHandler, 
             PlayerUIManager.instance.statsText[0].gameObject.SetActive(true);
             PlayerUIManager.instance.statsText[1].gameObject.SetActive(true);
             PlayerUIManager.instance.statsText[2].gameObject.SetActive(true);
+            PlayerUIManager.instance.statsText[3].gameObject.SetActive(true);
 
             PlayerUIManager.instance.statsText[0].text = item.damage.ToString() + " Melee Damage";
             PlayerUIManager.instance.statsText[1].text = item.criticalStrike.ToString() + " Critical Strike";
             PlayerUIManager.instance.statsText[2].text = item.attackSpeed.ToString() + " Attack Speed";
+            PlayerUIManager.instance.statsText[3].text = item.knockbackForce.ToString() + " Kockback Force";
 
             UpdateTextColor("meleeDamage", PlayerStatistics.instance.damage, item.damage, PlayerUIManager.instance.statsText[0]);
             UpdateTextColor("criticalStrike", PlayerStatistics.instance.criticalStrike, item.criticalStrike, PlayerUIManager.instance.statsText[1]);
             UpdateTextColor("attackSpeed", PlayerStatistics.instance.attackSpeed, item.attackSpeed, PlayerUIManager.instance.statsText[2]);
+            UpdateTextColor("knockbackForce", PlayerStatistics.instance.knockbackForce, item.knockbackForce, PlayerUIManager.instance.statsText[3]);
         }
         else if (item.type == ItemType.MagicWeapon)
         {

@@ -17,6 +17,7 @@ public class PlayerStatistics : MonoBehaviour
     public float damage;
     public float criticalStrike;
     public float attackSpeed;
+    public float knockbackForce;
 
     [Header("Projectile Data")]
     public float projectileSpeed;
@@ -34,6 +35,9 @@ public class PlayerStatistics : MonoBehaviour
     public GameObject[] specialInventorySlots;
 
 
+    // Boolean to track if the player is currently taking damage
+    private bool takingDamage = false;
+
     private void Awake()
     {
         if (!instance)
@@ -45,9 +49,11 @@ public class PlayerStatistics : MonoBehaviour
         currentHealth = health;
     }
 
-    public void SetHealth(int inHealth)
+    public void SetHealth(float inHealth)
     {
-        currentHealth = inHealth;
+        currentHealth += inHealth;
+        currentHealth = Mathf.Max(currentHealth, 0f); // Ensure health doesn't go below 0.
+        PlayerUIManager.instance.UpdateHealthUI();
     }
 
     private void Update()
@@ -55,6 +61,7 @@ public class PlayerStatistics : MonoBehaviour
         float tempDamage = 0;
         float tempCriticalStrike = 0;
         float tempAttackSpeed = 0;
+        float tempKnockbackForce = 0;
         float tempMoveSpeed = 0;
         float tempStability = 0;
         float tempDefence = 0;
@@ -70,6 +77,7 @@ public class PlayerStatistics : MonoBehaviour
                 tempDamage += inventoryItem.item.damage;
                 tempCriticalStrike += inventoryItem.item.criticalStrike;
                 tempAttackSpeed += inventoryItem.item.attackSpeed;
+                tempKnockbackForce += inventoryItem.item.knockbackForce;
                 tempMoveSpeed += inventoryItem.item.movementSpeed;
                 tempStability += inventoryItem.item.stability;
                 tempDefence += inventoryItem.item.defence;
@@ -82,31 +90,35 @@ public class PlayerStatistics : MonoBehaviour
         {
             damage = tempDamage;
         }
-        else if (tempCriticalStrike != criticalStrike)
+        if (tempCriticalStrike != criticalStrike)
         {
             criticalStrike = tempCriticalStrike;
         }
-        else if (tempAttackSpeed != attackSpeed)
+        if (tempAttackSpeed != attackSpeed)
         {
             attackSpeed = tempAttackSpeed;
         }
-        else if (tempStability != stability)
+        if (tempKnockbackForce != attackSpeed)
+        {
+            knockbackForce = tempKnockbackForce;
+        }
+        if (tempStability != stability)
         {
             stability = tempStability;
         }
-        else if (tempDefence != defence)
+        if (tempDefence != defence)
         {
             defence = tempDefence;
         }
-        else if (tempProjectileLifetime != projectileLifetime)
+        if (tempProjectileLifetime != projectileLifetime)
         {
             projectileLifetime = tempProjectileLifetime;
         }
-        else if (tempProjectileSpeed != projectileSpeed)
+        if (tempProjectileSpeed != projectileSpeed)
         {
             projectileSpeed = tempProjectileSpeed;
         }
-        else if (tempMoveSpeed != moveSpeed)
+        if (tempMoveSpeed != moveSpeed)
         {
             if(tempMoveSpeed > 0)
             {

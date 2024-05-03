@@ -19,11 +19,19 @@ public class Enemy : MonoBehaviour
     private Rigidbody2D rb;
     private Transform target;
 
+
+    public int damageAmount;
+    public float damageDelay; 
+
+    private bool canDealDamage = true;
+
+
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         target = GameObject.FindGameObjectWithTag("Player").transform;
-        enemyHit =false;
+        enemyHit = false;
         currentState = EnemyState.Follow;
     }
 
@@ -66,7 +74,7 @@ public class Enemy : MonoBehaviour
     void Recover()
     {
         //gradually stop the enemy moving
-        if(rb.velocity.magnitude > 0.1f)
+        if (rb.velocity.magnitude > 0.1f)
         {
             Debug.Log("reducing velocity");
             // Calculate the new velocity using Lerp
@@ -108,9 +116,25 @@ public class Enemy : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            SetState(EnemyState.Attack);
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            SetState(EnemyState.Follow);
+        }
+    }
+
     void Attack()
     {
-        anim.SetBool("Moving", false);
+        DealDamageToPlayer();
     }
 
     void Dead()
@@ -123,20 +147,43 @@ public class Enemy : MonoBehaviour
         currentState = inState;
     }
 
+    public void SetKnockbackForce(float inKockbackForce)
+    {
+        knockbackForce = inKockbackForce;
+    }
+
     IEnumerator EnemyHit()
     {
         anim.SetTrigger("Hit");
         Debug.Log("Hit");
         anim.SetBool("Moving", false);
 
-        Vector3 directionToPlayer = target.position - transform.position;
-        directionToPlayer.Normalize();
-        Vector3 force = -directionToPlayer * knockbackForce;
-        rb.AddForce(force);
+        Vector3 directionToPlayer = (target.position - transform.position).normalized;
+        Vector3 knockback = directionToPlayer * knockbackForce; // Multiply by knockback force directly
+        rb.velocity = Vector3.zero; // Ensure no residual velocity
+        rb.AddForce(knockback, ForceMode2D.Impulse); // Apply knockback force
 
         yield return new WaitForSeconds(0.3f);
         enemyHit = false;
         SetState(EnemyState.Recover);
+    }
+
+    void DealDamageToPlayer()
+    {
+        if (canDealDamage)
+        {
+            Debug.Log(gameObject.name + " :Dealt Damage");
+            StartCoroutine(DealDamage());
+        }
+    }
+
+    IEnumerator DealDamage()
+    {
+        canDealDamage = false;
+        PlayerStatistics.instance.SetHealth(-1.0f);
+        anim.SetTrigger("Attack");
+        yield return new WaitForSeconds(damageDelay);
+        canDealDamage = true;
     }
 
 }
