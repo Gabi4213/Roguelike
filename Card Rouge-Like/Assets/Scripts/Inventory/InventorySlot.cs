@@ -59,6 +59,7 @@ public class InventorySlot : MonoBehaviour, IDropHandler, IPointerEnterHandler, 
         desiredScale = new Vector2(originalScale.x * ScaleFactor, originalScale.y * ScaleFactor);
         inventoryImage.sprite = neutralSprite;
 
+
         if (transform.childCount > 0)
         {
             InventoryItem inventoryItem = transform.GetChild(0).GetComponent<InventoryItem>();

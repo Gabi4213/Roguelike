@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 41231
+  controlID: 41527
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -150,7 +150,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 41232
+  controlID: 41528
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -175,7 +175,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 41233
+  controlID: 41529
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -242,9 +242,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 86b1feff76b1feff
-      m_LastClickedID: -85642
-      m_ExpandedIDs: 7ab1feff82b1feff74e3feffca2affff6a6bfffffa6effff586fffffc4faffff926a0000646b00002c9d0000949d00009a9d0000ca9d0000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 968ffefff48ffeff76b1feff86b1feff74e3feffca2affffcc2affff686bffff6a6bfffffa6effff586fffffc4faffff926a0000646b00002c9d0000949d00009a9d0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -814,9 +814,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1052.1844, y: 486.61343, z: -10.929983}
+    m_Target: {x: -1.911578, y: -0.36746335, z: 0.020741172}
     speed: 2
-    m_Value: {x: 1052.1844, y: 486.61343, z: -10.929983}
+    m_Value: {x: -1.911578, y: -0.36746335, z: 0.020741172}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -866,9 +866,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 608.57465
+    m_Target: 1.3590508
     speed: 2
-    m_Value: 608.57465
+    m_Value: 1.3590508
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -2048,7 +2048,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Art/New/UI/Boxes
+    - Assets/Art/New
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -2058,16 +2058,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Art/New/UI/Boxes
+  - Assets/Art/New
   m_LastFoldersGridSize: -1
   m_LastProjectPath: G:\Unity\UnityProjects\Git\Roguelike\Card Rouge-Like
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 335}
-    m_SelectedIDs: 969e0000
-    m_LastClickedID: 40598
-    m_ExpandedIDs: 00000000b86f0000ba6f0000bc6f0000be6f0000c06f0000d66f00004e7000006270000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 127}
+    m_SelectedIDs: 4e700000
+    m_LastClickedID: 28750
+    m_ExpandedIDs: 00000000b86f0000ba6f0000bc6f0000be6f0000c06f0000d66f0000007000004e70000062700000a49e000016b7000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2120,9 +2120,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 86b1feff76b1feff
-    m_LastClickedInstanceID: -85626
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000dedf0000b0070300c87a0000801c010072c80000f28000009c80000022e100004c6c0000eec700000cc80000aec70000b6c70000aac700007cc70000548400005e840000be6c0000f8b8000016b90000b66c0000906d00008a6d00001e330100187f030064f600003277000060960000aea9000080a90000a42d01005ea8000062a800005aa800007e7400002e880000e46b000030880000106f0000ee690000a26d00006c790000e8690000ac7a0000a6780000647b00006ec20000666c000062b20000126d00007e6d00000ca10000be700000f2270100805701009e690000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -2227,7 +2227,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -85642
+  m_LastSelectedObjectID: -38038
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -2300,7 +2300,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 162
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
