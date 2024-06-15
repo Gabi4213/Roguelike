@@ -47,7 +47,7 @@ public class PlayerMovement : MonoBehaviour
     private void StopPlayer()
     {
         rb.velocity = Vector2.zero;
-        animator.SetFloat(horizontal, 0);
-        animator.SetFloat(vertical, 0);
+        //animator.SetFloat(horizontal, 0);
+        //animator.SetFloat(vertical, 0);
     }
 }
