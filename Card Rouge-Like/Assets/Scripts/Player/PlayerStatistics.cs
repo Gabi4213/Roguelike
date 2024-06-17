@@ -11,6 +11,7 @@ public class PlayerStatistics : MonoBehaviour
     [Header("Player")]
     public int health;
     public float defence;
+    public float hitDuration;
 
     // Attacking
     [Header("Attack Stats")]
@@ -28,6 +29,7 @@ public class PlayerStatistics : MonoBehaviour
     [Header("Movement")]
     public float moveSpeed;
     public float stability;
+    private PlayerMovement playerMovement;
 
     //Tracking
     public float currentHealth;
@@ -47,6 +49,7 @@ public class PlayerStatistics : MonoBehaviour
 
         defaultMoveSpeed = moveSpeed;
         currentHealth = health;
+        playerMovement = GetComponent<PlayerMovement>();
     }
 
     public void SetHealth(float inHealth)
@@ -54,6 +57,7 @@ public class PlayerStatistics : MonoBehaviour
         currentHealth += inHealth;
         currentHealth = Mathf.Max(currentHealth, 0f); // Ensure health doesn't go below 0.
         PlayerUIManager.instance.UpdateHealthUI();
+        playerMovement.Hit();
     }
 
     private void Update()

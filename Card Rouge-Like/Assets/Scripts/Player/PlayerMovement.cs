@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -14,7 +15,10 @@ public class PlayerMovement : MonoBehaviour
     private const string vertical = "Vertical";
 
     private const string lastHorizontal = "LastHorizontal";
-    private const string lastVertical = "LastVertical";  
+    private const string lastVertical = "LastVertical";
+
+    [Header("PlayerStates")]
+    public bool canMove = true;
 
     private void Awake()
     {
@@ -23,7 +27,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        if (InputManager.inventoryOpen)
+        if (InputManager.inventoryOpen || !canMove)
         {
             StopPlayer();
             return;
@@ -49,4 +53,19 @@ public class PlayerMovement : MonoBehaviour
         //animator.SetFloat(horizontal, 0);
         //animator.SetFloat(vertical, 0);
     }
+
+    public void Hit()
+    {
+        StartCoroutine(PlayerHit());
+    }
+
+    IEnumerator PlayerHit()
+    {
+        animator.SetFloat(lastHorizontal, movement.x);
+        animator.SetTrigger("Hit");
+        canMove = false;
+        yield return new WaitForSeconds(PlayerStatistics.instance.hitDuration);
+        canMove = true;
+    }
+
 }
