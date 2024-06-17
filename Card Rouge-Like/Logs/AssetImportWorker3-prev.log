@@ -1,0 +1,894 @@
+Using pre-set license
+Built from '2023.1/staging' branch; Version is '2023.1.20f1 (35a524b12060) revision 3515684'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32674 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+G:\Unity\UnityVersions\2023.1.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+G:/Unity/UnityProjects/Git/Roguelike/Card Rouge-Like
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+54861
+Successfully changed project path to: G:/Unity/UnityProjects/Git/Roguelike/Card Rouge-Like
+G:/Unity/UnityProjects/Git/Roguelike/Card Rouge-Like
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [11748] Host "[IP] 192.168.0.137 [Port] 0 [Flags] 2 [Guid] 3236798860 [EditorId] 3236798860 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-26UP572) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [11748] Host "[IP] 192.168.0.137 [Port] 0 [Flags] 2 [Guid] 3236798860 [EditorId] 3236798860 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-26UP572) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 23 workers.
+Library Redirect Path: Library/Refreshing native plugins compatible for Editor in 163.93 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.1.20f1 (35a524b12060)
+[Subsystems] Discovering subsystems at path G:/Unity/UnityVersions/2023.1.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path G:/Unity/UnityProjects/Git/Roguelike/Card Rouge-Like/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2216)
+    Vendor:   NVIDIA
+    VRAM:     10067 MB
+    Driver:   31.0.15.3667
+Initialize mono
+Mono path[0] = 'G:/Unity/UnityVersions/2023.1.20f1/Editor/Data/Managed'
+Mono path[1] = 'G:/Unity/UnityVersions/2023.1.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'G:/Unity/UnityVersions/2023.1.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56644
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Registering precompiled unity dll's ...
+Register platform support module: G:/Unity/UnityVersions/2023.1.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002107 seconds.
+- Loaded All Assemblies, in  0.538 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Finished resetting the current domain, in  0.260 seconds
+Domain Reload Profiling: 798ms
+	BeginReloadAssembly (104ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (129ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (252ms)
+		LoadAssemblies (103ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (249ms)
+			TypeCache.Refresh (248ms)
+				TypeCache.ScanAssembly (235ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (261ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (226ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadAttributes (154ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image G:\Unity\UnityProjects\Git\Roguelike\Card Rouge-Like\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image G:\Unity\UnityProjects\Git\Roguelike\Card Rouge-Like\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.278 seconds
+Refreshing native plugins compatible for Editor in 2.36 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.785 seconds
+Domain Reload Profiling: 2062ms
+	BeginReloadAssembly (648ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (552ms)
+		LoadAssemblies (330ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (320ms)
+			TypeCache.Refresh (285ms)
+				TypeCache.ScanAssembly (273ms)
+			ScanForSourceGeneratedMonoScriptInfo (25ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (785ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (615ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (464ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 3.98 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6462 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 126 unused Assets / (2.9 MB). Loaded Objects now: 6986.
+Memory consumption went from 254.7 MB to 251.8 MB.
+Total: 12.625000 ms (FindLiveObjects: 1.265500 ms CreateObjectMapping: 0.515600 ms MarkObjects: 8.976700 ms  DeleteObjects: 1.865500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 167111.313362 seconds.
+  path: Assets/Art/MapleStoryTest/swingO3_3.png
+  artifactKey: Guid(d7ad184de49eb0f47bb55d3aac487219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/swingO3_3.png using Guid(d7ad184de49eb0f47bb55d3aac487219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc2df3495ad2a1ef39789cbdbacde5af') in 0.093050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Art/MapleStoryTest/walk2_4.png
+  artifactKey: Guid(aa2a2dfc84558334b951270fe5753676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/walk2_4.png using Guid(aa2a2dfc84558334b951270fe5753676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e8994b044f2f1869062e0fe9e8e2f7d') in 0.025929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Art/MapleStoryTest/swingPF_0.png
+  artifactKey: Guid(adcf28bbba9f9584f8594f3f9e8a252a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/swingPF_0.png using Guid(adcf28bbba9f9584f8594f3f9e8a252a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb3457a82cd101d3dbee4f99151ad04') in 0.022124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Art/MapleStoryTest/walk1_0.png
+  artifactKey: Guid(ac6af985173283a408d2b70ea100afde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/walk1_0.png using Guid(ac6af985173283a408d2b70ea100afde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24b423bb0ba1ce4badbd4711b5670cc3') in 0.014392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Art/MapleStoryTest/swingP1_0.png
+  artifactKey: Guid(881c5f70a01cd7f4b880705893140336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/swingP1_0.png using Guid(881c5f70a01cd7f4b880705893140336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ec3ef4c04a6935684c8cbadaa99de62') in 0.011562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Art/MapleStoryTest/swingT3_1.png
+  artifactKey: Guid(6ca6e9a34ec5ec94fa59a3dce5624c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/swingT3_1.png using Guid(6ca6e9a34ec5ec94fa59a3dce5624c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c281eafeda21dbd151b043ba0cd1f1ca') in 0.024804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Art/MapleStoryTest/swingOF_2.png
+  artifactKey: Guid(5001b6b79d669e4478ed6cc773b60d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/swingOF_2.png using Guid(5001b6b79d669e4478ed6cc773b60d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f18c031f440b4fa989f1c88787418e3') in 0.013638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.157908 seconds.
+  path: Assets/Art/MapleStoryTest/stand2_1.png
+  artifactKey: Guid(ef0ccec1f5c5f1348b026f8e21d2ec23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/stand2_1.png using Guid(ef0ccec1f5c5f1348b026f8e21d2ec23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2da0c6e56d3d17ad28f2f8afe44e91c9') in 0.014513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Art/MapleStoryTest/stabTF_0.png
+  artifactKey: Guid(dbc7fbae007a9bf499654059267e4a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/stabTF_0.png using Guid(dbc7fbae007a9bf499654059267e4a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6715ea1ff318c159052138994cb16f3a') in 0.054711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Art/MapleStoryTest/shoot2_1.png
+  artifactKey: Guid(5cef6c5fbb8c904488af7c514ddd51f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/shoot2_1.png using Guid(5cef6c5fbb8c904488af7c514ddd51f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d654a576239539634e2c0fd1a77c97b') in 0.019483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Art/MapleStoryTest/shoot1_1.png
+  artifactKey: Guid(f1a57ad62430e1d4dade83b1c32f2862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/shoot1_1.png using Guid(f1a57ad62430e1d4dade83b1c32f2862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2c42cad3aa941d255d85028b1ae9d85') in 0.022991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Art/MapleStoryTest/stand1_0.png
+  artifactKey: Guid(6cf2dd38143bc7b46b04d998f0836b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/stand1_0.png using Guid(6cf2dd38143bc7b46b04d998f0836b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663b41b4f4b48b8c6d5d8d2987410682') in 0.009788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Art/MapleStoryTest/shootF_2.png
+  artifactKey: Guid(e8ae7d747e4748f46be002cc36d3fd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/shootF_2.png using Guid(e8ae7d747e4748f46be002cc36d3fd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9ab03108c767bbf695baf1cf9d400d') in 0.009449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Art/MapleStoryTest/shoot1_3.png
+  artifactKey: Guid(6efcadb1b5124ad4a84f60d2b477de0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/shoot1_3.png using Guid(6efcadb1b5124ad4a84f60d2b477de0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c75a22b1c24370f086b85a29e0ae1fa5') in 0.013767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Art/MapleStoryTest/stabO2_0.png
+  artifactKey: Guid(ea353b85f08abc14999d1137c8b097a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/stabO2_0.png using Guid(ea353b85f08abc14999d1137c8b097a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cf89c99533a60db3be1db0a6375e3eb') in 0.034944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art/MapleStoryTest/stabOF_3.png
+  artifactKey: Guid(d053c73c352cffb49978a755b59a0f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/stabOF_3.png using Guid(d053c73c352cffb49978a755b59a0f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f65870473bd0b6f3cf471557564a9de') in 0.012781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/MapleStoryTest/shoot2_3.png
+  artifactKey: Guid(a737489c935cd44408fd9f767909d30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/shoot2_3.png using Guid(a737489c935cd44408fd9f767909d30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5345f2c898de81322d56ba84c546a30e') in 0.012818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.003632 seconds.
+  path: Assets/Art/MapleStoryTest/alert_3.png
+  artifactKey: Guid(aa0f0f9380c9ccb4dab9d3bbee90286a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/alert_3.png using Guid(aa0f0f9380c9ccb4dab9d3bbee90286a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c710cd0bcedeeac91f0dba1c72ea27') in 0.046400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 6.115255 seconds.
+  path: Assets/Art/MapleStoryTest/fly_0.png
+  artifactKey: Guid(c77cd26f9b9d401449c473053383ded4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/fly_0.png using Guid(c77cd26f9b9d401449c473053383ded4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4e8d31f0210245dea849db46aa951ad') in 0.011504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/MapleStoryTest/stabOF_1.png
+  artifactKey: Guid(68c241c303dd0034a8160ded4e41b294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/stabOF_1.png using Guid(68c241c303dd0034a8160ded4e41b294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b49b6c84c6097e3f05d527692d77278') in 0.015015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Art/MapleStoryTest/swingO1_3.png
+  artifactKey: Guid(7972b195abd198549bf5cb8be3d1cf36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/swingO1_3.png using Guid(7972b195abd198549bf5cb8be3d1cf36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f15d350a20e7d8d54d4c7fc1ac517edb') in 0.031614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Art/MapleStoryTest/stabT1_2.png
+  artifactKey: Guid(275221a82603c65488873765e78699e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/stabT1_2.png using Guid(275221a82603c65488873765e78699e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38882221d255a576f343b54b5ff99ed5') in 0.010554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Art/MapleStoryTest/swingO1_1.png
+  artifactKey: Guid(67139a2894b71394b8e09551ebf0693d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/swingO1_1.png using Guid(67139a2894b71394b8e09551ebf0693d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2091492eaaaa97dc34376c558cf6a437') in 0.024576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Art/MapleStoryTest/stabTF_3.png
+  artifactKey: Guid(97ce77e2d0fb1334a82f13080cff1278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/stabTF_3.png using Guid(97ce77e2d0fb1334a82f13080cff1278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad1b6f67e1eb071571879aefe465155') in 0.015678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Art/MapleStoryTest/swingO3_0.png
+  artifactKey: Guid(d439acfc719f0044aa1bd274979ea839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/swingO3_0.png using Guid(d439acfc719f0044aa1bd274979ea839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0327b99734f683431122d6cc59be3935') in 0.009619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Art/MapleStoryTest/rope_2.png
+  artifactKey: Guid(f4010996ef5955648a903fabafb94048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/rope_2.png using Guid(f4010996ef5955648a903fabafb94048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5990aa7dfd9eeb5595f5b08eca91c881') in 0.016060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Art/MapleStoryTest/stand1_1.png
+  artifactKey: Guid(23f0a2ef5ab0b514586e5e2e9ff1d627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/stand1_1.png using Guid(23f0a2ef5ab0b514586e5e2e9ff1d627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a0540d93696f52493978a8234cf3b27') in 0.019030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/MapleStoryTest/prone_0.png
+  artifactKey: Guid(6adcb507a529c34468452007397506e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/prone_0.png using Guid(6adcb507a529c34468452007397506e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9402a4e86a22921d6af563abf9a426bb') in 0.011320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Art/MapleStoryTest/proneStab_2.png
+  artifactKey: Guid(025e6f1304fea6f41be7e99642f8d30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/proneStab_2.png using Guid(025e6f1304fea6f41be7e99642f8d30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5fa61365171c6e92c9cb141afdc1588') in 0.008582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Art/MapleStoryTest/ladder_1.png
+  artifactKey: Guid(7172aa47ee9691042bfdb2ef77857408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/ladder_1.png using Guid(7172aa47ee9691042bfdb2ef77857408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44db747c1742eb2480351f0622656976') in 0.035415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.570208 seconds.
+  path: Assets/Art/MapleStoryTest/fly_0.png
+  artifactKey: Guid(c77cd26f9b9d401449c473053383ded4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/fly_0.png using Guid(c77cd26f9b9d401449c473053383ded4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e06bc79a1b7140ef90228138efb96444') in 0.014203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/MapleStoryTest/stabTF_1.png
+  artifactKey: Guid(8579c0789ae501f49bac4570af54f3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/stabTF_1.png using Guid(8579c0789ae501f49bac4570af54f3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0828704b1b4160023f891ce89f11a10c') in 0.020606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Art/MapleStoryTest/shoot2_1.png
+  artifactKey: Guid(5cef6c5fbb8c904488af7c514ddd51f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/shoot2_1.png using Guid(5cef6c5fbb8c904488af7c514ddd51f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd48d81778add911b2455c15bc39b878d') in 0.015277 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Art/MapleStoryTest/ladder_0.png
+  artifactKey: Guid(46c64cb2c1e1704448d2676faf997cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/ladder_0.png using Guid(46c64cb2c1e1704448d2676faf997cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b823166c30c63804d737811d210f5919') in 0.014915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Art/MapleStoryTest/stabT2_1.png
+  artifactKey: Guid(2ce154c6d57b2f84aaeb0a03e7982e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/stabT2_1.png using Guid(2ce154c6d57b2f84aaeb0a03e7982e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2100b5825908344dc6f56dea2a49fc0') in 0.010849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Art/MapleStoryTest/swingO1_0.png
+  artifactKey: Guid(4431bdabf62a2994db484edc551eb9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/swingO1_0.png using Guid(4431bdabf62a2994db484edc551eb9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a64e00809c186bb024dab8de9782220') in 0.008552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Art/MapleStoryTest/stand1_2.png
+  artifactKey: Guid(2c79d48d500499b4db284588163f71ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/stand1_2.png using Guid(2c79d48d500499b4db284588163f71ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10306ec8376f2067fd78af5cf9d92dc2') in 0.011287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Art/MapleStoryTest/shoot2_4.png
+  artifactKey: Guid(0dc35ee036c60f948bd936cf29bfe21d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/shoot2_4.png using Guid(0dc35ee036c60f948bd936cf29bfe21d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20c01c4e8050a0d2e22fc713c2f98835') in 0.007874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Art/MapleStoryTest/stand1_1.png
+  artifactKey: Guid(23f0a2ef5ab0b514586e5e2e9ff1d627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/stand1_1.png using Guid(23f0a2ef5ab0b514586e5e2e9ff1d627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f70d9411faede02804d4848bc150dd') in 0.016472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Art/MapleStoryTest/shootF_0.png
+  artifactKey: Guid(8cd76239e279ce54abd3e2e06bde26aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/shootF_0.png using Guid(8cd76239e279ce54abd3e2e06bde26aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c5acffdda31b6636214a6384686b5cd') in 0.012908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Art/MapleStoryTest/shoot2_3.png
+  artifactKey: Guid(a737489c935cd44408fd9f767909d30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/shoot2_3.png using Guid(a737489c935cd44408fd9f767909d30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5704e714594175a1bd643c97fca2554') in 0.021347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Art/MapleStoryTest/stabO1_2.png
+  artifactKey: Guid(4750e2dd216ae6548af33f6aafacab26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/stabO1_2.png using Guid(4750e2dd216ae6548af33f6aafacab26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3cf1b76766c7890e19f5fb9ec15fdc7') in 0.009947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.795240 seconds.
+  path: Assets/Art/MapleStoryTest/fly_0.png
+  artifactKey: Guid(c77cd26f9b9d401449c473053383ded4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/fly_0.png using Guid(c77cd26f9b9d401449c473053383ded4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6c7fa80b44f8ad1051db279c7e2ff74') in 0.012163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/MapleStoryTest/stabOF_1.png
+  artifactKey: Guid(68c241c303dd0034a8160ded4e41b294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/stabOF_1.png using Guid(68c241c303dd0034a8160ded4e41b294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f03be98ab3aeff409fb85766cfc3fe0') in 0.014161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/MapleStoryTest/stand2_3.png
+  artifactKey: Guid(9329c4576992423449357f1208778ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/stand2_3.png using Guid(9329c4576992423449357f1208778ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b1dd15265b5e03dd529a88b174fee1f') in 0.038214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Art/MapleStoryTest/shoot1_1.png
+  artifactKey: Guid(f1a57ad62430e1d4dade83b1c32f2862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/shoot1_1.png using Guid(f1a57ad62430e1d4dade83b1c32f2862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '018274d5bea506b6330766115efc85ee') in 0.012976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Art/MapleStoryTest/stabT2_1.png
+  artifactKey: Guid(2ce154c6d57b2f84aaeb0a03e7982e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/stabT2_1.png using Guid(2ce154c6d57b2f84aaeb0a03e7982e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54287def561fd8bf1200665b230d072d') in 0.019468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Art/MapleStoryTest/stand1_2.png
+  artifactKey: Guid(2c79d48d500499b4db284588163f71ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/stand1_2.png using Guid(2c79d48d500499b4db284588163f71ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6199397261df695eeffce5d75aefaf48') in 0.077607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/MapleStoryTest/shoot2_2.png
+  artifactKey: Guid(d22cae29294ffc149b100e07bf78f8bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/shoot2_2.png using Guid(d22cae29294ffc149b100e07bf78f8bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e726fca137a69c4d3f5126d0eca7ea6') in 0.006462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Art/MapleStoryTest/swingO2_2.png
+  artifactKey: Guid(e94169c26611d9749bfd9569f8b33c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/swingO2_2.png using Guid(e94169c26611d9749bfd9569f8b33c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a38425cacad0540e30b698209b2e8f68') in 0.013086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Art/MapleStoryTest/stabO1_0.png
+  artifactKey: Guid(0bcd343d853b4624988f3e677c4884c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/stabO1_0.png using Guid(0bcd343d853b4624988f3e677c4884c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20787b53699d05ac1e3d5e20a826a904') in 0.008870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Art/MapleStoryTest/stabOF_3.png
+  artifactKey: Guid(d053c73c352cffb49978a755b59a0f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/stabOF_3.png using Guid(d053c73c352cffb49978a755b59a0f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc401a668cb83260339d2e7e7fa2f594') in 0.011299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.291017 seconds.
+  path: Assets/Art/MapleStoryTest/fly_0.png
+  artifactKey: Guid(c77cd26f9b9d401449c473053383ded4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/fly_0.png using Guid(c77cd26f9b9d401449c473053383ded4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5528a05776752036aed44a8497fd653') in 0.183273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/MapleStoryTest/swingO2_3.png
+  artifactKey: Guid(4ecb80c42f71677408b80f6b061daba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/swingO2_3.png using Guid(4ecb80c42f71677408b80f6b061daba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8df015da7a554e4741b810ab02b0500') in 0.012766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Art/MapleStoryTest/stabT2_2.png
+  artifactKey: Guid(64c3ac4aacdd3de4880047ab230838e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/stabT2_2.png using Guid(64c3ac4aacdd3de4880047ab230838e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c6a0504336153f85be87c68232bde69') in 0.010457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Art/MapleStoryTest/stabT1_3.png
+  artifactKey: Guid(5286c5c71184e92418952fe029aff232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/stabT1_3.png using Guid(5286c5c71184e92418952fe029aff232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f671232427e01df92a5d4ef3f4298d15') in 0.008396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Art/MapleStoryTest/ladder_0.png
+  artifactKey: Guid(46c64cb2c1e1704448d2676faf997cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/ladder_0.png using Guid(46c64cb2c1e1704448d2676faf997cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b4d47bf7f8c30a7eff2baa3617d458') in 0.007097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Art/MapleStoryTest/stabT1_0.png
+  artifactKey: Guid(73cf10d411253fb47bce2e6e7db4545d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/stabT1_0.png using Guid(73cf10d411253fb47bce2e6e7db4545d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a5c198d10090cf588532c5f5f57e2ae') in 0.011705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Art/MapleStoryTest/swingO1_0.png
+  artifactKey: Guid(4431bdabf62a2994db484edc551eb9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/swingO1_0.png using Guid(4431bdabf62a2994db484edc551eb9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5135d5fbe8335fa414891b8c33e0faf1') in 0.009516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Art/MapleStoryTest/rope_2.png
+  artifactKey: Guid(f4010996ef5955648a903fabafb94048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/rope_2.png using Guid(f4010996ef5955648a903fabafb94048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c203e12dfe8b0dfe65c62f368f2f4c78') in 0.007309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Art/MapleStoryTest/shoot1_3.png
+  artifactKey: Guid(6efcadb1b5124ad4a84f60d2b477de0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/shoot1_3.png using Guid(6efcadb1b5124ad4a84f60d2b477de0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34dd51c2407f8930b248cbf0c25a7212') in 0.007671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Art/MapleStoryTest/shootF_0.png
+  artifactKey: Guid(8cd76239e279ce54abd3e2e06bde26aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/shootF_0.png using Guid(8cd76239e279ce54abd3e2e06bde26aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2462f28683681a7f5dcbad9ec6d5c85') in 0.007558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Art/MapleStoryTest/swingO1_2.png
+  artifactKey: Guid(261a6dca1207bd844913a84bb228508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/swingO1_2.png using Guid(261a6dca1207bd844913a84bb228508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8093de62571bd8b0a1ce4616027d8315') in 0.015905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Art/MapleStoryTest/proneStab_0.png
+  artifactKey: Guid(35d983b5eda1e4946bfe16e587d76980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/proneStab_0.png using Guid(35d983b5eda1e4946bfe16e587d76980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5eb84d5f86fd0717ca890202084b46f') in 0.012495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 6.676839 seconds.
+  path: Assets/Art/MapleStoryTest/fly_0.png
+  artifactKey: Guid(c77cd26f9b9d401449c473053383ded4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/fly_0.png using Guid(c77cd26f9b9d401449c473053383ded4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b3db6c94aaaa76b3ed006a4944a68a1') in 0.008586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Art/MapleStoryTest/shootF_3.png
+  artifactKey: Guid(aa20a3ea1d381ce488b5b579f4d741f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/shootF_3.png using Guid(aa20a3ea1d381ce488b5b579f4d741f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd96663819596a9a472d0c0b3c89abbe') in 0.009334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Art/MapleStoryTest/stabTF_1.png
+  artifactKey: Guid(8579c0789ae501f49bac4570af54f3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/stabTF_1.png using Guid(8579c0789ae501f49bac4570af54f3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07a2f15a26461e101893d246151faa06') in 0.031699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Art/MapleStoryTest/swingO1_1.png
+  artifactKey: Guid(67139a2894b71394b8e09551ebf0693d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/swingO1_1.png using Guid(67139a2894b71394b8e09551ebf0693d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2945227b81d93ab9a02e87db655b0b6') in 0.016112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Art/MapleStoryTest/shoot2_0.png
+  artifactKey: Guid(c88494bc8a248714aac9204b04054803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/shoot2_0.png using Guid(c88494bc8a248714aac9204b04054803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c0d9c89adab8c8fd635b40ab585f1bc') in 0.010914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Art/MapleStoryTest/stabTF_3.png
+  artifactKey: Guid(97ce77e2d0fb1334a82f13080cff1278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/stabTF_3.png using Guid(97ce77e2d0fb1334a82f13080cff1278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '483b46eda68e031d8557585e548e18a0') in 0.022964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Art/MapleStoryTest/prone_1.png
+  artifactKey: Guid(2d2a85141363f2e4cbc0bc4512404d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/prone_1.png using Guid(2d2a85141363f2e4cbc0bc4512404d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ed63f62d111e3bada443d177d3ab99') in 0.015982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Art/MapleStoryTest/stabO1_1.png
+  artifactKey: Guid(5b7b8852b25b5b749ad53fd6fa6cfdf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/stabO1_1.png using Guid(5b7b8852b25b5b749ad53fd6fa6cfdf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f94ec80e8ab65ea4a1ff5730c627e1b') in 0.021725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Art/MapleStoryTest/jump_1.png
+  artifactKey: Guid(b864a5861f0088844a21f05afaf2d1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/jump_1.png using Guid(b864a5861f0088844a21f05afaf2d1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb4d3c972e682b46c26de49d692713d2') in 0.008896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Art/MapleStoryTest/swingO1_2.png
+  artifactKey: Guid(261a6dca1207bd844913a84bb228508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/swingO1_2.png using Guid(261a6dca1207bd844913a84bb228508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a346e72d7f40a88e0bcd5fd3c22bc774') in 0.016245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Art/MapleStoryTest/stabO1_2.png
+  artifactKey: Guid(4750e2dd216ae6548af33f6aafacab26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/stabO1_2.png using Guid(4750e2dd216ae6548af33f6aafacab26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43fa3fe2b5d05889bc3fc0f5c619eeb3') in 0.006880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 7.558384 seconds.
+  path: Assets/Art/MapleStoryTest/fly_0.png
+  artifactKey: Guid(c77cd26f9b9d401449c473053383ded4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/fly_0.png using Guid(c77cd26f9b9d401449c473053383ded4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff80cd275f4f64b9230e56cf051d40da') in 0.014756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/MapleStoryTest/shoot2_1.png
+  artifactKey: Guid(5cef6c5fbb8c904488af7c514ddd51f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/shoot2_1.png using Guid(5cef6c5fbb8c904488af7c514ddd51f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0596af9c47bdf672359906a3cec23fa3') in 0.014771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Art/MapleStoryTest/ladder_2.png
+  artifactKey: Guid(7afa0188d50af764896c8f28f5b3189b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/ladder_2.png using Guid(7afa0188d50af764896c8f28f5b3189b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13bca9a414fc337792fc7a18c176e25e') in 0.021796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Art/MapleStoryTest/sit_0.png
+  artifactKey: Guid(2a21d4ee1270b51449d4094f7f9b69f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/sit_0.png using Guid(2a21d4ee1270b51449d4094f7f9b69f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b305f27c4b1c6c1e80bf3fb8c62760ea') in 0.016618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/MapleStoryTest/stabO2_1.png
+  artifactKey: Guid(1a6640c876935d44fbb8494499f66491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/stabO2_1.png using Guid(1a6640c876935d44fbb8494499f66491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66401fd8c959cbebec1949f989cf3a61') in 0.008988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Art/MapleStoryTest/stand1_0.png
+  artifactKey: Guid(6cf2dd38143bc7b46b04d998f0836b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/stand1_0.png using Guid(6cf2dd38143bc7b46b04d998f0836b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7932a39542789db8e1caa52d59d895d') in 0.008749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Art/MapleStoryTest/shootF_2.png
+  artifactKey: Guid(e8ae7d747e4748f46be002cc36d3fd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/shootF_2.png using Guid(e8ae7d747e4748f46be002cc36d3fd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc4f34da2e65799e5028607cd352eae8') in 0.034054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Art/MapleStoryTest/shoot2_2.png
+  artifactKey: Guid(d22cae29294ffc149b100e07bf78f8bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/shoot2_2.png using Guid(d22cae29294ffc149b100e07bf78f8bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20536acec5255e01a7081df3eb224a08') in 0.016111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Art/MapleStoryTest/swingO2_2.png
+  artifactKey: Guid(e94169c26611d9749bfd9569f8b33c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/swingO2_2.png using Guid(e94169c26611d9749bfd9569f8b33c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb3f196597e15d832541d41d11ef1748') in 0.008460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Art/MapleStoryTest/stabT2_3.png
+  artifactKey: Guid(bead361b311db544e9ebcf505cc261d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/stabT2_3.png using Guid(bead361b311db544e9ebcf505cc261d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3461c6697317460c0a0ead2937270d5a') in 0.008854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Art/MapleStoryTest/stabTF_4.png
+  artifactKey: Guid(fadffb3484e6e1b48b64fb99dd4436eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/stabTF_4.png using Guid(fadffb3484e6e1b48b64fb99dd4436eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ec5adcec161fe884c28fc4e1abc3a5') in 0.007367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

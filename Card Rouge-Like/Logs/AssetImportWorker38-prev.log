@@ -1,0 +1,810 @@
+Using pre-set license
+Built from '2023.1/staging' branch; Version is '2023.1.20f1 (35a524b12060) revision 3515684'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32674 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+G:\Unity\UnityVersions\2023.1.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker38
+-projectPath
+G:/Unity/UnityProjects/Git/Roguelike/Card Rouge-Like
+-logFile
+Logs/AssetImportWorker38.log
+-srvPort
+54861
+Successfully changed project path to: G:/Unity/UnityProjects/Git/Roguelike/Card Rouge-Like
+G:/Unity/UnityProjects/Git/Roguelike/Card Rouge-Like
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [43040] Host "[IP] 192.168.0.137 [Port] 0 [Flags] 2 [Guid] 3058098074 [EditorId] 3058098074 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-26UP572) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [43040] Host "[IP] 192.168.0.137 [Port] 0 [Flags] 2 [Guid] 3058098074 [EditorId] 3058098074 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-26UP572) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 23 workers.
+Library Redirect Path: Library/Refreshing native plugins compatible for Editor in 7.65 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.1.20f1 (35a524b12060)
+[Subsystems] Discovering subsystems at path G:/Unity/UnityVersions/2023.1.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path G:/Unity/UnityProjects/Git/Roguelike/Card Rouge-Like/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2216)
+    Vendor:   NVIDIA
+    VRAM:     10067 MB
+    Driver:   31.0.15.3667
+Initialize mono
+Mono path[0] = 'G:/Unity/UnityVersions/2023.1.20f1/Editor/Data/Managed'
+Mono path[1] = 'G:/Unity/UnityVersions/2023.1.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'G:/Unity/UnityVersions/2023.1.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56172
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Registering precompiled unity dll's ...
+Register platform support module: G:/Unity/UnityVersions/2023.1.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001767 seconds.
+- Loaded All Assemblies, in  0.272 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Finished resetting the current domain, in  0.216 seconds
+Domain Reload Profiling: 489ms
+	BeginReloadAssembly (92ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (109ms)
+		LoadAssemblies (92ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (106ms)
+			TypeCache.Refresh (105ms)
+				TypeCache.ScanAssembly (96ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (217ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (183ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadAttributes (127ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image G:\Unity\UnityProjects\Git\Roguelike\Card Rouge-Like\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image G:\Unity\UnityProjects\Git\Roguelike\Card Rouge-Like\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.790 seconds
+Refreshing native plugins compatible for Editor in 2.37 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.662 seconds
+Domain Reload Profiling: 1452ms
+	BeginReloadAssembly (244ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (494ms)
+		LoadAssemblies (300ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (267ms)
+			TypeCache.Refresh (233ms)
+				TypeCache.ScanAssembly (224ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (663ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (496ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (380ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 2.70 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6462 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 126 unused Assets / (2.9 MB). Loaded Objects now: 6986.
+Memory consumption went from 254.7 MB to 251.8 MB.
+Total: 5.524500 ms (FindLiveObjects: 0.415600 ms CreateObjectMapping: 0.156800 ms MarkObjects: 4.093900 ms  DeleteObjects: 0.857700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 176216.565554 seconds.
+  path: Assets/Art/New/UI/Boxes/Light Blue Box.psd
+  artifactKey: Guid(bc6455f26f03cbc4aa86aa412cb49bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/New/UI/Boxes/Light Blue Box.psd using Guid(bc6455f26f03cbc4aa86aa412cb49bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a680e6a31d164ca3bc263abbb0bf226') in 0.078338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 42.340721 seconds.
+  path: Assets/Art/MapleStoryTest/Greed/Running
+  artifactKey: Guid(297450f41134cf646b65fc0e7bb2df07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/Greed/Running using Guid(297450f41134cf646b65fc0e7bb2df07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ae57121cb8396b86da13b895c7ff4c6') in 0.000443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.193219 seconds.
+  path: Assets/Art/MapleStoryTest/Greed/Running/Right
+  artifactKey: Guid(398a0ac5c0865c84f834d1f6760d2f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/Greed/Running/Right using Guid(398a0ac5c0865c84f834d1f6760d2f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba14ae383494b840a527f0f19e096b0a') in 0.000473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.980624 seconds.
+  path: Assets/Art/MapleStoryTest/Greed/Running/Left
+  artifactKey: Guid(41ef96968aa68594a8d1abe33b55a463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/Greed/Running/Left using Guid(41ef96968aa68594a8d1abe33b55a463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf6e5b1abacc5919e11892de4c86596') in 0.000385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.025717 seconds.
+  path: Assets/Art/MapleStoryTest/Greed/Running/Left/Running-Left-01.psd
+  artifactKey: Guid(0f651514ccec5b8429a38046d2e7817c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/Greed/Running/Left/Running-Left-01.psd using Guid(0f651514ccec5b8429a38046d2e7817c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a13bcdf133e630c33c858fefe61c3f') in 0.017516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 9.525525 seconds.
+  path: Assets/Art/MapleStoryTest/Greed/Running/Left/Greed-Running-Left-01.psd
+  artifactKey: Guid(0f651514ccec5b8429a38046d2e7817c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/Greed/Running/Left/Greed-Running-Left-01.psd using Guid(0f651514ccec5b8429a38046d2e7817c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de82b60a624c8e58f0e8a1c80161873d') in 0.023950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.572439 seconds.
+  path: Assets/Art/MapleStoryTest/Greed/Running/Left/Greed-Running-Left-02.psd
+  artifactKey: Guid(a877087c97f5a5b41adeec5c9b17e2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/Greed/Running/Left/Greed-Running-Left-02.psd using Guid(a877087c97f5a5b41adeec5c9b17e2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea5e7b55139c18e0727699f5e54fb3c8') in 0.013218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.924708 seconds.
+  path: Assets/Art/MapleStoryTest/Greed/Running/Left/Greed-Running-Left-03.psd
+  artifactKey: Guid(1059b44a93182684085ccdd862db5a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/Greed/Running/Left/Greed-Running-Left-03.psd using Guid(1059b44a93182684085ccdd862db5a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e8c3bfe2a0781362f74789e527393b1') in 0.034544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.998770 seconds.
+  path: Assets/Art/MapleStoryTest/Greed/Running/Left/Greed-Running-Left-04.psd
+  artifactKey: Guid(d123d9efc2874ff4c8347e357105e8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/Greed/Running/Left/Greed-Running-Left-04.psd using Guid(d123d9efc2874ff4c8347e357105e8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4383d4c3d15e0ed35a9f67a9c3b33dfc') in 0.012637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.959730 seconds.
+  path: Assets/Art/MapleStoryTest/Greed/Running/Left/Greed-Running-Left-05.psd
+  artifactKey: Guid(713bfda42b2f49443a9ee25f1876863c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/Greed/Running/Left/Greed-Running-Left-05.psd using Guid(713bfda42b2f49443a9ee25f1876863c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e698292f4b84d916fe87b7c1f3f7bd') in 0.023367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 984.253873 seconds.
+  path: Assets/Art/MapleStoryTest/Greed/Idle/Left/Greed-Idle-Left-01.psd
+  artifactKey: Guid(7be283dbe80d57f4888dd45b9f44592c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/Greed/Idle/Left/Greed-Idle-Left-01.psd using Guid(7be283dbe80d57f4888dd45b9f44592c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32b04892d94af666be0aa3f2967c4e40') in 0.336960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image G:\Unity\UnityProjects\Git\Roguelike\Card Rouge-Like\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image G:\Unity\UnityProjects\Git\Roguelike\Card Rouge-Like\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  3.142 seconds
+Refreshing native plugins compatible for Editor in 2.90 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 11.562 seconds
+Domain Reload Profiling: 14702ms
+	BeginReloadAssembly (300ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (88ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (2721ms)
+		LoadAssemblies (2205ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (729ms)
+			TypeCache.Refresh (715ms)
+				TypeCache.ScanAssembly (668ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (11562ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (434ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (320ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.93 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6328 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (2.9 MB). Loaded Objects now: 7008.
+Memory consumption went from 224.2 MB to 221.3 MB.
+Total: 6.439800 ms (FindLiveObjects: 0.552700 ms CreateObjectMapping: 0.361200 ms MarkObjects: 4.678000 ms  DeleteObjects: 0.846400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 355.260275 seconds.
+  path: Assets/Art/MapleStoryTest/Greed/Idle/Left/Idle-Left-04.psd
+  artifactKey: Guid(90d0f6511bc5b604fa688c80b4b9ea00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/Greed/Idle/Left/Idle-Left-04.psd using Guid(90d0f6511bc5b604fa688c80b4b9ea00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '845338e7fa38a23454aaf8a86144f7d1') in 0.048917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art/MapleStoryTest/Greed/Idle/Left/Idle-Left-03.psd
+  artifactKey: Guid(8fbc26a29bc0ad543ba7bb3e4a421164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/Greed/Idle/Left/Idle-Left-03.psd using Guid(8fbc26a29bc0ad543ba7bb3e4a421164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13a4b58df99bd8a6b402394f9fe5efc8') in 0.011075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 15.329419 seconds.
+  path: Assets/Art/MapleStoryTest/Greed/Idle/Left/Greed-Idle-Left-02.psd
+  artifactKey: Guid(f9a4c94784ae9844e88b94f2d4e73790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/Greed/Idle/Left/Greed-Idle-Left-02.psd using Guid(f9a4c94784ae9844e88b94f2d4e73790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e73b736a635949a060fcd9e9b99318') in 0.009099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.461704 seconds.
+  path: Assets/Art/MapleStoryTest/Greed/Idle/Left/Greed-Idle-Left-03.psd
+  artifactKey: Guid(8fbc26a29bc0ad543ba7bb3e4a421164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/Greed/Idle/Left/Greed-Idle-Left-03.psd using Guid(8fbc26a29bc0ad543ba7bb3e4a421164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f41606c4d1f48aeaa4f545123fd8e30f') in 0.005240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.685088 seconds.
+  path: Assets/Art/MapleStoryTest/Greed/Idle/Left/Greed-Idle-Left-04.psd
+  artifactKey: Guid(90d0f6511bc5b604fa688c80b4b9ea00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/Greed/Idle/Left/Greed-Idle-Left-04.psd using Guid(90d0f6511bc5b604fa688c80b4b9ea00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f7ce70dd14fb7e6aba963d79b6d334f') in 0.006369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.381583 seconds.
+  path: Assets/Art/MapleStoryTest/Greed/Idle/Left/Greed-Idle-Left-04.psd
+  artifactKey: Guid(90d0f6511bc5b604fa688c80b4b9ea00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/Greed/Idle/Left/Greed-Idle-Left-04.psd using Guid(90d0f6511bc5b604fa688c80b4b9ea00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa5161c0246c26f9b859b40a67eda2b') in 0.036650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Art/MapleStoryTest/Greed/Idle/Left/Greed-Idle-Left-03.psd
+  artifactKey: Guid(8fbc26a29bc0ad543ba7bb3e4a421164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/Greed/Idle/Left/Greed-Idle-Left-03.psd using Guid(8fbc26a29bc0ad543ba7bb3e4a421164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18febdc61b6ad7c31ebd8fdd12aab688') in 0.200332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 558.233888 seconds.
+  path: Assets/Art/MapleStoryTest/Greed/Idle/Left/Greed-Idle-Left-01.psd
+  artifactKey: Guid(7be283dbe80d57f4888dd45b9f44592c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/Greed/Idle/Left/Greed-Idle-Left-01.psd using Guid(7be283dbe80d57f4888dd45b9f44592c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf001916dec406ba130a0da586f51a38') in 0.014568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Art/MapleStoryTest/Greed/Idle/Left/Idle-Left-04.psd
+  artifactKey: Guid(7c396c63298fb754b964eaeaea82dcf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/Greed/Idle/Left/Idle-Left-04.psd using Guid(7c396c63298fb754b964eaeaea82dcf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8c57f46471779140f7ac0471a2ee3dc') in 0.009844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 8.839741 seconds.
+  path: Assets/Art/MapleStoryTest/Greed/Idle/Left/Greed-Idle-Left-02.psd
+  artifactKey: Guid(32a0445920359714799b98e29e19ca55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/Greed/Idle/Left/Greed-Idle-Left-02.psd using Guid(32a0445920359714799b98e29e19ca55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f43bd2e681935c58df7f38088a0240a6') in 0.010553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.276381 seconds.
+  path: Assets/Art/MapleStoryTest/Greed/Idle/Left/Greed-Idle-Left-03.psd
+  artifactKey: Guid(71420479a6aa46b4e8c4bcdbffdac766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/Greed/Idle/Left/Greed-Idle-Left-03.psd using Guid(71420479a6aa46b4e8c4bcdbffdac766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a799eafce8714bceb806c4bc788937aa') in 0.005670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 11.107262 seconds.
+  path: Assets/Art/MapleStoryTest/Greed/Idle/Left/Greed-Idle-Left-04.psd
+  artifactKey: Guid(7c396c63298fb754b964eaeaea82dcf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/Greed/Idle/Left/Greed-Idle-Left-04.psd using Guid(7c396c63298fb754b964eaeaea82dcf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7825a1d3806f05351926f589d5e8f123') in 0.007849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 9.124153 seconds.
+  path: Assets/Art/MapleStoryTest/Greed/Idle/Left/Greed-Idle-Left-02.psd
+  artifactKey: Guid(32a0445920359714799b98e29e19ca55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/Greed/Idle/Left/Greed-Idle-Left-02.psd using Guid(32a0445920359714799b98e29e19ca55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0abc6c13c76437db4c07052e5b8cefdd') in 0.021802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/MapleStoryTest/Greed/Idle/Left/Greed-Idle-Left-04.psd
+  artifactKey: Guid(7c396c63298fb754b964eaeaea82dcf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/Greed/Idle/Left/Greed-Idle-Left-04.psd using Guid(7c396c63298fb754b964eaeaea82dcf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a1f761b7967ead319c02cb7772e9c47') in 0.014133 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image G:\Unity\UnityProjects\Git\Roguelike\Card Rouge-Like\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image G:\Unity\UnityProjects\Git\Roguelike\Card Rouge-Like\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.646 seconds
+Refreshing native plugins compatible for Editor in 3.17 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.220 seconds
+Domain Reload Profiling: 1866ms
+	BeginReloadAssembly (161ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (431ms)
+		LoadAssemblies (260ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (243ms)
+			TypeCache.Refresh (231ms)
+				TypeCache.ScanAssembly (220ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1221ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (562ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (96ms)
+			ProcessInitializeOnLoadAttributes (421ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 3.24 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6328 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (2.9 MB). Loaded Objects now: 7023.
+Memory consumption went from 226.1 MB to 223.2 MB.
+Total: 5.907500 ms (FindLiveObjects: 0.479900 ms CreateObjectMapping: 0.167300 ms MarkObjects: 4.207200 ms  DeleteObjects: 1.052200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image G:\Unity\UnityProjects\Git\Roguelike\Card Rouge-Like\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image G:\Unity\UnityProjects\Git\Roguelike\Card Rouge-Like\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.618 seconds
+Refreshing native plugins compatible for Editor in 2.91 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.163 seconds
+Domain Reload Profiling: 1781ms
+	BeginReloadAssembly (157ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (411ms)
+		LoadAssemblies (243ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (237ms)
+			TypeCache.Refresh (224ms)
+				TypeCache.ScanAssembly (213ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1164ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (529ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (398ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 3.69 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6328 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (2.9 MB). Loaded Objects now: 7037.
+Memory consumption went from 228.1 MB to 225.2 MB.
+Total: 5.699900 ms (FindLiveObjects: 0.507100 ms CreateObjectMapping: 0.167500 ms MarkObjects: 4.261900 ms  DeleteObjects: 0.762700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image G:\Unity\UnityProjects\Git\Roguelike\Card Rouge-Like\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image G:\Unity\UnityProjects\Git\Roguelike\Card Rouge-Like\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.612 seconds
+Refreshing native plugins compatible for Editor in 3.35 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.136 seconds
+Domain Reload Profiling: 1747ms
+	BeginReloadAssembly (157ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (403ms)
+		LoadAssemblies (248ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (230ms)
+			TypeCache.Refresh (216ms)
+				TypeCache.ScanAssembly (204ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1136ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (531ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (93ms)
+			ProcessInitializeOnLoadAttributes (395ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.98 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6328 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (2.9 MB). Loaded Objects now: 7051.
+Memory consumption went from 230.0 MB to 227.1 MB.
+Total: 6.142800 ms (FindLiveObjects: 0.468600 ms CreateObjectMapping: 0.361700 ms MarkObjects: 4.445800 ms  DeleteObjects: 0.866000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 910.630215 seconds.
+  path: Assets/Art/MapleStoryTest/Greed/Idle/Left/Greed-Idle-Left-01.psd
+  artifactKey: Guid(7be283dbe80d57f4888dd45b9f44592c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/Greed/Idle/Left/Greed-Idle-Left-01.psd using Guid(7be283dbe80d57f4888dd45b9f44592c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b971deedb4841a7288e2d14e94e62d0') in 0.061022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Art/MapleStoryTest/Greed/Idle/Left/Greed-Idle-Left-03.psd
+  artifactKey: Guid(71420479a6aa46b4e8c4bcdbffdac766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/Greed/Idle/Left/Greed-Idle-Left-03.psd using Guid(71420479a6aa46b4e8c4bcdbffdac766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be9ddf369d4d76d43d2729fc95d2427') in 0.040098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.801382 seconds.
+  path: Assets/Art/New/Classes/Elf Character.psd
+  artifactKey: Guid(c4c7a9de666d60f46a8b1282ec7e741b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/New/Classes/Elf Character.psd using Guid(c4c7a9de666d60f46a8b1282ec7e741b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6cd7d971d275bb3f67f1ef98ee45252') in 0.014875 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Art/New/Classes/TheGamblerClass.psd
+  artifactKey: Guid(f8df02772616a8d4e9d4f1ef97b169df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/New/Classes/TheGamblerClass.psd using Guid(f8df02772616a8d4e9d4f1ef97b169df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02739067178e62e393c923c9a4d61c18') in 0.062902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 255.563269 seconds.
+  path: Assets/Art/MapleStoryTest/Greed/Running/Left/Greed-Running-Left-01.psd
+  artifactKey: Guid(0f651514ccec5b8429a38046d2e7817c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/Greed/Running/Left/Greed-Running-Left-01.psd using Guid(0f651514ccec5b8429a38046d2e7817c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc6e1fbe0bad5466372fa7699e25147') in 0.014653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.042443 seconds.
+  path: Assets/Art/MapleStoryTest/Greed/Running/Left/Greed-Running-Left-03.psd
+  artifactKey: Guid(1059b44a93182684085ccdd862db5a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/Greed/Running/Left/Greed-Running-Left-03.psd using Guid(1059b44a93182684085ccdd862db5a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd8a242b3bfabc42eaab1b11b5737f3e') in 0.014514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Art/MapleStoryTest/Greed/Running/Left/Greed-Running-Left-04.psd
+  artifactKey: Guid(d123d9efc2874ff4c8347e357105e8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/Greed/Running/Left/Greed-Running-Left-04.psd using Guid(d123d9efc2874ff4c8347e357105e8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5de1c93bddbf9e9411daf6e8050bf606') in 0.014066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 9.370693 seconds.
+  path: Assets/Art/New/UI/Keys/u-grave_4x.png
+  artifactKey: Guid(eedddd09a98f5284e8e78cb5e1e5468a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/New/UI/Keys/u-grave_4x.png using Guid(eedddd09a98f5284e8e78cb5e1e5468a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc013d209970878fae437f04e5bfba94') in 0.012571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 5.393769 seconds.
+  path: Assets/Art/New/UI/Badges/3D/Shield 1/Shield 1 Orange.png
+  artifactKey: Guid(217c111204d906246bccd6d9887c46d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/New/UI/Badges/3D/Shield 1/Shield 1 Orange.png using Guid(217c111204d906246bccd6d9887c46d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d978dc7ceb92939613a5b0929f9499f') in 0.013142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.127617 seconds.
+  path: Assets/Art/New/UI/Badges/3D/Shield 1/Shield 1 Pink.png
+  artifactKey: Guid(ca732ca7996eb054197688a2e49140b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/New/UI/Badges/3D/Shield 1/Shield 1 Pink.png using Guid(ca732ca7996eb054197688a2e49140b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9ce9ed76010d21126d58bebeae6d28d') in 0.016483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1339.959527 seconds.
+  path: Assets/Art/MapleStoryTest/Greed/Running/Left/Greed-Running-Left-01.psd
+  artifactKey: Guid(0f651514ccec5b8429a38046d2e7817c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/Greed/Running/Left/Greed-Running-Left-01.psd using Guid(0f651514ccec5b8429a38046d2e7817c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f92bfcb462b674052a5492b2046cc17') in 0.015859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Art/MapleStoryTest/Greed/Running/Left/Greed-Running-Left-03.psd
+  artifactKey: Guid(1059b44a93182684085ccdd862db5a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/Greed/Running/Left/Greed-Running-Left-03.psd using Guid(1059b44a93182684085ccdd862db5a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf6ba1b1e308afce26a77e8eac0bf79') in 0.021542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Art/MapleStoryTest/Greed/Running/Left/Greed-Running-Left-05.psd
+  artifactKey: Guid(713bfda42b2f49443a9ee25f1876863c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/Greed/Running/Left/Greed-Running-Left-05.psd using Guid(713bfda42b2f49443a9ee25f1876863c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36e64d597a6044cc3d526a1d1491db4f') in 0.024599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3

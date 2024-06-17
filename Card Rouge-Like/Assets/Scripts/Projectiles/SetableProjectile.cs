@@ -9,13 +9,18 @@ public class SetableProjectile : MonoBehaviour
 
     public bool destroyOnImpact;
 
+    public bool hasVelocity = true;
+
     private void Start()
     {
         // Set initial velocity based on the spawn rotation
         Rigidbody2D rb = GetComponent<Rigidbody2D>();
 
-        //set the velocity
-        rb.velocity = transform.right * PlayerStatistics.instance.projectileSpeed;
+        if (hasVelocity)
+        {
+            //set the velocity
+            rb.velocity = transform.right * PlayerStatistics.instance.projectileSpeed;
+        }
 
         StartCoroutine(DestroyAfter());
     }

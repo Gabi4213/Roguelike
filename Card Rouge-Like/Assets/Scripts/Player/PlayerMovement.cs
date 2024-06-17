@@ -40,7 +40,6 @@ public class PlayerMovement : MonoBehaviour
         if(movement != Vector2.zero)
         {
             animator.SetFloat (lastHorizontal, movement.x);
-            animator.SetFloat (lastVertical, movement.y);
         }
     }
 

@@ -1,36 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &3893493466464625660
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6045072827305902589}
-  m_Layer: 0
-  m_Name: SpawnPoint
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6045072827305902589
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3893493466464625660}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.18, y: -0.09, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 8090779044468530881}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4316479456663110951
 GameObject:
   m_ObjectHideFlags: 0
@@ -125,7 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8090779044468530881}
   - component: {fileID: 998898203595614747}
-  - component: {fileID: 120306285185114511}
+  - component: {fileID: 4579942695419528335}
   m_Layer: 0
   m_Name: StoneHammerUsable
   m_TagString: Untagged
@@ -147,7 +116,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7823849996769204954}
-  - {fileID: 6045072827305902589}
+  - {fileID: 317128580963223921}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &998898203595614747
@@ -164,9 +133,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pivot: {fileID: 0}
   distanceFromPlayer: 1.1
-  projSpawnPoint: {fileID: 3893493466464625660}
+  projSpawnPoint: {fileID: 8485301553616863466}
   spriteRenderer: {fileID: 1946241567095839262}
---- !u!114 &120306285185114511
+--- !u!114 &4579942695419528335
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -175,12 +144,42 @@ MonoBehaviour:
   m_GameObject: {fileID: 7520470784242835758}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa67c6e33a391d74fa32103ca4f59dc8, type: 3}
+  m_Script: {fileID: 11500000, guid: 2ac8d4f44270e9049ab9336c793a0ab1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pulseSpeed: 0.2
+  pulseSpeed: 1
   pulseAmount: 0.2
-  spawnPoint: {fileID: 6045072827305902589}
-  projectile: {fileID: 511180177762784804, guid: b507c3db575261c4387e1f49e50caf74,
+  projectile: {fileID: 511180177762784804, guid: 53c3f83214050914a8fc7d05df9ab771,
     type: 3}
   item: {fileID: 11400000, guid: a45475b5ff7a5334eae0ac8f8392e961, type: 2}
+--- !u!1 &8485301553616863466
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 317128580963223921}
+  m_Layer: 0
+  m_Name: ProjSpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &317128580963223921
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8485301553616863466}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.211, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8090779044468530881}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

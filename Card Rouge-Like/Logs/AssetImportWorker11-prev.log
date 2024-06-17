@@ -1,0 +1,586 @@
+Using pre-set license
+Built from '2023.1/staging' branch; Version is '2023.1.20f1 (35a524b12060) revision 3515684'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32674 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+G:\Unity\UnityVersions\2023.1.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker11
+-projectPath
+G:/Unity/UnityProjects/Git/Roguelike/Card Rouge-Like
+-logFile
+Logs/AssetImportWorker11.log
+-srvPort
+54861
+Successfully changed project path to: G:/Unity/UnityProjects/Git/Roguelike/Card Rouge-Like
+G:/Unity/UnityProjects/Git/Roguelike/Card Rouge-Like
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [32848] Host "[IP] 192.168.0.137 [Port] 0 [Flags] 2 [Guid] 175400046 [EditorId] 175400046 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-26UP572) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [32848] Host "[IP] 192.168.0.137 [Port] 0 [Flags] 2 [Guid] 175400046 [EditorId] 175400046 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-26UP572) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 23 workers.
+Library Redirect Path: Library/Refreshing native plugins compatible for Editor in 9.09 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.1.20f1 (35a524b12060)
+[Subsystems] Discovering subsystems at path G:/Unity/UnityVersions/2023.1.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path G:/Unity/UnityProjects/Git/Roguelike/Card Rouge-Like/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2216)
+    Vendor:   NVIDIA
+    VRAM:     10067 MB
+    Driver:   31.0.15.3667
+Initialize mono
+Mono path[0] = 'G:/Unity/UnityVersions/2023.1.20f1/Editor/Data/Managed'
+Mono path[1] = 'G:/Unity/UnityVersions/2023.1.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'G:/Unity/UnityVersions/2023.1.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56700
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Registering precompiled unity dll's ...
+Register platform support module: G:/Unity/UnityVersions/2023.1.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001763 seconds.
+- Loaded All Assemblies, in  0.286 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Finished resetting the current domain, in  0.253 seconds
+Domain Reload Profiling: 539ms
+	BeginReloadAssembly (90ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (119ms)
+		LoadAssemblies (89ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (116ms)
+			TypeCache.Refresh (115ms)
+				TypeCache.ScanAssembly (105ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (253ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (212ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadAttributes (148ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image G:\Unity\UnityProjects\Git\Roguelike\Card Rouge-Like\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image G:\Unity\UnityProjects\Git\Roguelike\Card Rouge-Like\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.795 seconds
+Refreshing native plugins compatible for Editor in 2.38 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.660 seconds
+Domain Reload Profiling: 1455ms
+	BeginReloadAssembly (238ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (502ms)
+		LoadAssemblies (296ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (284ms)
+			TypeCache.Refresh (250ms)
+				TypeCache.ScanAssembly (237ms)
+			ScanForSourceGeneratedMonoScriptInfo (24ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (661ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (498ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (373ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 3.99 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6462 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 126 unused Assets / (2.9 MB). Loaded Objects now: 6986.
+Memory consumption went from 254.6 MB to 251.7 MB.
+Total: 11.233700 ms (FindLiveObjects: 1.262300 ms CreateObjectMapping: 0.397700 ms MarkObjects: 7.920600 ms  DeleteObjects: 1.651300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 167609.208605 seconds.
+  path: Assets/Art/MapleStoryTest/shoot1_2.png
+  artifactKey: Guid(7b31e63dad455ea4981572f396af83ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/shoot1_2.png using Guid(7b31e63dad455ea4981572f396af83ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d41b125e389d1ee5d4530e81a1bc43e') in 0.079837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Art/MapleStoryTest/shootF_2.png
+  artifactKey: Guid(e8ae7d747e4748f46be002cc36d3fd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/shootF_2.png using Guid(e8ae7d747e4748f46be002cc36d3fd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb7714b931d622802896bfe72539551') in 0.015756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Art/MapleStoryTest/stand2_0.png
+  artifactKey: Guid(0ac634b9554f0024584794f1f914c069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/stand2_0.png using Guid(0ac634b9554f0024584794f1f914c069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e10e9a7cbb3a510dce27e034b7a89dec') in 0.010560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Art/MapleStoryTest/shootF_0.png
+  artifactKey: Guid(8cd76239e279ce54abd3e2e06bde26aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/shootF_0.png using Guid(8cd76239e279ce54abd3e2e06bde26aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd43971383c87318ae802751e2a3e66') in 0.011929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Art/MapleStoryTest/stabT2_3.png
+  artifactKey: Guid(bead361b311db544e9ebcf505cc261d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/stabT2_3.png using Guid(bead361b311db544e9ebcf505cc261d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2040517ae102ae6d7798f26ab53c340') in 0.008310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Art/MapleStoryTest/stand2_2.png
+  artifactKey: Guid(a9d7672c818fe7c4aa432db325e84c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/stand2_2.png using Guid(a9d7672c818fe7c4aa432db325e84c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b859d171d3da53a574764bb15bf62d3') in 0.008982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/MapleStoryTest/alert_1.png
+  artifactKey: Guid(23e339c9b498f00409ba3b1161a35e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/alert_1.png using Guid(23e339c9b498f00409ba3b1161a35e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '762d89f6dede88c38b4eb189f3b292f4') in 0.015866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Art/MapleStoryTest/fly_0.png
+  artifactKey: Guid(c77cd26f9b9d401449c473053383ded4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/fly_0.png using Guid(c77cd26f9b9d401449c473053383ded4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97bcdf2204fddf06659a0bf4ccdbffa8') in 0.009919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Art/MapleStoryTest/proneStab_0.png
+  artifactKey: Guid(35d983b5eda1e4946bfe16e587d76980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/proneStab_0.png using Guid(35d983b5eda1e4946bfe16e587d76980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc8e261a7a58dad6e0c260de58cba4ea') in 0.009807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Art/MapleStoryTest/stabO1_2.png
+  artifactKey: Guid(4750e2dd216ae6548af33f6aafacab26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/stabO1_2.png using Guid(4750e2dd216ae6548af33f6aafacab26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '095d3a0527c4494e943bdd2055d70599') in 0.019929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 76.790344 seconds.
+  path: Assets/Art/MapleStoryTest/Origin
+  artifactKey: Guid(e6d61f1f979738a46bd00a0adeeead59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/Origin using Guid(e6d61f1f979738a46bd00a0adeeead59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5884cd21ad69f884ca4efa8532fd702e') in 0.000407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 195.839816 seconds.
+  path: Assets/Art/New/Weapons/Swords/Cutlas Sword Sprite.psd
+  artifactKey: Guid(c8d00b11f7d9cf34b88a8b774eb29061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/New/Weapons/Swords/Cutlas Sword Sprite.psd using Guid(c8d00b11f7d9cf34b88a8b774eb29061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fa98904066c9c2d2bff13e7cb6b4164') in 0.044741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Art/New/Weapons/Swords/Katana Sword Sprite.psd
+  artifactKey: Guid(a07b4a4d2be1cde49bec391256eb5174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/New/Weapons/Swords/Katana Sword Sprite.psd using Guid(a07b4a4d2be1cde49bec391256eb5174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd88cb7b284e9c84678a6b92e7d01a306') in 0.017391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1230.274570 seconds.
+  path: Assets/Art/MapleStoryTest/Idle.psd
+  artifactKey: Guid(2684e013f687bb549b9b7550fcc6fd9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/Idle.psd using Guid(2684e013f687bb549b9b7550fcc6fd9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f791ea7b40968013b5999f6b69f2c02a') in 0.020856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.861731 seconds.
+  path: Assets/Art/MapleStoryTest/Idle
+  artifactKey: Guid(403d8f3a67e9f154583d2e2c533948a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/Idle using Guid(403d8f3a67e9f154583d2e2c533948a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aa936517b394a27146bdc290b3eea9b') in 0.000411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.035340 seconds.
+  path: Assets/Art/MapleStoryTest/Idle/Idle-01.psd
+  artifactKey: Guid(571c459b5d07f73408e5636b2ee0bd42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/Idle/Idle-01.psd using Guid(571c459b5d07f73408e5636b2ee0bd42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '549431923a7d0552d34cddafe49dac91') in 0.011159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/MapleStoryTest/Idle/Idle-03.psd
+  artifactKey: Guid(5809a8c61eb880f4c979af33bf31b5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/Idle/Idle-03.psd using Guid(5809a8c61eb880f4c979af33bf31b5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e51a47b1c088276ab385860ace921bc2') in 0.011640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.316401 seconds.
+  path: Assets/Art/MapleStoryTest/Idle/Idle-04.psd
+  artifactKey: Guid(d0367aff8ab67ae4faa150380882da7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/Idle/Idle-04.psd using Guid(d0367aff8ab67ae4faa150380882da7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24f0539f96bf08d2b2147acc01200378') in 0.021857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/MapleStoryTest/Idle/Idle-02.psd
+  artifactKey: Guid(5a8afb0b8f250c74495566c0d5ca30af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/Idle/Idle-02.psd using Guid(5a8afb0b8f250c74495566c0d5ca30af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be27a7a9d5caa92fd36fdbff379064e9') in 0.030575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Art/MapleStoryTest/Idle/Idle-03.psd
+  artifactKey: Guid(5809a8c61eb880f4c979af33bf31b5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/Idle/Idle-03.psd using Guid(5809a8c61eb880f4c979af33bf31b5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f22575e49ccc5feec6385a683e8fee47') in 0.038491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 11.024718 seconds.
+  path: Assets/Art/MapleStoryTest/Idle/Idle-04.psd
+  artifactKey: Guid(d0367aff8ab67ae4faa150380882da7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/Idle/Idle-04.psd using Guid(d0367aff8ab67ae4faa150380882da7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2853ef367fcced63c24e8b5546e4dde') in 0.018544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Art/MapleStoryTest/Idle/Idle-02.psd
+  artifactKey: Guid(5a8afb0b8f250c74495566c0d5ca30af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/Idle/Idle-02.psd using Guid(5a8afb0b8f250c74495566c0d5ca30af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e8b5bec233045c40c0b26e6632c4bfc') in 0.061967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 11.471749 seconds.
+  path: Assets/Art/MapleStoryTest/Idle/Idle-04.psd
+  artifactKey: Guid(d0367aff8ab67ae4faa150380882da7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/Idle/Idle-04.psd using Guid(d0367aff8ab67ae4faa150380882da7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c01762a7239e4940e20cb091094f24b') in 0.054128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/MapleStoryTest/Idle/Idle-03.psd
+  artifactKey: Guid(5809a8c61eb880f4c979af33bf31b5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/Idle/Idle-03.psd using Guid(5809a8c61eb880f4c979af33bf31b5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc8a6697639de569674479167b05a9c') in 0.017171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 9.634760 seconds.
+  path: Assets/Art/MapleStoryTest/Running
+  artifactKey: Guid(314fb9dbecba4064da1a40c53f8b3244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/Running using Guid(314fb9dbecba4064da1a40c53f8b3244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf110b1682df240b58ea573add31a30a') in 0.000464 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.050780 seconds.
+  path: Assets/Art/MapleStoryTest/Running/Running-01.psd
+  artifactKey: Guid(66be6ecfaa6b5884e90580f9ec5f544b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/Running/Running-01.psd using Guid(66be6ecfaa6b5884e90580f9ec5f544b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ead5609f97877641693392c837f541e1') in 0.012195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/MapleStoryTest/Running/Running-04.psd
+  artifactKey: Guid(bccea5dc91f27f24384eda596005df2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/Running/Running-04.psd using Guid(bccea5dc91f27f24384eda596005df2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1d32f422c57becca9b6328144bcf7f5') in 0.012389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.022735 seconds.
+  path: Assets/Art/MapleStoryTest/Running/Running-01.psd
+  artifactKey: Guid(66be6ecfaa6b5884e90580f9ec5f544b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/Running/Running-01.psd using Guid(66be6ecfaa6b5884e90580f9ec5f544b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0074e5ff9814a5be2e2bf255d703461') in 0.086727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 19.689436 seconds.
+  path: Assets/Art/New/Faces/Outline/Upside-down face 256.png
+  artifactKey: Guid(611c57787858b924abf3de9ef78c916a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/New/Faces/Outline/Upside-down face 256.png using Guid(611c57787858b924abf3de9ef78c916a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f56509b41f6e438a1f34e1fdb27f5fc8') in 0.026005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Art/New/Classes/Walk.png
+  artifactKey: Guid(51bfea1788d84204c9c8ac61c93e8e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/New/Classes/Walk.png using Guid(51bfea1788d84204c9c8ac61c93e8e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd306ecb0519fc5ac3b0088daa78db05') in 0.086709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 129.151200 seconds.
+  path: Assets/Art/MapleStoryTest/Running/Right/Running-Left-02.psd
+  artifactKey: Guid(ff487e0758174ca4d8ed0cd911e1002e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/Running/Right/Running-Left-02.psd using Guid(ff487e0758174ca4d8ed0cd911e1002e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a8898194079599625d3d4a6ef218608') in 0.020924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Art/MapleStoryTest/Running/Right/Running-Left-03.psd
+  artifactKey: Guid(c1d8c90943e8cf1498057f17fbdaba9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/Running/Right/Running-Left-03.psd using Guid(c1d8c90943e8cf1498057f17fbdaba9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb46fd44493a27d40a50738bec238282') in 0.014323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Art/MapleStoryTest/Running/Right/Running-Left-05.psd
+  artifactKey: Guid(13245dc9b0324e04c80555d5e54af7f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/Running/Right/Running-Left-05.psd using Guid(13245dc9b0324e04c80555d5e54af7f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51739f258ee9c72e0a51d0ad6b511220') in 0.012866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 46.095820 seconds.
+  path: Assets/Art/MapleStoryTest/Running/Right/Running-Left-02.psd
+  artifactKey: Guid(ff487e0758174ca4d8ed0cd911e1002e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/Running/Right/Running-Left-02.psd using Guid(ff487e0758174ca4d8ed0cd911e1002e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '241b59889b9dd8290333f07e5a4fdc15') in 0.014057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/MapleStoryTest/Running/Right/Running-Left-05.psd
+  artifactKey: Guid(13245dc9b0324e04c80555d5e54af7f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MapleStoryTest/Running/Right/Running-Left-05.psd using Guid(13245dc9b0324e04c80555d5e54af7f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe92bdb3ddf593e7e7f5c26065eea85') in 0.013674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 10.070490 seconds.
+  path: Assets/Art/PushMeTest/Running/Run3.psd
+  artifactKey: Guid(482775fee9912ac44b9d0026a4eef3d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PushMeTest/Running/Run3.psd using Guid(482775fee9912ac44b9d0026a4eef3d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b8698d7b7ea37fdf9905eb3f8deed6d') in 0.030667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Art/PushMeTest/Running/Run9.psd
+  artifactKey: Guid(d0f186660027cf14f8b5710a583c4e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PushMeTest/Running/Run9.psd using Guid(d0f186660027cf14f8b5710a583c4e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c01493a4be64250b6d6aca4aea58b2d7') in 0.015640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Art/PushMeTest/Running/Run6.psd
+  artifactKey: Guid(50957acfd3a90db42bdb0b86cd6578c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PushMeTest/Running/Run6.psd using Guid(50957acfd3a90db42bdb0b86cd6578c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43afaf35e8052b8f9e2a265f7ee8675a') in 0.022055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image G:\Unity\UnityProjects\Git\Roguelike\Card Rouge-Like\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image G:\Unity\UnityProjects\Git\Roguelike\Card Rouge-Like\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.696 seconds
+Refreshing native plugins compatible for Editor in 2.32 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.123 seconds
+Domain Reload Profiling: 1818ms
+	BeginReloadAssembly (193ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (443ms)
+		LoadAssemblies (289ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (245ms)
+			TypeCache.Refresh (236ms)
+				TypeCache.ScanAssembly (221ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1123ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (548ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (96ms)
+			ProcessInitializeOnLoadAttributes (408ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 4.08 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6328 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (2.9 MB). Loaded Objects now: 7032.
+Memory consumption went from 224.2 MB to 221.3 MB.
+Total: 8.759100 ms (FindLiveObjects: 0.721300 ms CreateObjectMapping: 0.510400 ms MarkObjects: 6.028600 ms  DeleteObjects: 1.497900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
