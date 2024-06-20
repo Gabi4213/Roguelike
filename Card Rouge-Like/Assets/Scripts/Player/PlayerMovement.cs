@@ -17,12 +17,26 @@ public class PlayerMovement : MonoBehaviour
     private const string lastHorizontal = "LastHorizontal";
     private const string lastVertical = "LastVertical";
 
+    public Transform playerFeet;
+
+    [Header("FX")]
+    public GameObject dustFX;
+    public ParticleSystem hitFX;
+    public float particleSpawnInterval;
+
     [Header("PlayerStates")]
     public bool canMove = true;
+
+    private Vector2 previousMovement;
+
+    private bool isRunning;
+    private Coroutine dustCoroutine;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        previousMovement = Vector2.zero;
+        isRunning = false;
     }
 
     private void Update()
@@ -35,16 +49,43 @@ public class PlayerMovement : MonoBehaviour
 
         movement.Set(InputManager.movement.x, InputManager.movement.y);
 
+        // Check if the player is moving
+        if (movement != Vector2.zero)
+        {
+            if (!isRunning)
+            {
+                isRunning = true;
+                dustCoroutine = StartCoroutine(SpawnDustFXRoutine());
+            }
+        }
+        else
+        {
+            if (isRunning)
+            {
+                isRunning = false;
+                if (dustCoroutine != null)
+                {
+                    StopCoroutine(dustCoroutine);
+                }
+            }
+        }
+
+        //set velocity
         rb.velocity = movement * PlayerStatistics.instance.moveSpeed;
 
+        //animations
         animator.SetFloat(horizontal, movement.x);
         animator.SetFloat(vertical, movement.y);
 
-        //if we are moving set the last move direciton. otherwise when we are not keep the last one set
-        if(movement != Vector2.zero)
+        //if we are moving set the last move direction. otherwise when we are not keep the last one set
+        if (movement != Vector2.zero)
         {
-            animator.SetFloat (lastHorizontal, movement.x);
+            animator.SetFloat(lastHorizontal, movement.x);
+            animator.SetFloat(lastVertical, movement.y);
         }
+
+        // Update the previousMovement to the current movement
+        previousMovement = movement;
     }
 
     private void StopPlayer()
@@ -54,6 +95,23 @@ public class PlayerMovement : MonoBehaviour
         //animator.SetFloat(vertical, 0);
     }
 
+    private IEnumerator SpawnDustFXRoutine()
+    {
+        while (isRunning)
+        {
+            InstantiateDustFX();
+            yield return new WaitForSeconds(particleSpawnInterval); // Interval between dustFX instantiation
+        }
+    }
+
+    private void InstantiateDustFX()
+    {
+        if (dustFX != null)
+        {
+            Instantiate(dustFX, playerFeet.position, Quaternion.identity);
+        }
+    }
+
     public void Hit()
     {
         StartCoroutine(PlayerHit());
@@ -61,11 +119,12 @@ public class PlayerMovement : MonoBehaviour
 
     IEnumerator PlayerHit()
     {
+        CameraFollow.instance.ShakeCamera();
+        hitFX.Play();
         animator.SetFloat(lastHorizontal, movement.x);
         animator.SetTrigger("Hit");
         canMove = false;
         yield return new WaitForSeconds(PlayerStatistics.instance.hitDuration);
         canMove = true;
     }
-
 }

@@ -19,6 +19,8 @@ public class Enemy : MonoBehaviour
     private Rigidbody2D rb;
     private Transform target;
 
+    public ParticleSystem hitFX;
+
 
     public int damageAmount;
     public float damageDelay; 
@@ -157,6 +159,8 @@ public class Enemy : MonoBehaviour
         anim.SetTrigger("Hit");
         Debug.Log("Hit");
         anim.SetBool("Moving", false);
+
+        hitFX.Play();
 
         Vector3 directionToPlayer = (target.position - transform.position).normalized;
         Vector3 knockback = directionToPlayer * knockbackForce; // Multiply by knockback force directly

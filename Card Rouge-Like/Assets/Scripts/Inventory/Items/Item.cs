@@ -17,6 +17,7 @@ public class Item : ScriptableObject
     public Sprite image;
     public bool stackable = true;
     public int maxStackAmount = 0;
+    public Color itemColor;
 
     [Header("Item Info")]
     public string itemName;

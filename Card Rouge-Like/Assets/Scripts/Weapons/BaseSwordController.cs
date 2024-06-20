@@ -9,6 +9,10 @@ public class BaseSwordController : MonoBehaviour
     public float pulseSpeed = 1.0f; // Adjust the pulsating speed
     public float pulseAmount = 0.2f; // Adjust the pulsating amount
 
+    [Header("FX Info")]
+    private SpriteRenderer fxColor;
+    public Animator weaponAttackFxAnimation;
+
     [Header("Gameplay Info")]
     public Transform spawnPoint; // Make sure to assign this in the Inspector
     public GameObject projectile; // Make sure to assign this in the Inspector
@@ -16,11 +20,20 @@ public class BaseSwordController : MonoBehaviour
     private Vector3 initialScale;
     private bool canAttack = true; // Flag to check if the player can attack
 
+    private Animator playerAnimator; 
     public Item item;
 
     private void Start()
     {
         initialScale = transform.localScale;
+
+        playerAnimator = GameObject.FindGameObjectWithTag("Player").GetComponentInChildren<Animator>();
+
+        if (weaponAttackFxAnimation)
+        {
+            fxColor = weaponAttackFxAnimation.gameObject.GetComponent<SpriteRenderer>();
+            fxColor.color = item.itemColor;
+        }
     }
 
     private void Update()
@@ -46,6 +59,14 @@ public class BaseSwordController : MonoBehaviour
     {
         float elapsedTime = 0f;
 
+        //camera shake
+        CameraFollow.instance.ShakeCamera();
+
+        if (weaponAttackFxAnimation)
+        {
+            weaponAttackFxAnimation.SetTrigger("Play");
+        }
+
         while (elapsedTime < pulseSpeed)
         {
             float pulsation = Mathf.Sin((elapsedTime / pulseSpeed) * Mathf.PI) * pulseAmount;
@@ -60,6 +81,7 @@ public class BaseSwordController : MonoBehaviour
 
     private IEnumerator AttackCooldown()
     {
+        playerAnimator.SetTrigger("Attack");
         canAttack = false;
         yield return new WaitForSeconds(PlayerStatistics.instance.attackSpeed);
         canAttack = true;

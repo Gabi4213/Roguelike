@@ -4,31 +4,40 @@ using UnityEngine;
 
 public class PickupableItem : MonoBehaviour
 {
-    public Item item;
-    private SpriteRenderer spriteRenderer;
+    public Item item; // The item to add to the inventory
+    private SpriteRenderer spriteRenderer; // Reference to the SpriteRenderer component
+
+    public GameObject pickUpFX;
 
     private void Start()
     {
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
-        
-        if(!spriteRenderer.sprite)
+
+        if (!spriteRenderer.sprite)
         {
             spriteRenderer.sprite = item.image;
         }
+
+        transform.Rotate(0.0f, 0.0f, Random.Range(0.0f, 360.0f));
     }
+
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        // only if the thign colliding is a player
-        if (other.tag == "Player") 
+        // Only if the thing colliding is a player
+        if (other.tag == "Player")
         {
             bool result = InventoryManager.instance.AddItem(item);
 
             if (result)
             {
+                if (pickUpFX)
+                {
+                    Instantiate(pickUpFX, transform.position, Quaternion.identity);
+                }
+
                 Destroy(gameObject);
             }
         }
     }
-
 }

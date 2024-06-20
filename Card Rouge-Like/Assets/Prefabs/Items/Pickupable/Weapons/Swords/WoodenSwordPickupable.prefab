@@ -92,7 +92,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad8d449812495da4b94df188dfc34412, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  detectionRadius: 3
+  moveSpeed: 2
   item: {fileID: 11400000, guid: c7e4003a231752849adb6585536ec5db, type: 2}
+  pickUpFX: {fileID: 8867112169225384458, guid: c7192044afa1e474698d2bc7a0ee4011,
+    type: 3}
 --- !u!1 &8166716166729507422
 GameObject:
   m_ObjectHideFlags: 0
