@@ -15,7 +15,7 @@ G:/Unity/UnityProjects/Git/Roguelike/Card Rouge-Like
 -logFile
 Logs/AssetImportWorker6.log
 -srvPort
-61788
+63661
 Successfully changed project path to: G:/Unity/UnityProjects/Git/Roguelike/Card Rouge-Like
 G:/Unity/UnityProjects/Git/Roguelike/Card Rouge-Like
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ G:/Unity/UnityProjects/Git/Roguelike/Card Rouge-Like
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [34568] Host "[IP] 192.168.0.137 [Port] 0 [Flags] 2 [Guid] 3740767738 [EditorId] 3740767738 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-26UP572) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [38776] Host "[IP] 192.168.0.137 [Port] 0 [Flags] 2 [Guid] 2106137426 [EditorId] 2106137426 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-26UP572) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [34568] Host "[IP] 192.168.0.137 [Port] 0 [Flags] 2 [Guid] 3740767738 [EditorId] 3740767738 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-26UP572) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [38776] Host "[IP] 192.168.0.137 [Port] 0 [Flags] 2 [Guid] 2106137426 [EditorId] 2106137426 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-26UP572) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 23 workers.
-Library Redirect Path: Library/Refreshing native plugins compatible for Editor in 7.63 ms, found 4 plugins.
+Library Redirect Path: Library/Refreshing native plugins compatible for Editor in 8.16 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.1.20f1 (35a524b12060)
 [Subsystems] Discovering subsystems at path G:/Unity/UnityVersions/2023.1.20f1/Editor/Data/Resources/UnitySubsystems
@@ -72,7 +72,7 @@ Initialize mono
 Mono path[0] = 'G:/Unity/UnityVersions/2023.1.20f1/Editor/Data/Managed'
 Mono path[1] = 'G:/Unity/UnityVersions/2023.1.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'G:/Unity/UnityVersions/2023.1.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56492
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56020
 Begin MonoManager ReloadAssembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
@@ -86,41 +86,41 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Registering precompiled unity dll's ...
 Register platform support module: G:/Unity/UnityVersions/2023.1.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001778 seconds.
-- Loaded All Assemblies, in  0.270 seconds
+Registered in 0.001816 seconds.
+- Loaded All Assemblies, in  0.319 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-- Finished resetting the current domain, in  0.211 seconds
-Domain Reload Profiling: 481ms
-	BeginReloadAssembly (96ms)
+- Finished resetting the current domain, in  0.235 seconds
+Domain Reload Profiling: 554ms
+	BeginReloadAssembly (105ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (106ms)
-		LoadAssemblies (95ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (135ms)
+		LoadAssemblies (104ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (104ms)
-			TypeCache.Refresh (103ms)
-				TypeCache.ScanAssembly (94ms)
+		AnalyzeDomain (131ms)
+			TypeCache.Refresh (130ms)
+				TypeCache.ScanAssembly (120ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (211ms)
+	FinalizeReload (235ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (178ms)
+		SetupLoadedEditorAssemblies (196ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
+			InitializePlatformSupportModulesInManaged (7ms)
 			SetLoadedEditorAssemblies (4ms)
 			BeforeProcessingInitializeOnLoad (6ms)
-			ProcessInitializeOnLoadAttributes (124ms)
-			ProcessInitializeOnLoadMethodAttributes (39ms)
+			ProcessInitializeOnLoadAttributes (136ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -143,545 +143,141 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image G:\Unity\UnityProjects\Git\Roguelike\Card Rouge-Like\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image G:\Unity\UnityProjects\Git\Roguelike\Card Rouge-Like\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.739 seconds
-Refreshing native plugins compatible for Editor in 2.57 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.842 seconds
+Refreshing native plugins compatible for Editor in 2.69 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.643 seconds
-Domain Reload Profiling: 1382ms
-	BeginReloadAssembly (232ms)
+- Finished resetting the current domain, in  0.776 seconds
+Domain Reload Profiling: 1618ms
+	BeginReloadAssembly (256ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (18ms)
-	LoadAllAssembliesAndSetupDomain (455ms)
-		LoadAssemblies (255ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (526ms)
+		LoadAssemblies (305ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (272ms)
-			TypeCache.Refresh (240ms)
-				TypeCache.ScanAssembly (229ms)
-			ScanForSourceGeneratedMonoScriptInfo (22ms)
+		AnalyzeDomain (306ms)
+			TypeCache.Refresh (271ms)
+				TypeCache.ScanAssembly (258ms)
+			ScanForSourceGeneratedMonoScriptInfo (25ms)
 			ResolveRequiredComponents (9ms)
-	FinalizeReload (643ms)
+	FinalizeReload (777ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (484ms)
+		SetupLoadedEditorAssemblies (599ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (78ms)
-			ProcessInitializeOnLoadAttributes (367ms)
-			ProcessInitializeOnLoadMethodAttributes (28ms)
-			AfterProcessingInitializeOnLoad (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (104ms)
+			ProcessInitializeOnLoadAttributes (442ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+database is locked
+database is locked
 Shader 'CartoonCoffee/Particle Additive': fallback shader '2' not found
 Shader 'CartoonCoffee/Particle Basic': fallback shader '2' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 2.68 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 5.13 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 6481 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 128 unused Assets / (3.0 MB). Loaded Objects now: 7004.
-Memory consumption went from 256.8 MB to 253.8 MB.
-Total: 5.959000 ms (FindLiveObjects: 0.418600 ms CreateObjectMapping: 0.342600 ms MarkObjects: 4.337700 ms  DeleteObjects: 0.859200 ms)
+Memory consumption went from 256.9 MB to 253.9 MB.
+Total: 12.949100 ms (FindLiveObjects: 1.246000 ms CreateObjectMapping: 0.641700 ms MarkObjects: 8.753600 ms  DeleteObjects: 2.306700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:scripting/monoscript/fileName/Loop.cs: 2370b78dd0fc43b5a23787c39e01a811 -> ae17ed71ecd620e5d8e62956cea59f5f
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/Head.cs: effa42c5e6fbe8576489e42a247346f1 -> c56fb235067b8e0497f6da9d15371435
-  custom:scripting/monoscript/fileName/DeactivateChildren.cs: c46ab45fed332edf0852eb252739f5f1 -> 2ec65962b1db2fa346a082daae05acf1
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:scripting/monoscript/fileName/ParticleShaderGUI.cs: 29633d857ba2363500f3a9d991716822 -> a1e2a310364507765340d2c41374cb2a
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/SideMenu.cs: a799210d298ede5ecbc9c7c075599d93 -> 9761150cc6eb77e0ed9d86242d1e504d
-  custom:scripting/monoscript/fileName/NewStatus.cs: 75d912a8793b342effbc35a68c6aa434 -> b1aed07bd9e38ef24dd5a3595061c89f
-  custom:scripting/monoscript/fileName/DestroyParticleAtEnd.cs: f46d1a4f4bfbf50b99f103be4eb1070f -> 18e3fff07dc49242bb94039533742467
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/SceneManager.cs: c1f14fe61ae75adaa7e3669d2d9aeaa0 -> 658bd4a7887934f23b2f8ece63ab5689
-  custom:scripting/monoscript/fileName/Target.cs: 5f3cec3875b5e41b4f252a12635f1bbc -> 61d7adde6752fc67910fe89f4f786d53
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/ObjectMover.cs: 7bfc33524a4312979e0bb44b5770aa7d -> 771ad40c0bcdb5512b3ab21dee44eb79
-  custom:scripting/monoscript/fileName/Body.cs: cd530b41b8162c4e0b9bfa7cedaa661d -> 1e782e221026fee41a4a12ebd6bfb8b9
-  custom:scripting/monoscript/fileName/Player.cs: 5f440bf44c2dfb40ce03ddb92ca4ccf4 -> 0793851aedb7599a8396b57d24ab3cd2
-  custom:scripting/monoscript/fileName/Floor.cs: 99adfee10d33afe3cb9442a0fa3c2ef4 -> dec408bc3291a4251e6d67eb0caee03a
-  custom:scripting/monoscript/fileName/Projectile.cs: 2a1017c92bdfe8329c0d17e2eea8c4a8 -> c9ef408685a1f7b4e1742dddb467d09c
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image G:\Unity\UnityProjects\Git\Roguelike\Card Rouge-Like\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\Unity\UnityProjects\Git\Roguelike\Card Rouge-Like\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.650 seconds
-Refreshing native plugins compatible for Editor in 2.53 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.967 seconds
-Domain Reload Profiling: 1616ms
-	BeginReloadAssembly (161ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (46ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (18ms)
-	LoadAllAssembliesAndSetupDomain (435ms)
-		LoadAssemblies (260ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (251ms)
-			TypeCache.Refresh (235ms)
-				TypeCache.ScanAssembly (225ms)
-			ScanForSourceGeneratedMonoScriptInfo (6ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (968ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (434ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (78ms)
-			ProcessInitializeOnLoadAttributes (322ms)
-			ProcessInitializeOnLoadMethodAttributes (24ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Shader 'CartoonCoffee/Particle Additive': fallback shader '2' not found
-Shader 'CartoonCoffee/Particle Basic': fallback shader '2' not found
-Refreshing native plugins compatible for Editor in 3.26 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6345 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 70 unused Assets / (3.0 MB). Loaded Objects now: 7019.
-Memory consumption went from 225.6 MB to 222.6 MB.
-Total: 6.460800 ms (FindLiveObjects: 0.551800 ms CreateObjectMapping: 0.379000 ms MarkObjects: 4.325800 ms  DeleteObjects: 1.203000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:scripting/monoscript/fileName/Loop.cs: 2370b78dd0fc43b5a23787c39e01a811 -> ae17ed71ecd620e5d8e62956cea59f5f
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/Head.cs: effa42c5e6fbe8576489e42a247346f1 -> c56fb235067b8e0497f6da9d15371435
-  custom:scripting/monoscript/fileName/DeactivateChildren.cs: c46ab45fed332edf0852eb252739f5f1 -> 2ec65962b1db2fa346a082daae05acf1
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:scripting/monoscript/fileName/ParticleShaderGUI.cs: 29633d857ba2363500f3a9d991716822 -> a1e2a310364507765340d2c41374cb2a
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/SideMenu.cs: a799210d298ede5ecbc9c7c075599d93 -> 9761150cc6eb77e0ed9d86242d1e504d
-  custom:scripting/monoscript/fileName/NewStatus.cs: 75d912a8793b342effbc35a68c6aa434 -> b1aed07bd9e38ef24dd5a3595061c89f
-  custom:scripting/monoscript/fileName/DestroyParticleAtEnd.cs: f46d1a4f4bfbf50b99f103be4eb1070f -> 18e3fff07dc49242bb94039533742467
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/SceneManager.cs: c1f14fe61ae75adaa7e3669d2d9aeaa0 -> 658bd4a7887934f23b2f8ece63ab5689
-  custom:scripting/monoscript/fileName/Target.cs: 5f3cec3875b5e41b4f252a12635f1bbc -> 61d7adde6752fc67910fe89f4f786d53
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/ObjectMover.cs: 7bfc33524a4312979e0bb44b5770aa7d -> 771ad40c0bcdb5512b3ab21dee44eb79
-  custom:scripting/monoscript/fileName/Body.cs: cd530b41b8162c4e0b9bfa7cedaa661d -> 1e782e221026fee41a4a12ebd6bfb8b9
-  custom:scripting/monoscript/fileName/Player.cs: 5f440bf44c2dfb40ce03ddb92ca4ccf4 -> 0793851aedb7599a8396b57d24ab3cd2
-  custom:scripting/monoscript/fileName/Floor.cs: 99adfee10d33afe3cb9442a0fa3c2ef4 -> dec408bc3291a4251e6d67eb0caee03a
-  custom:scripting/monoscript/fileName/Projectile.cs: 2a1017c92bdfe8329c0d17e2eea8c4a8 -> c9ef408685a1f7b4e1742dddb467d09c
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image G:\Unity\UnityProjects\Git\Roguelike\Card Rouge-Like\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\Unity\UnityProjects\Git\Roguelike\Card Rouge-Like\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.681 seconds
-Refreshing native plugins compatible for Editor in 3.03 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.003 seconds
-Domain Reload Profiling: 1684ms
-	BeginReloadAssembly (160ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (46ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (18ms)
-	LoadAllAssembliesAndSetupDomain (467ms)
-		LoadAssemblies (244ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (295ms)
-			TypeCache.Refresh (266ms)
-				TypeCache.ScanAssembly (247ms)
-			ScanForSourceGeneratedMonoScriptInfo (11ms)
-			ResolveRequiredComponents (16ms)
-	FinalizeReload (1004ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (447ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (83ms)
-			ProcessInitializeOnLoadAttributes (329ms)
-			ProcessInitializeOnLoadMethodAttributes (25ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Shader 'CartoonCoffee/Particle Additive': fallback shader '2' not found
-Shader 'CartoonCoffee/Particle Basic': fallback shader '2' not found
-Refreshing native plugins compatible for Editor in 2.58 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6345 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 70 unused Assets / (3.0 MB). Loaded Objects now: 7033.
-Memory consumption went from 227.5 MB to 224.5 MB.
-Total: 6.725600 ms (FindLiveObjects: 0.549000 ms CreateObjectMapping: 0.463100 ms MarkObjects: 4.716100 ms  DeleteObjects: 0.996400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:scripting/monoscript/fileName/Loop.cs: 2370b78dd0fc43b5a23787c39e01a811 -> ae17ed71ecd620e5d8e62956cea59f5f
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/Head.cs: effa42c5e6fbe8576489e42a247346f1 -> c56fb235067b8e0497f6da9d15371435
-  custom:scripting/monoscript/fileName/DeactivateChildren.cs: c46ab45fed332edf0852eb252739f5f1 -> 2ec65962b1db2fa346a082daae05acf1
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:scripting/monoscript/fileName/ParticleShaderGUI.cs: 29633d857ba2363500f3a9d991716822 -> a1e2a310364507765340d2c41374cb2a
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/SideMenu.cs: a799210d298ede5ecbc9c7c075599d93 -> 9761150cc6eb77e0ed9d86242d1e504d
-  custom:scripting/monoscript/fileName/NewStatus.cs: 75d912a8793b342effbc35a68c6aa434 -> b1aed07bd9e38ef24dd5a3595061c89f
-  custom:scripting/monoscript/fileName/DestroyParticleAtEnd.cs: f46d1a4f4bfbf50b99f103be4eb1070f -> 18e3fff07dc49242bb94039533742467
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/SceneManager.cs: c1f14fe61ae75adaa7e3669d2d9aeaa0 -> 658bd4a7887934f23b2f8ece63ab5689
-  custom:scripting/monoscript/fileName/Target.cs: 5f3cec3875b5e41b4f252a12635f1bbc -> 61d7adde6752fc67910fe89f4f786d53
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/ObjectMover.cs: 7bfc33524a4312979e0bb44b5770aa7d -> 771ad40c0bcdb5512b3ab21dee44eb79
-  custom:scripting/monoscript/fileName/Body.cs: cd530b41b8162c4e0b9bfa7cedaa661d -> 1e782e221026fee41a4a12ebd6bfb8b9
-  custom:scripting/monoscript/fileName/Player.cs: 5f440bf44c2dfb40ce03ddb92ca4ccf4 -> 0793851aedb7599a8396b57d24ab3cd2
-  custom:scripting/monoscript/fileName/Floor.cs: 99adfee10d33afe3cb9442a0fa3c2ef4 -> dec408bc3291a4251e6d67eb0caee03a
-  custom:scripting/monoscript/fileName/Projectile.cs: 2a1017c92bdfe8329c0d17e2eea8c4a8 -> c9ef408685a1f7b4e1742dddb467d09c
   custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
   custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 529174.086748 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Bubbles_Burst_Center_V2.prefab
-  artifactKey: Guid(3b4810b1846d8e24298f59a6f8fdae7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Bubbles_Burst_Center_V2.prefab using Guid(3b4810b1846d8e24298f59a6f8fdae7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c640c07af36bf7a586351a24009bfaf1') in 0.109785 seconds
+  Time since last request: 579040.792981 seconds.
+  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Materials/CartoonCoffee_Star_004-Basic-Brightness_1.25-[1.0].mat
+  artifactKey: Guid(75dca86ce6d7cf744ace6c16dc34b457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Materials/CartoonCoffee_Star_004-Basic-Brightness_1.25-[1.0].mat using Guid(75dca86ce6d7cf744ace6c16dc34b457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1add9e36f38a8a714e030791631f7a5f') in 0.072597 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Confetti_V3.prefab
-  artifactKey: Guid(6a5955efb44571a41af367e9ef244b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Confetti_V3.prefab using Guid(6a5955efb44571a41af367e9ef244b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3569c4f5e60bd40aeadb0bae83230d7d') in 0.054162 seconds
+  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Materials/CartoonCoffee_Star_008-Basic-Fade-[2.0].mat
+  artifactKey: Guid(a19ca2ad41f8bc74a8f2791a90ab129d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Materials/CartoonCoffee_Star_008-Basic-Fade-[2.0].mat using Guid(a19ca2ad41f8bc74a8f2791a90ab129d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93b39dc2ddfe3081ce8446994b959f4a') in 0.044324 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
+Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Coins_Cone_V1.prefab
-  artifactKey: Guid(78eaa428f920e20409b7c6dfc53126ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Coins_Cone_V1.prefab using Guid(78eaa428f920e20409b7c6dfc53126ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '504ef51b4655f53d1d22f0ff49c684ee') in 0.021440 seconds
+  Time since last request: 0.274462 seconds.
+  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Materials/CartoonCoffee_Wind_Ball_001-Basic-[1.0].mat
+  artifactKey: Guid(7b087b7e2ff266b4b87669ef48a403be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Materials/CartoonCoffee_Wind_Ball_001-Basic-[1.0].mat using Guid(7b087b7e2ff266b4b87669ef48a403be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa44aed61a72990cb73d370d9b4c0a68') in 0.014371 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
+Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Coins_GravityUp_Cone_V3.prefab
-  artifactKey: Guid(a73586c6be36b8944b3ee936222de117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Coins_GravityUp_Cone_V3.prefab using Guid(a73586c6be36b8944b3ee936222de117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a1de350488215a27f9c34fbc59c5f79') in 0.015704 seconds
+  Time since last request: 0.004234 seconds.
+  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Materials/CartoonCoffee_Wind_Puff_002-Alpha-1.0-Distort-Basic-[2.0].mat
+  artifactKey: Guid(6aec2db55ba351746a43e0f224dfe56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Materials/CartoonCoffee_Wind_Puff_002-Alpha-1.0-Distort-Basic-[2.0].mat using Guid(6aec2db55ba351746a43e0f224dfe56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c606a30347883529c4bf26310f0b6a1') in 0.010143 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
+Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Healing_V4.prefab
-  artifactKey: Guid(e036b23808428e24a8e8a7075e8815c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Healing_V4.prefab using Guid(e036b23808428e24a8e8a7075e8815c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a0ff54bf2f66761de82cd0c7a7d0ae8') in 0.059499 seconds
+  Time since last request: 0.316983 seconds.
+  path: Assets/ThirdParty/Cartoon Coffee/2D Slash VFX/Materials/CartoonCoffee_Wind_Shard_001-Basic-[1.0].mat
+  artifactKey: Guid(b5d91922c7c4eed4f8bcb4937d308e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Cartoon Coffee/2D Slash VFX/Materials/CartoonCoffee_Wind_Shard_001-Basic-[1.0].mat using Guid(b5d91922c7c4eed4f8bcb4937d308e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf999c72129ca9e43c60f785f5ad68e') in 0.023288 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Heart_Buff_V1.prefab
-  artifactKey: Guid(da5461a34a1a23b4a821611d247e13a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Heart_Buff_V1.prefab using Guid(da5461a34a1a23b4a821611d247e13a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efc207ed7ab8a62089bbbc380177b25f') in 0.014316 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Explosion_Bomb_V2.prefab
-  artifactKey: Guid(010ab1a39d0300549800e60f56d6a916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Explosion_Bomb_V2.prefab using Guid(010ab1a39d0300549800e60f56d6a916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20a10c40058283554d5c27876e1cc148') in 0.144599 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 89
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Bubbles_V1.prefab
-  artifactKey: Guid(3c3491a83d123114590de701f1b2e117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Bubbles_V1.prefab using Guid(3c3491a83d123114590de701f1b2e117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd25ffb9dfc010d0c368c0e3c5249bff2') in 0.010872 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Debris_GravityUp_Cone_V3.prefab
-  artifactKey: Guid(f23ca02cd5117ac4fa588f6bcc9e3473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Debris_GravityUp_Cone_V3.prefab using Guid(f23ca02cd5117ac4fa588f6bcc9e3473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fb30ad131681a0d63f2f37c9e5ac306') in 0.012119 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Glass_Shatter_V1.prefab
-  artifactKey: Guid(eebf26e560c5d834dbb5914d21ad79ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Glass_Shatter_V1.prefab using Guid(eebf26e560c5d834dbb5914d21ad79ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cdfe559fac761117d634f77c4e2d8a7') in 0.010875 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000015 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Healing_V6.prefab
-  artifactKey: Guid(379d6af104ab04f4da59ff63376e9c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Healing_V6.prefab using Guid(379d6af104ab04f4da59ff63376e9c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f45b843acb5dd7a2d2d1e42e76e1b247') in 0.015869 seconds
+  path: Assets/ThirdParty/Cartoon Coffee/2D Slash VFX/Materials/Custom_Punch_001-Basic-[1.0].mat
+  artifactKey: Guid(d8dfb700a45003c4d92398be736fd2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Cartoon Coffee/2D Slash VFX/Materials/Custom_Punch_001-Basic-[1.0].mat using Guid(d8dfb700a45003c4d92398be736fd2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb05414ad77c9d092d30b5f1e4c3a36d') in 0.016660 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 33
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Bubbles_Burst_V2.prefab
-  artifactKey: Guid(f9aaf0971bb3811458d2380f783dc3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Bubbles_Burst_V2.prefab using Guid(f9aaf0971bb3811458d2380f783dc3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61ee57b4841c70a5b6975ecc00fc68da') in 0.013124 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Coins_V3.prefab
-  artifactKey: Guid(9479a46810706334abe514d7f8d796c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Coins_V3.prefab using Guid(9479a46810706334abe514d7f8d796c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f33f80e3ff10a84c409952b205790d') in 0.014065 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Explosion_Bomb_V6.prefab
-  artifactKey: Guid(942ed26718fd95041ba6ab53d5d6639e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Explosion_Bomb_V6.prefab using Guid(942ed26718fd95041ba6ab53d5d6639e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e92a0f0982072fb2e28511bfa714fd51') in 0.027255 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 79
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Glass_Shatter_Gravity_V2.prefab
-  artifactKey: Guid(d1f65aad9093c3f4087fd8d11aaeafb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Glass_Shatter_Gravity_V2.prefab using Guid(d1f65aad9093c3f4087fd8d11aaeafb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eb4b6958f72e3917e8b0657a5055929') in 0.011916 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Explosion_Bomb_V7.prefab
-  artifactKey: Guid(42d5e228ce883fd4ab532d1022118823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Explosion_Bomb_V7.prefab using Guid(42d5e228ce883fd4ab532d1022118823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '242157ad443e049a84d1ce657113e1a5') in 0.017148 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Debris_Cone_V3.prefab
-  artifactKey: Guid(29ccef9d3ab8b514da1b62c24b228564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Debris_Cone_V3.prefab using Guid(29ccef9d3ab8b514da1b62c24b228564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e6213ba6440382263825329eda44675') in 0.012706 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Explosion_Fire.prefab
-  artifactKey: Guid(1526457a84ad9414e9e2326a834b3018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Explosion_Fire.prefab using Guid(1526457a84ad9414e9e2326a834b3018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a556ea3771bd0f6915a5249a9aafd0') in 0.018317 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 65
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Fireworks_V2.prefab
-  artifactKey: Guid(b6aec21cdab975847bcfb48cc59180e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Fireworks_V2.prefab using Guid(b6aec21cdab975847bcfb48cc59180e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b38d1d68facc0cf851da2dcfc4609e') in 0.014137 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Debris_GravityUp_Cone_V2.prefab
-  artifactKey: Guid(0f98491766a352a498135cab20520c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Debris_GravityUp_Cone_V2.prefab using Guid(0f98491766a352a498135cab20520c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda268ce025bd85cdb215830dc28f854') in 0.010855 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Glass Shatter_Cone_V1.prefab
-  artifactKey: Guid(b834489c45acfe1499a7c0e47bb292c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Glass Shatter_Cone_V1.prefab using Guid(b834489c45acfe1499a7c0e47bb292c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3ade183fac4beeb8c9bd50c89168fba') in 0.011456 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Explosion_Lightning.prefab
-  artifactKey: Guid(442486026d7ae68428087e1cf03543fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Explosion_Lightning.prefab using Guid(442486026d7ae68428087e1cf03543fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c35b9e4498714896b3576b775d7046cd') in 0.021652 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 69
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Healing_V3.prefab
-  artifactKey: Guid(2010aad1edfe0354bb35a84ca76c34d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Healing_V3.prefab using Guid(2010aad1edfe0354bb35a84ca76c34d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb6ccdd07f18b3cf4fb2bd2f1e8a97a2') in 0.016949 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 32
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Confetti_Bursts_Center_V1.prefab
-  artifactKey: Guid(2649cccf7989f3a488d3dcca333ca35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Confetti_Bursts_Center_V1.prefab using Guid(2649cccf7989f3a488d3dcca333ca35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ab55f925ed06bc919407ac7e4703fe7') in 0.012470 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Confetti_V2.prefab
-  artifactKey: Guid(d6391e996e74e774bb4b2023a92683cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Confetti_V2.prefab using Guid(d6391e996e74e774bb4b2023a92683cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfcc4e2d1932842cce3db89a8ba5cd5a') in 0.013783 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Glass_Shatter_V2.prefab
-  artifactKey: Guid(93c7eb722a57d6247adb1d95164508e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Glass_Shatter_V2.prefab using Guid(93c7eb722a57d6247adb1d95164508e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a7e929ca296b2ffbcdb441820896c5') in 0.011135 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Confetti_V1.prefab
-  artifactKey: Guid(875d63f638af03040b1808281e577b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Confetti_V1.prefab using Guid(875d63f638af03040b1808281e577b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb2e7ae6938b5ae0e4b4724b87a72974') in 0.011315 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Debris_Cone_V1.prefab
-  artifactKey: Guid(e4d7c52d38964f444b0eaac3fcb3e9db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Debris_Cone_V1.prefab using Guid(e4d7c52d38964f444b0eaac3fcb3e9db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae562d4e89c56e01cc66b689f46e2dc') in 0.014204 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 15.267064 seconds.
-  path: Assets/Prefabs/Items/Pickupable/Weapons/Swords/KatanaSwordPickupable.prefab
-  artifactKey: Guid(881156c69927c904e998d1e7e2cee177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Items/Pickupable/Weapons/Swords/KatanaSwordPickupable.prefab using Guid(881156c69927c904e998d1e7e2cee177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d81f407417b7084306584c89e1e7d3e') in 0.029013 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 94
-========================================================================
-Received Import Request.
-  Time since last request: 3.404585 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/Demo/Objects/Arm.prefab
-  artifactKey: Guid(1b755753b59c6da4bb5d56667acb50af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/Demo/Objects/Arm.prefab using Guid(1b755753b59c6da4bb5d56667acb50af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f44c429d3f4933f328ea3e2f3b82c1a') in 0.012705 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Loops/Arrow_Indicator_V5.prefab
-  artifactKey: Guid(0ad0bfd10c56d894f94b5c8a4865c869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Loops/Arrow_Indicator_V5.prefab using Guid(0ad0bfd10c56d894f94b5c8a4865c869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a16dfe8412447b68671d497dcdd82ca') in 0.009550 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
+Number of asset objects unloaded after import = 5
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Loops/Aura_V8.prefab
-  artifactKey: Guid(eef242c6ce1ef034aaa2ae80c36306a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Loops/Aura_V8.prefab using Guid(eef242c6ce1ef034aaa2ae80c36306a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8367dfcbf48bc31725c7bc5969d69fa2') in 0.014717 seconds
+  path: Assets/ThirdParty/Cartoon Coffee/2D Slash VFX/Materials/Custom_Punch_002-Add-[1.0].mat
+  artifactKey: Guid(70713973db8d7ae4a874fc5b81e4dc4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Cartoon Coffee/2D Slash VFX/Materials/Custom_Punch_002-Add-[1.0].mat using Guid(70713973db8d7ae4a874fc5b81e4dc4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbc7a0d6efe90eb54c0d9de74b3dec8c') in 0.010566 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
+Number of asset objects unloaded after import = 5
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Loops/Aura_V14.prefab
-  artifactKey: Guid(73f0db7cced783c48ad20b2444c5bd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Loops/Aura_V14.prefab using Guid(73f0db7cced783c48ad20b2444c5bd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee555a87bec6c9414a08d79ead60c986') in 0.013751 seconds
+  Time since last request: 2.431023 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e56f198d6bcce24ac0d9dfbe966f6467') in 0.042413 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
+Number of asset objects unloaded after import = 6
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Loops/Aura_V11.prefab
-  artifactKey: Guid(0c07ea51b08d711419758bd5d03b446d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Loops/Aura_V11.prefab using Guid(0c07ea51b08d711419758bd5d03b446d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd27a16ffe8f118cf745bca17b1e271d') in 0.048265 seconds
+  Time since last request: 0.219024 seconds.
+  path: Assets/Art/New/Fonts/riffic-outline.asset
+  artifactKey: Guid(f4fa877fbb7c8f74ab59fdf8f50899d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/New/Fonts/riffic-outline.asset using Guid(f4fa877fbb7c8f74ab59fdf8f50899d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17ca6466a90e28f5e99b1a19be7b2802') in 0.276466 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 2.095206 seconds.
-  path: Assets/Prefabs/Items/Pickupable/Weapons/Swords/KatanaSwordPickupable.prefab
-  artifactKey: Guid(881156c69927c904e998d1e7e2cee177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Items/Pickupable/Weapons/Swords/KatanaSwordPickupable.prefab using Guid(881156c69927c904e998d1e7e2cee177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2574c3cd67f40b795ca5f448ecf0369f') in 0.022778 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 121
+Number of asset objects unloaded after import = 6
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
@@ -699,186 +295,64 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image G:\Unity\UnityProjects\Git\Roguelike\Card Rouge-Like\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image G:\Unity\UnityProjects\Git\Roguelike\Card Rouge-Like\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.764 seconds
-Refreshing native plugins compatible for Editor in 2.93 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.628 seconds
+Refreshing native plugins compatible for Editor in 3.42 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.165 seconds
-Domain Reload Profiling: 1929ms
-	BeginReloadAssembly (201ms)
+- Finished resetting the current domain, in  1.200 seconds
+Domain Reload Profiling: 1826ms
+	BeginReloadAssembly (168ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
+		DisableScriptedObjects (11ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (71ms)
-	RebuildCommonClasses (27ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (24ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (506ms)
-		LoadAssemblies (311ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (406ms)
+		LoadAssemblies (243ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (282ms)
-			TypeCache.Refresh (272ms)
-				TypeCache.ScanAssembly (259ms)
+		AnalyzeDomain (238ms)
+			TypeCache.Refresh (224ms)
+				TypeCache.ScanAssembly (212ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (1166ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1200ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (560ms)
+		SetupLoadedEditorAssemblies (536ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
+			InitializePlatformSupportModulesInManaged (6ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (114ms)
-			ProcessInitializeOnLoadAttributes (403ms)
-			ProcessInitializeOnLoadMethodAttributes (31ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (401ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
 Shader 'CartoonCoffee/Particle Additive': fallback shader '2' not found
 Shader 'CartoonCoffee/Particle Basic': fallback shader '2' not found
-Refreshing native plugins compatible for Editor in 5.80 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 3.68 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 6345 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 72 unused Assets / (3.0 MB). Loaded Objects now: 7054.
-Memory consumption went from 229.7 MB to 226.7 MB.
-Total: 11.498800 ms (FindLiveObjects: 0.934200 ms CreateObjectMapping: 0.722900 ms MarkObjects: 8.088800 ms  DeleteObjects: 1.751100 ms)
+Unloading 70 unused Assets / (3.0 MB). Loaded Objects now: 7063.
+Memory consumption went from 226.0 MB to 223.0 MB.
+Total: 5.835900 ms (FindLiveObjects: 0.555400 ms CreateObjectMapping: 0.359000 ms MarkObjects: 4.038200 ms  DeleteObjects: 0.882500 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:scripting/monoscript/fileName/Loop.cs: 2370b78dd0fc43b5a23787c39e01a811 -> ae17ed71ecd620e5d8e62956cea59f5f
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/Head.cs: effa42c5e6fbe8576489e42a247346f1 -> c56fb235067b8e0497f6da9d15371435
-  custom:scripting/monoscript/fileName/DeactivateChildren.cs: c46ab45fed332edf0852eb252739f5f1 -> 2ec65962b1db2fa346a082daae05acf1
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:scripting/monoscript/fileName/ParticleShaderGUI.cs: 29633d857ba2363500f3a9d991716822 -> a1e2a310364507765340d2c41374cb2a
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/SideMenu.cs: a799210d298ede5ecbc9c7c075599d93 -> 9761150cc6eb77e0ed9d86242d1e504d
-  custom:scripting/monoscript/fileName/NewStatus.cs: 75d912a8793b342effbc35a68c6aa434 -> b1aed07bd9e38ef24dd5a3595061c89f
-  custom:scripting/monoscript/fileName/DestroyParticleAtEnd.cs: f46d1a4f4bfbf50b99f103be4eb1070f -> 18e3fff07dc49242bb94039533742467
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/SceneManager.cs: c1f14fe61ae75adaa7e3669d2d9aeaa0 -> 658bd4a7887934f23b2f8ece63ab5689
-  custom:scripting/monoscript/fileName/Target.cs: 5f3cec3875b5e41b4f252a12635f1bbc -> 61d7adde6752fc67910fe89f4f786d53
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/ObjectMover.cs: 7bfc33524a4312979e0bb44b5770aa7d -> 771ad40c0bcdb5512b3ab21dee44eb79
-  custom:scripting/monoscript/fileName/Body.cs: cd530b41b8162c4e0b9bfa7cedaa661d -> 1e782e221026fee41a4a12ebd6bfb8b9
-  custom:scripting/monoscript/fileName/Player.cs: 5f440bf44c2dfb40ce03ddb92ca4ccf4 -> 0793851aedb7599a8396b57d24ab3cd2
-  custom:scripting/monoscript/fileName/Floor.cs: 99adfee10d33afe3cb9442a0fa3c2ef4 -> dec408bc3291a4251e6d67eb0caee03a
-  custom:scripting/monoscript/fileName/Projectile.cs: 2a1017c92bdfe8329c0d17e2eea8c4a8 -> c9ef408685a1f7b4e1742dddb467d09c
   custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
   custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 15.047614 seconds.
-  path: Assets/Prefabs/Items/Pickupable/Weapons/Swords/SilverSwordPickupable.prefab
-  artifactKey: Guid(dfcfb69def2c3d04499b54707ca6894a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Items/Pickupable/Weapons/Swords/SilverSwordPickupable.prefab using Guid(dfcfb69def2c3d04499b54707ca6894a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26c7d9c81946309916248645559ab212') in 0.096234 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 121
-========================================================================
-Received Import Request.
-  Time since last request: 4.619403 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Star_Bursts_Center_V6.prefab
-  artifactKey: Guid(6f855c7e49ff9264db28c80432288bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Star_Bursts_Center_V6.prefab using Guid(6f855c7e49ff9264db28c80432288bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be793501631bd78328bec4b930f562d2') in 0.019062 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Star_Bursts_v5_Less.prefab
-  artifactKey: Guid(a815f42223d7e554b93d65eedc2b4b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Star_Bursts_v5_Less.prefab using Guid(a815f42223d7e554b93d65eedc2b4b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97a9962c0c063749ccef691f7fb4910a') in 0.013850 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 22
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Tech_Bursts_Center_V2.prefab
-  artifactKey: Guid(1348ebde3ea090b4b8935bcccb6c6118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Tech_Bursts_Center_V2.prefab using Guid(1348ebde3ea090b4b8935bcccb6c6118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d8ee11951c3bb10518a9e820e0e896') in 0.044391 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Star_Bursts_v9.prefab
-  artifactKey: Guid(8afa605b684b7c34b9803fbb023314da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Star_Bursts_v9.prefab using Guid(8afa605b684b7c34b9803fbb023314da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e41be11d48af5a62ce73e1d2c95ebaa') in 0.012783 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 22
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Tech_Diamond_V1.prefab
-  artifactKey: Guid(c3b8a5e083556b84a9eff1cf64acd6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Tech_Diamond_V1.prefab using Guid(c3b8a5e083556b84a9eff1cf64acd6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c1c35523d9211f84b6b0c851e6b4cc') in 0.012039 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Star_Bursts_v8.prefab
-  artifactKey: Guid(157230f42c61a844a92e3002eec83c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Star_Bursts_v8.prefab using Guid(157230f42c61a844a92e3002eec83c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c13b4900f8747ceac48bfc57059c3cc') in 0.011798 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 22
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Star_Bursts_v10.prefab
-  artifactKey: Guid(42e80c77708feb24bb9d233385ac9559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Star_Bursts_v10.prefab using Guid(42e80c77708feb24bb9d233385ac9559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe9ad1d5aaf98f5d4f9857bd531f23d') in 0.013657 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 22
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Star_Bursts_v8_Less.prefab
-  artifactKey: Guid(76986f5a10fba1d409fe48a26462953c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Star_Bursts_v8_Less.prefab using Guid(76986f5a10fba1d409fe48a26462953c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3592ebc848ac896cb4df6a4cd2d75f2') in 0.010771 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 22
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Tech_Hex_V2.prefab
-  artifactKey: Guid(e0eed604d4195794ba4ef4ae4b2d4fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Tech_Hex_V2.prefab using Guid(e0eed604d4195794ba4ef4ae4b2d4fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2339d757c08b645c20c12bacdae1afc7') in 0.013087 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Star_ColorBurst_Cone_V2.prefab
-  artifactKey: Guid(1a73dd759a436d840a4fdf5bf7f34b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Star_ColorBurst_Cone_V2.prefab using Guid(1a73dd759a436d840a4fdf5bf7f34b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52f1d361d88ff8e40a9825f8054a0c5d') in 0.013770 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Tech_Bursts_Center_V4.prefab
-  artifactKey: Guid(86a6c610e6ddb994c98b1e6a615537a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Tech_Bursts_Center_V4.prefab using Guid(86a6c610e6ddb994c98b1e6a615537a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2f8e3444b5c1c10ed0bd442b1085b3c') in 0.014834 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 24
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Tech_Bursts_Center_V3.prefab
-  artifactKey: Guid(47493064fa8d84e4e9d4fa339300f3d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Bursts/Tech_Bursts_Center_V3.prefab using Guid(47493064fa8d84e4e9d4fa339300f3d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e61d4a69e93497bedf0412344c765060') in 0.011071 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0

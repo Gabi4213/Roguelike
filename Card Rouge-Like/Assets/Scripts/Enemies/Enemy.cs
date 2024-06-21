@@ -21,13 +21,12 @@ public class Enemy : MonoBehaviour
 
     public ParticleSystem hitFX;
 
-
     public int damageAmount;
-    public float damageDelay; 
+    public float damageDelay;
 
     private bool canDealDamage = true;
 
-
+    public GameObject killedFX;
 
     private void Start()
     {
@@ -54,16 +53,14 @@ public class Enemy : MonoBehaviour
                 Recover();
                 break;
             case EnemyState.TakingDamage:
-
                 if (!enemyHit)
                 {
                     enemyHit = true;
                     StartCoroutine(EnemyHit());
                 }
-
                 break;
             case EnemyState.Dead:
-                Dead();
+                StartCoroutine(Dead());
                 break;
         }
     }
@@ -75,7 +72,7 @@ public class Enemy : MonoBehaviour
 
     void Recover()
     {
-        //gradually stop the enemy moving
+        // gradually stop the enemy moving
         if (rb.velocity.magnitude > 0.1f)
         {
             Debug.Log("reducing velocity");
@@ -91,7 +88,6 @@ public class Enemy : MonoBehaviour
             SetState(EnemyState.Follow);
         }
     }
-
 
     void Follow()
     {
@@ -139,8 +135,17 @@ public class Enemy : MonoBehaviour
         DealDamageToPlayer();
     }
 
-    void Dead()
+    IEnumerator Dead()
     {
+        // Apply additional knockback force before destruction
+        Vector3 directionToPlayer = (target.position - transform.position).normalized;
+        Vector3 knockback = directionToPlayer * (knockbackForce * 1.2f); // Increase knockback force
+        rb.velocity = Vector3.zero; // Ensure no residual velocity
+        rb.AddForce(knockback, ForceMode2D.Impulse); // Apply knockback force
+
+        yield return new WaitForSeconds(0.5f); // Delay before destruction
+
+        Instantiate(killedFX,transform.position, Quaternion.identity); 
         Destroy(gameObject);
     }
 
@@ -162,6 +167,7 @@ public class Enemy : MonoBehaviour
 
         hitFX.Play();
 
+        // Knockback
         Vector3 directionToPlayer = (target.position - transform.position).normalized;
         Vector3 knockback = directionToPlayer * knockbackForce; // Multiply by knockback force directly
         rb.velocity = Vector3.zero; // Ensure no residual velocity
@@ -189,9 +195,7 @@ public class Enemy : MonoBehaviour
         yield return new WaitForSeconds(damageDelay);
         canDealDamage = true;
     }
-
 }
-
 
 public enum EnemyState
 {

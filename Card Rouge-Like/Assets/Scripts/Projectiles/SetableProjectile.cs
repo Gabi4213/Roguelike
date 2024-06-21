@@ -15,11 +15,13 @@ public class SetableProjectile : MonoBehaviour
     {
         // Set initial velocity based on the spawn rotation
         Rigidbody2D rb = GetComponent<Rigidbody2D>();
+        Rigidbody2D playerRb = GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody2D>();
 
-        if (hasVelocity)
+        if (hasVelocity && playerRb != null)
         {
-            //set the velocity
-            rb.velocity = transform.right * PlayerStatistics.instance.projectileSpeed;
+            // Set the velocity to be the sum of the projectile's speed and the player's velocity
+            Vector2 initialVelocity = new Vector2(transform.right.x, transform.right.y) * PlayerStatistics.instance.projectileSpeed;
+            rb.velocity = initialVelocity + playerRb.velocity;
         }
 
         StartCoroutine(DestroyAfter());

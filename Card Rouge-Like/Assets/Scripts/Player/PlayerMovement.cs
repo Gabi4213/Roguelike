@@ -11,6 +11,8 @@ public class PlayerMovement : MonoBehaviour
     public Vector2 movement;
     private Rigidbody2D rb;
 
+    public float knockbackForce;
+
     private const string horizontal = "Horizontal";
     private const string vertical = "Vertical";
 
@@ -127,4 +129,5 @@ public class PlayerMovement : MonoBehaviour
         yield return new WaitForSeconds(PlayerStatistics.instance.hitDuration);
         canMove = true;
     }
+
 }
