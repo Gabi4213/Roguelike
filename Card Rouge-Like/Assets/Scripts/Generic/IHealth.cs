@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
+using static UnityEngine.Rendering.DebugUI;
 
 public class IHealth : MonoBehaviour
 {
@@ -9,9 +11,13 @@ public class IHealth : MonoBehaviour
 
     public GameObject healthBar;
     public GameObject healthBarFill;
-    private SpriteRenderer healthBarFillSprite;
+
+    public TextMeshPro damageText;
+    public Animator damageTextAnim;
 
     public Color healthyColor, moderateColor, criticalColor;
+    
+    private SpriteRenderer healthBarFillSprite;
 
     private void Start()
     {
@@ -77,6 +83,10 @@ public class IHealth : MonoBehaviour
 
     public void SetHealth(float inHealth)
     {
+        //Damage Text
+        damageTextAnim.SetTrigger("Play");
+        damageText.text = (inHealth * -1.0f).ToString();
+
         currentHealth += inHealth;
         currentHealth = Mathf.Max(currentHealth, 0f); // Ensure health doesn't go below 0.
         UpdateHealthBar();

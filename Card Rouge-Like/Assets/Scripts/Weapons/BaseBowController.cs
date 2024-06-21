@@ -22,10 +22,13 @@ public class BaseBowController : MonoBehaviour
     public Sprite drawnBowSprite, neutralBowSprite;
     public float animationTime;
 
+    private Animator playerAnimator;
     public Item item;
 
     private void Start()
     {
+        playerAnimator = GameObject.FindGameObjectWithTag("Player").GetComponentInChildren<Animator>();
+
         initialScale = transform.localScale;
         invManager = GameObject.FindGameObjectWithTag("InventoryManager").GetComponent<InventoryManager>();
     }
@@ -78,6 +81,9 @@ public class BaseBowController : MonoBehaviour
     {
         float elapsedTime = 0f;
 
+        //camera shake
+        CameraFollow.instance.ShakeCamera();
+
         while (elapsedTime < pulseSpeed)
         {
             float pulsation = Mathf.Sin((elapsedTime / pulseSpeed) * Mathf.PI) * pulseAmount;
@@ -92,6 +98,7 @@ public class BaseBowController : MonoBehaviour
 
     private IEnumerator AttackCooldown()
     {
+        playerAnimator.SetTrigger("Attack");
         canAttack = false;
         yield return new WaitForSeconds(PlayerStatistics.instance.attackSpeed);
         canAttack = true;

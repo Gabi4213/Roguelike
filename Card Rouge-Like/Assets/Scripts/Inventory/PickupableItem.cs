@@ -5,9 +5,10 @@ using UnityEngine;
 public class PickupableItem : MonoBehaviour
 {
     public Item item; // The item to add to the inventory
-    private SpriteRenderer spriteRenderer; // Reference to the SpriteRenderer component
-
+    public bool rotateItem  = true;
     public GameObject pickUpFX;
+
+    private SpriteRenderer spriteRenderer; // Reference to the SpriteRenderer component
 
     private void Start()
     {
@@ -18,7 +19,10 @@ public class PickupableItem : MonoBehaviour
             spriteRenderer.sprite = item.image;
         }
 
-        transform.Rotate(0.0f, 0.0f, Random.Range(0.0f, 360.0f));
+        if (rotateItem)
+        {
+            transform.Rotate(0.0f, 0.0f, Random.Range(0.0f, 360.0f));
+        }
     }
 
 

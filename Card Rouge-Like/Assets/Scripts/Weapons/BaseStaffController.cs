@@ -15,10 +15,13 @@ public class BaseStaffController : MonoBehaviour
     private Vector3 initialScale;
     private bool canAttack = true; // Flag to check if the player can attack
 
+    private Animator playerAnimator;
     public Item item;
 
     private void Start()
     {
+        playerAnimator = GameObject.FindGameObjectWithTag("Player").GetComponentInChildren<Animator>();
+
         initialScale = transform.localScale;
     }
 
@@ -44,6 +47,10 @@ public class BaseStaffController : MonoBehaviour
     {
         float elapsedTime = 0f;
 
+        //camera shake
+        CameraFollow.instance.ShakeCamera();
+
+
         while (elapsedTime < pulseSpeed)
         {
             float pulsation = Mathf.Sin((elapsedTime / pulseSpeed) * Mathf.PI) * pulseAmount;
@@ -58,6 +65,7 @@ public class BaseStaffController : MonoBehaviour
 
     private IEnumerator AttackCooldown()
     {
+        playerAnimator.SetTrigger("Attack");
         canAttack = false;
         yield return new WaitForSeconds(PlayerStatistics.instance.attackSpeed);
         canAttack = true;
