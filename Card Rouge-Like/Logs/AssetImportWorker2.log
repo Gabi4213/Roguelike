@@ -15,7 +15,7 @@ G:/Unity/UnityProjects/Git/Roguelike/Card Rouge-Like
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-52397
+54568
 Successfully changed project path to: G:/Unity/UnityProjects/Git/Roguelike/Card Rouge-Like
 G:/Unity/UnityProjects/Git/Roguelike/Card Rouge-Like
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ G:/Unity/UnityProjects/Git/Roguelike/Card Rouge-Like
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [18824] Host "[IP] 192.168.0.137 [Port] 0 [Flags] 2 [Guid] 602534506 [EditorId] 602534506 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-26UP572) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [31004] Host "[IP] 192.168.0.137 [Port] 0 [Flags] 2 [Guid] 2348593861 [EditorId] 2348593861 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-26UP572) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [18824] Host "[IP] 192.168.0.137 [Port] 0 [Flags] 2 [Guid] 602534506 [EditorId] 602534506 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-26UP572) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [31004] Host "[IP] 192.168.0.137 [Port] 0 [Flags] 2 [Guid] 2348593861 [EditorId] 2348593861 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-26UP572) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 23 workers.
-Library Redirect Path: Library/Refreshing native plugins compatible for Editor in 8.23 ms, found 4 plugins.
+Library Redirect Path: Library/Refreshing native plugins compatible for Editor in 9.16 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.1.20f1 (35a524b12060)
 [Subsystems] Discovering subsystems at path G:/Unity/UnityVersions/2023.1.20f1/Editor/Data/Resources/UnitySubsystems
@@ -72,7 +72,7 @@ Initialize mono
 Mono path[0] = 'G:/Unity/UnityVersions/2023.1.20f1/Editor/Data/Managed'
 Mono path[1] = 'G:/Unity/UnityVersions/2023.1.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'G:/Unity/UnityVersions/2023.1.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56604
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56924
 Begin MonoManager ReloadAssembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
@@ -86,41 +86,41 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Registering precompiled unity dll's ...
 Register platform support module: G:/Unity/UnityVersions/2023.1.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001732 seconds.
-- Loaded All Assemblies, in  0.263 seconds
+Registered in 0.001830 seconds.
+- Loaded All Assemblies, in  0.295 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-- Finished resetting the current domain, in  0.220 seconds
-Domain Reload Profiling: 483ms
-	BeginReloadAssembly (87ms)
+- Finished resetting the current domain, in  0.239 seconds
+Domain Reload Profiling: 534ms
+	BeginReloadAssembly (93ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (108ms)
-		LoadAssemblies (86ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (130ms)
+		LoadAssemblies (92ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (105ms)
-			TypeCache.Refresh (105ms)
-				TypeCache.ScanAssembly (96ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+		AnalyzeDomain (127ms)
+			TypeCache.Refresh (126ms)
+				TypeCache.ScanAssembly (117ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (220ms)
+	FinalizeReload (239ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (188ms)
+		SetupLoadedEditorAssemblies (202ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (5ms)
 			BeforeProcessingInitializeOnLoad (6ms)
-			ProcessInitializeOnLoadAttributes (133ms)
-			ProcessInitializeOnLoadMethodAttributes (39ms)
+			ProcessInitializeOnLoadAttributes (143ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -143,52 +143,52 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image G:\Unity\UnityProjects\Git\Roguelike\Card Rouge-Like\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image G:\Unity\UnityProjects\Git\Roguelike\Card Rouge-Like\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.696 seconds
-Refreshing native plugins compatible for Editor in 2.42 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.767 seconds
+Refreshing native plugins compatible for Editor in 2.35 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.593 seconds
-Domain Reload Profiling: 1289ms
-	BeginReloadAssembly (213ms)
+- Finished resetting the current domain, in  0.712 seconds
+Domain Reload Profiling: 1479ms
+	BeginReloadAssembly (225ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (25ms)
-	RebuildCommonClasses (23ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (27ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (17ms)
-	LoadAllAssembliesAndSetupDomain (434ms)
-		LoadAssemblies (248ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (488ms)
+		LoadAssemblies (272ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (254ms)
-			TypeCache.Refresh (225ms)
-				TypeCache.ScanAssembly (216ms)
-			ScanForSourceGeneratedMonoScriptInfo (21ms)
+		AnalyzeDomain (286ms)
+			TypeCache.Refresh (254ms)
+				TypeCache.ScanAssembly (244ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
 			ResolveRequiredComponents (9ms)
-	FinalizeReload (594ms)
+	FinalizeReload (713ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (448ms)
+		SetupLoadedEditorAssemblies (539ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (71ms)
-			ProcessInitializeOnLoadAttributes (340ms)
-			ProcessInitializeOnLoadMethodAttributes (29ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (97ms)
+			ProcessInitializeOnLoadAttributes (402ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
 Shader 'CartoonCoffee/Particle Additive': fallback shader '2' not found
 Shader 'CartoonCoffee/Particle Basic': fallback shader '2' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 2.48 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 4.32 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6481 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 128 unused Assets / (3.0 MB). Loaded Objects now: 7004.
-Memory consumption went from 256.6 MB to 253.6 MB.
-Total: 5.332800 ms (FindLiveObjects: 0.439400 ms CreateObjectMapping: 0.200500 ms MarkObjects: 3.910900 ms  DeleteObjects: 0.781000 ms)
+Unloading 6487 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 128 unused Assets / (3.0 MB). Loaded Objects now: 7010.
+Memory consumption went from 256.8 MB to 253.9 MB.
+Total: 10.726100 ms (FindLiveObjects: 1.044500 ms CreateObjectMapping: 0.440400 ms MarkObjects: 7.792800 ms  DeleteObjects: 1.447000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
@@ -201,1166 +201,459 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/AbilityBaseUsable.cs: 46a140a9f86736c032d45db1dc2a9fec -> 
   custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
   custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 13616.798549 seconds.
-  path: Assets/Prefabs/Items/Usables/Staffs/MangroveWoodStaffUsable.prefab
-  artifactKey: Guid(dcfd13ad071e7944aa179b19322a4018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Items/Usables/Staffs/MangroveWoodStaffUsable.prefab using Guid(dcfd13ad071e7944aa179b19322a4018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be019bb8f01dbaee5c1fa92e5194060c') in 0.251218 seconds
+  Time since last request: 31300.407353 seconds.
+  path: Assets/ThirdParty/500_skillicons/Skill_standart/Archerskill_27.png
+  artifactKey: Guid(99611855cc155b542a235db66eb92bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/Skill_standart/Archerskill_27.png using Guid(99611855cc155b542a235db66eb92bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b939ab642b85d54c9cd2b0502d10246') in 0.090743 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 57
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image G:\Unity\UnityProjects\Git\Roguelike\Card Rouge-Like\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\Unity\UnityProjects\Git\Roguelike\Card Rouge-Like\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.628 seconds
-Refreshing native plugins compatible for Editor in 2.46 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.979 seconds
-Domain Reload Profiling: 1606ms
-	BeginReloadAssembly (167ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (58ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (17ms)
-	LoadAllAssembliesAndSetupDomain (411ms)
-		LoadAssemblies (245ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (237ms)
-			TypeCache.Refresh (221ms)
-				TypeCache.ScanAssembly (211ms)
-			ScanForSourceGeneratedMonoScriptInfo (6ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (979ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (442ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (83ms)
-			ProcessInitializeOnLoadAttributes (324ms)
-			ProcessInitializeOnLoadMethodAttributes (24ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Shader 'CartoonCoffee/Particle Additive': fallback shader '2' not found
-Shader 'CartoonCoffee/Particle Basic': fallback shader '2' not found
-Refreshing native plugins compatible for Editor in 2.59 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6345 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 71 unused Assets / (3.0 MB). Loaded Objects now: 7026.
-Memory consumption went from 225.5 MB to 222.5 MB.
-Total: 5.747500 ms (FindLiveObjects: 0.382100 ms CreateObjectMapping: 0.311900 ms MarkObjects: 4.310100 ms  DeleteObjects: 0.742600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image G:\Unity\UnityProjects\Git\Roguelike\Card Rouge-Like\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\Unity\UnityProjects\Git\Roguelike\Card Rouge-Like\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.660 seconds
-Refreshing native plugins compatible for Editor in 2.36 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.922 seconds
-Domain Reload Profiling: 1581ms
-	BeginReloadAssembly (169ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (57ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (438ms)
-		LoadAssemblies (259ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (253ms)
-			TypeCache.Refresh (238ms)
-				TypeCache.ScanAssembly (227ms)
-			ScanForSourceGeneratedMonoScriptInfo (6ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (922ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (432ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (79ms)
-			ProcessInitializeOnLoadAttributes (318ms)
-			ProcessInitializeOnLoadMethodAttributes (25ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Shader 'CartoonCoffee/Particle Additive': fallback shader '2' not found
-Shader 'CartoonCoffee/Particle Basic': fallback shader '2' not found
-Refreshing native plugins compatible for Editor in 3.01 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6345 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 70 unused Assets / (3.0 MB). Loaded Objects now: 7040.
-Memory consumption went from 227.5 MB to 224.5 MB.
-Total: 4.966200 ms (FindLiveObjects: 0.420800 ms CreateObjectMapping: 0.159500 ms MarkObjects: 3.570800 ms  DeleteObjects: 0.814500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image G:\Unity\UnityProjects\Git\Roguelike\Card Rouge-Like\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\Unity\UnityProjects\Git\Roguelike\Card Rouge-Like\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.695 seconds
-Refreshing native plugins compatible for Editor in 3.70 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.033 seconds
-Domain Reload Profiling: 1728ms
-	BeginReloadAssembly (188ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (16ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (62ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (18ms)
-	LoadAllAssembliesAndSetupDomain (455ms)
-		LoadAssemblies (262ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (272ms)
-			TypeCache.Refresh (253ms)
-				TypeCache.ScanAssembly (240ms)
-			ScanForSourceGeneratedMonoScriptInfo (7ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (1033ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (458ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (88ms)
-			ProcessInitializeOnLoadAttributes (335ms)
-			ProcessInitializeOnLoadMethodAttributes (24ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Shader 'CartoonCoffee/Particle Additive': fallback shader '2' not found
-Shader 'CartoonCoffee/Particle Basic': fallback shader '2' not found
-Refreshing native plugins compatible for Editor in 3.00 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6345 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 70 unused Assets / (3.0 MB). Loaded Objects now: 7054.
-Memory consumption went from 229.4 MB to 226.4 MB.
-Total: 5.294600 ms (FindLiveObjects: 0.441300 ms CreateObjectMapping: 0.178000 ms MarkObjects: 3.843900 ms  DeleteObjects: 0.830600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image G:\Unity\UnityProjects\Git\Roguelike\Card Rouge-Like\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\Unity\UnityProjects\Git\Roguelike\Card Rouge-Like\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.601 seconds
-Refreshing native plugins compatible for Editor in 2.49 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.026 seconds
-Domain Reload Profiling: 1627ms
-	BeginReloadAssembly (159ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (49ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (18ms)
-	LoadAllAssembliesAndSetupDomain (390ms)
-		LoadAssemblies (240ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (221ms)
-			TypeCache.Refresh (212ms)
-				TypeCache.ScanAssembly (202ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1027ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (441ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (79ms)
-			ProcessInitializeOnLoadAttributes (328ms)
-			ProcessInitializeOnLoadMethodAttributes (24ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Shader 'CartoonCoffee/Particle Additive': fallback shader '2' not found
-Shader 'CartoonCoffee/Particle Basic': fallback shader '2' not found
-Refreshing native plugins compatible for Editor in 2.93 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6345 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 70 unused Assets / (3.0 MB). Loaded Objects now: 7068.
-Memory consumption went from 231.3 MB to 228.4 MB.
-Total: 5.324200 ms (FindLiveObjects: 0.424300 ms CreateObjectMapping: 0.153100 ms MarkObjects: 3.946200 ms  DeleteObjects: 0.799800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 149.504304 seconds.
-  path: Assets/Prefabs/Items/Pickupable/Weapons/Staffs/MangroveWoodStaffPickupable.prefab
-  artifactKey: Guid(784075d4c8391664a9db8a7498aefa81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Items/Pickupable/Weapons/Staffs/MangroveWoodStaffPickupable.prefab using Guid(784075d4c8391664a9db8a7498aefa81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5b4af9c1660fad612ec07f923ee612c') in 0.078271 seconds
+  Time since last request: 0.266869 seconds.
+  path: Assets/ThirdParty/500_skillicons/Skill_standart/Archerskill_30.png
+  artifactKey: Guid(f86d7f1d3a450dd47aad6da4ec2e6d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/Skill_standart/Archerskill_30.png using Guid(f86d7f1d3a450dd47aad6da4ec2e6d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba5c61089b04b5ee8673468ff2883f2') in 0.013429 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 57
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image G:\Unity\UnityProjects\Git\Roguelike\Card Rouge-Like\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\Unity\UnityProjects\Git\Roguelike\Card Rouge-Like\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.609 seconds
-Refreshing native plugins compatible for Editor in 2.65 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.129 seconds
-Domain Reload Profiling: 1738ms
-	BeginReloadAssembly (168ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (50ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (18ms)
-	LoadAllAssembliesAndSetupDomain (390ms)
-		LoadAssemblies (245ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (225ms)
-			TypeCache.Refresh (215ms)
-				TypeCache.ScanAssembly (204ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1130ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (547ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (104ms)
-			ProcessInitializeOnLoadAttributes (401ms)
-			ProcessInitializeOnLoadMethodAttributes (29ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Shader 'CartoonCoffee/Particle Additive': fallback shader '2' not found
-Shader 'CartoonCoffee/Particle Basic': fallback shader '2' not found
-Refreshing native plugins compatible for Editor in 4.07 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6345 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 71 unused Assets / (3.0 MB). Loaded Objects now: 7082.
-Memory consumption went from 233.3 MB to 230.3 MB.
-Total: 7.852000 ms (FindLiveObjects: 0.506900 ms CreateObjectMapping: 0.330900 ms MarkObjects: 5.688700 ms  DeleteObjects: 1.324600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 23.314045 seconds.
-  path: Assets/Prefabs/Items/Pickupable/Weapons/Swords/CutlasSwordPickupable.prefab
-  artifactKey: Guid(daab4322ec1170146b979cc4c374a8a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Items/Pickupable/Weapons/Swords/CutlasSwordPickupable.prefab using Guid(daab4322ec1170146b979cc4c374a8a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aef6f1706500b0b0df052711af5eedf') in 0.141232 seconds
+  Time since last request: 0.023612 seconds.
+  path: Assets/ThirdParty/500_skillicons/Skill_nobg/Archerskill_32_nobg.png
+  artifactKey: Guid(a61c9a57f9266044989cff069a48f171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/Skill_nobg/Archerskill_32_nobg.png using Guid(a61c9a57f9266044989cff069a48f171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '661922cf9a38fe3d1d07cc59f74d066f') in 0.013910 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 122
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Prefabs/Items/Pickupable/Weapons/Swords/WoodenSwordPickupable.prefab
-  artifactKey: Guid(9192d47d0973fa840a966342093f2bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Items/Pickupable/Weapons/Swords/WoodenSwordPickupable.prefab using Guid(9192d47d0973fa840a966342093f2bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc43bb85662f6fc665b97f3b595ad020') in 0.018357 seconds
+  Time since last request: 0.366404 seconds.
+  path: Assets/ThirdParty/500_skillicons/Skill_standart/Archerskill_35.png
+  artifactKey: Guid(c0ced91fdce3dc74da8e1fa8dd4876ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/Skill_standart/Archerskill_35.png using Guid(c0ced91fdce3dc74da8e1fa8dd4876ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efac456ad2a66b80445f6ad04eda9526') in 0.012975 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 122
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 40.060007 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/Demo/Objects/Arm.prefab
-  artifactKey: Guid(1b755753b59c6da4bb5d56667acb50af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/Demo/Objects/Arm.prefab using Guid(1b755753b59c6da4bb5d56667acb50af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f52b688c11f23769704b170fe2c582b') in 0.045361 seconds
+  Time since last request: 0.012168 seconds.
+  path: Assets/ThirdParty/500_skillicons/Skill_nobg/Archerskill_36_nobg.png
+  artifactKey: Guid(1e030c08f5ed5b24db5e37884b1c9f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/Skill_nobg/Archerskill_36_nobg.png using Guid(1e030c08f5ed5b24db5e37884b1c9f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbaeaf9bb086584e9756a3c461790471') in 0.015715 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.013508 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Loops/Arrow_Indicator_V3.prefab
-  artifactKey: Guid(6524d578b379dd14095e1e921d9ec770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Loops/Arrow_Indicator_V3.prefab using Guid(6524d578b379dd14095e1e921d9ec770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01061ee172626c423d8cfbdea6cbae4f') in 0.019476 seconds
+  Time since last request: 0.034047 seconds.
+  path: Assets/ThirdParty/500_skillicons/Skill_nobg/Archerskill_37_nobg.png
+  artifactKey: Guid(626d18198f186944ba8808a923c9f9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/Skill_nobg/Archerskill_37_nobg.png using Guid(626d18198f186944ba8808a923c9f9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c06dfbcdf061f779caa22688a1c5e45') in 0.015798 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003041 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Loops/Arrow_Indicator_V5.prefab
-  artifactKey: Guid(0ad0bfd10c56d894f94b5c8a4865c869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Loops/Arrow_Indicator_V5.prefab using Guid(0ad0bfd10c56d894f94b5c8a4865c869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd995b67ef4c53e27ff7bc0e4171429e5') in 0.016644 seconds
+  Time since last request: 0.006141 seconds.
+  path: Assets/ThirdParty/500_skillicons/Skill_standart/Archerskill_39.png
+  artifactKey: Guid(d3178d098a3613f4f80cc5ff84a86932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/Skill_standart/Archerskill_39.png using Guid(d3178d098a3613f4f80cc5ff84a86932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0857b7796cfb7c01632ebaf44fd30ff2') in 0.016253 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.014083 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Loops/Aura_V2.prefab
-  artifactKey: Guid(3d505437386df25458c4fadbf652ccc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Loops/Aura_V2.prefab using Guid(3d505437386df25458c4fadbf652ccc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb60f7691fed1d67d0bfc5d3c25c8b60') in 0.033094 seconds
+  Time since last request: 0.285021 seconds.
+  path: Assets/ThirdParty/500_skillicons/Skill_standart/Archerskill_40.png
+  artifactKey: Guid(8c461b1ce9288dd498883fc0a7c64041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/Skill_standart/Archerskill_40.png using Guid(8c461b1ce9288dd498883fc0a7c64041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae0bdfdb36cfe1a5b5987b3cb044d0a7') in 0.013960 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.004365 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Loops/Aura_V4.prefab
-  artifactKey: Guid(f5ca0ff418807384dba2d0a87362bd4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Loops/Aura_V4.prefab using Guid(f5ca0ff418807384dba2d0a87362bd4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '389e0d0506c70dbeb5000f7429ff254a') in 0.030238 seconds
+  Time since last request: 0.084056 seconds.
+  path: Assets/ThirdParty/500_skillicons/Skill_nobg/Archerskill_42_nobg.png
+  artifactKey: Guid(477fa3c2ff84875478c7883fed567747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/Skill_nobg/Archerskill_42_nobg.png using Guid(477fa3c2ff84875478c7883fed567747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a721f5cc387f0fa55c53e3ea716f6c36') in 0.014834 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.006201 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Loops/Aura_V6.prefab
-  artifactKey: Guid(329c46d076bea2142ac89dde9e692bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Loops/Aura_V6.prefab using Guid(329c46d076bea2142ac89dde9e692bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de3b59856afaaf8279c727dd58d2b949') in 0.031818 seconds
+  Time since last request: 0.355915 seconds.
+  path: Assets/ThirdParty/500_skillicons/Skill_standart/Archerskill_45.png
+  artifactKey: Guid(936840c6817abf44f971119d179cca09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/Skill_standart/Archerskill_45.png using Guid(936840c6817abf44f971119d179cca09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fd677c5e889db41447ae24e282dc3b4') in 0.010696 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002235 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Loops/Aura_V9.prefab
-  artifactKey: Guid(da357e5a82a6155488c09ea8f1d7279b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Loops/Aura_V9.prefab using Guid(da357e5a82a6155488c09ea8f1d7279b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2102cbcc6d51953614680ac4d7dc258c') in 0.030125 seconds
+  Time since last request: 0.079712 seconds.
+  path: Assets/ThirdParty/500_skillicons/Skill_nobg/Archerskill_47_nobg.png
+  artifactKey: Guid(cb44d89d0eac722409463b255209cf38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/Skill_nobg/Archerskill_47_nobg.png using Guid(cb44d89d0eac722409463b255209cf38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cb6847b3663348d91b6c29feaa8327f') in 0.010568 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003690 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Loops/Aura_V11.prefab
-  artifactKey: Guid(0c07ea51b08d711419758bd5d03b446d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Loops/Aura_V11.prefab using Guid(0c07ea51b08d711419758bd5d03b446d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e995b6dd4c5da0d475eabbfae104db32') in 0.049800 seconds
+  Time since last request: 0.390858 seconds.
+  path: Assets/ThirdParty/500_skillicons/Skill_standart/Archerskill_50.png
+  artifactKey: Guid(d914ace1310832a41b76c7ca9dbd4c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/Skill_standart/Archerskill_50.png using Guid(d914ace1310832a41b76c7ca9dbd4c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f93903d5b504c91ebdded856f295744c') in 0.021852 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003067 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Loops/Aura_V14.prefab
-  artifactKey: Guid(73f0db7cced783c48ad20b2444c5bd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Loops/Aura_V14.prefab using Guid(73f0db7cced783c48ad20b2444c5bd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a01de98354eaca2deff3b435665158f') in 0.041127 seconds
+  Time since last request: 0.515567 seconds.
+  path: Assets/ThirdParty/500_skillicons/Skill_nobg/Assassinskill_02_nobg.png
+  artifactKey: Guid(1a594cce0076c0240aab3dabdec13eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/Skill_nobg/Assassinskill_02_nobg.png using Guid(1a594cce0076c0240aab3dabdec13eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ca4a438090360a3dc4751675be71734') in 0.011817 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Loops/Aura_V16.prefab
-  artifactKey: Guid(fafa181ad0252a343a26c989e54c5b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Loops/Aura_V16.prefab using Guid(fafa181ad0252a343a26c989e54c5b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b402f2be12ba5d34ea1c47a4702e7d72') in 0.015236 seconds
+  Time since last request: 0.021316 seconds.
+  path: Assets/ThirdParty/500_skillicons/Skill_standart/Assassinskill_05.png
+  artifactKey: Guid(2978e214a62beee449d7882b1a12a347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/Skill_standart/Assassinskill_05.png using Guid(2978e214a62beee449d7882b1a12a347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed38545654d3eccfc5396f8ed3746a1') in 0.011869 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Loops/Aura_V18.prefab
-  artifactKey: Guid(0dd22b3d9aa758e4191f240f336a8c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Cartoon Coffee/2D Deluxe VFX/Prefabs/Loops/Aura_V18.prefab using Guid(0dd22b3d9aa758e4191f240f336a8c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa6780fb13be3ea386a47fabc6487b99') in 0.015242 seconds
+  Time since last request: 0.361303 seconds.
+  path: Assets/ThirdParty/500_skillicons/Skill_nobg/Assassinskill_07_nobg.png
+  artifactKey: Guid(ad068439f6a70f947a56683ebcc2ba49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/Skill_nobg/Assassinskill_07_nobg.png using Guid(ad068439f6a70f947a56683ebcc2ba49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cd5b64bab99f4c0cb13ed47da8152e7') in 0.012379 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 1.938012 seconds.
-  path: Assets/Prefabs/Items/Pickupable/Weapons/Staffs/MangroveWoodStaffPickupable.prefab
-  artifactKey: Guid(784075d4c8391664a9db8a7498aefa81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Items/Pickupable/Weapons/Staffs/MangroveWoodStaffPickupable.prefab using Guid(784075d4c8391664a9db8a7498aefa81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c930f791c0a0fb2096b37b88aad2c0b6') in 0.012733 seconds
+  Time since last request: 0.423963 seconds.
+  path: Assets/ThirdParty/500_skillicons/Skill_standart/Assassinskill_10.png
+  artifactKey: Guid(70422ab5d5b69cd4390ef33923011e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/Skill_standart/Assassinskill_10.png using Guid(70422ab5d5b69cd4390ef33923011e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12a95207a8a2ba993dacb3d48e207a15') in 0.012022 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 85
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 1.530077 seconds.
-  path: Assets/Prefabs/Items/Pickupable/Weapons/Bows/WoodenBowPickupable.prefab
-  artifactKey: Guid(1e928eee47dfa6940ab36f558379c803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Items/Pickupable/Weapons/Bows/WoodenBowPickupable.prefab using Guid(1e928eee47dfa6940ab36f558379c803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43a9919d7952ce47818c3a123ce9483a') in 0.146336 seconds
+  Time since last request: 0.005089 seconds.
+  path: Assets/ThirdParty/500_skillicons/Skill_nobg/Assassinskill_12_nobg.png
+  artifactKey: Guid(7d3db7183fc7e5747a6f48ba632ce629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/Skill_nobg/Assassinskill_12_nobg.png using Guid(7d3db7183fc7e5747a6f48ba632ce629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7980bc3953b299bea55acb4fc8ace93') in 0.012275 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 3.672116 seconds.
-  path: Assets/Prefabs/Items/Pickupable/Weapons/Bows/WoodenBowPickupable.prefab
-  artifactKey: Guid(1e928eee47dfa6940ab36f558379c803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Items/Pickupable/Weapons/Bows/WoodenBowPickupable.prefab using Guid(1e928eee47dfa6940ab36f558379c803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e26060734bc2a50d51ca352abdc43d') in 0.013075 seconds
+  Time since last request: 0.017620 seconds.
+  path: Assets/ThirdParty/500_skillicons/Skill_standart/Assassinskill_14.png
+  artifactKey: Guid(003375b6155df374eb514c213762f546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/Skill_standart/Assassinskill_14.png using Guid(003375b6155df374eb514c213762f546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70247ec19accaa8ef2517db3df752b2d') in 0.012378 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 92
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 5.515704 seconds.
-  path: Assets/Prefabs/Items/Pickupable/Weapons/Hammers/StoneSwordPickupable.prefab
-  artifactKey: Guid(e535c270b879e2c4b8717c56903ddb74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Items/Pickupable/Weapons/Hammers/StoneSwordPickupable.prefab using Guid(e535c270b879e2c4b8717c56903ddb74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c65f0623ff29af660d868b06161647be') in 0.030802 seconds
+  Time since last request: 0.338847 seconds.
+  path: Assets/ThirdParty/500_skillicons/Skill_standart/Assassinskill_15.png
+  artifactKey: Guid(fa7549ef916d8dc44883b6b341c20c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/Skill_standart/Assassinskill_15.png using Guid(fa7549ef916d8dc44883b6b341c20c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30dec03ca710638105bcc3a8ce50e942') in 0.010749 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 46
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 4.061179 seconds.
-  path: Assets/Prefabs/Items/Pickupable/Weapons/Hammers/StoneSwordPickupable.prefab
-  artifactKey: Guid(e535c270b879e2c4b8717c56903ddb74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Items/Pickupable/Weapons/Hammers/StoneSwordPickupable.prefab using Guid(e535c270b879e2c4b8717c56903ddb74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39fb893b44acd60bb1eed5a229c1b9df') in 0.011432 seconds
+  Time since last request: 0.040079 seconds.
+  path: Assets/ThirdParty/500_skillicons/Skill_standart/Assassinskill_18.png
+  artifactKey: Guid(7ddf015f0cf86244680b88f732c2e0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/Skill_standart/Assassinskill_18.png using Guid(7ddf015f0cf86244680b88f732c2e0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a6e219200d5b1068f2286512c4cbfb3') in 0.011020 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 74
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 2.333984 seconds.
-  path: Assets/Prefabs/Items/Pickupable/Ammo/DestroyedWoodenArrowPickupable.prefab
-  artifactKey: Guid(1710b4f41f14231458af6e149febed48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Items/Pickupable/Ammo/DestroyedWoodenArrowPickupable.prefab using Guid(1710b4f41f14231458af6e149febed48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b11bbd8db3dbf95fd43af4a247dc329') in 0.020883 seconds
+  Time since last request: 0.045017 seconds.
+  path: Assets/ThirdParty/500_skillicons/Skill_standart/Assassinskill_20.png
+  artifactKey: Guid(dd93c49cc66939648ac96852d89dc725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/Skill_standart/Assassinskill_20.png using Guid(dd93c49cc66939648ac96852d89dc725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7208b80899a80e663cb563fa492cd92') in 0.011365 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 4.782441 seconds.
-  path: Assets/Prefabs/Items/Pickupable/Ammo/DestroyedWoodenArrowPickupable.prefab
-  artifactKey: Guid(1710b4f41f14231458af6e149febed48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Items/Pickupable/Ammo/DestroyedWoodenArrowPickupable.prefab using Guid(1710b4f41f14231458af6e149febed48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d4a94069f3ca3ab5e13653d6a622ff3') in 0.010374 seconds
+  Time since last request: 0.355043 seconds.
+  path: Assets/ThirdParty/500_skillicons/Skill_nobg/Assassinskill_22_nobg.png
+  artifactKey: Guid(27a3a19b73fcc9a49a770add86b62d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/Skill_nobg/Assassinskill_22_nobg.png using Guid(27a3a19b73fcc9a49a770add86b62d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0c80eec221cffc4ce5c4b106aacd3b') in 0.011765 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 46
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 2.446393 seconds.
-  path: Assets/Prefabs/Items/Pickupable/Ammo/WoodenArrowPickupable.prefab
-  artifactKey: Guid(77c69fb0e6400974c9f60600ef6f2c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Items/Pickupable/Ammo/WoodenArrowPickupable.prefab using Guid(77c69fb0e6400974c9f60600ef6f2c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e6e5c7f62f27e0610f77134281cf27') in 0.010117 seconds
+  Time since last request: 0.048234 seconds.
+  path: Assets/ThirdParty/500_skillicons/Skill_standart/Assassinskill_25.png
+  artifactKey: Guid(7e57f9c6fef217e4394b5499516c5a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/Skill_standart/Assassinskill_25.png using Guid(7e57f9c6fef217e4394b5499516c5a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45647aaffacf1f98e6b8898b61b548d5') in 0.010714 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 2.740115 seconds.
-  path: Assets/Prefabs/Items/Pickupable/Weapons/Bows/WoodenBowPickupable.prefab
-  artifactKey: Guid(1e928eee47dfa6940ab36f558379c803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Items/Pickupable/Weapons/Bows/WoodenBowPickupable.prefab using Guid(1e928eee47dfa6940ab36f558379c803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50b53f6e61c5ff0366eb5c201c517aaf') in 0.274741 seconds
+  Time since last request: 0.004648 seconds.
+  path: Assets/ThirdParty/500_skillicons/Skill_nobg/Assassinskill_26_nobg.png
+  artifactKey: Guid(88631676ef631fb4ab8b4fddfdec0a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/Skill_nobg/Assassinskill_26_nobg.png using Guid(88631676ef631fb4ab8b4fddfdec0a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b35da6b789087d17c4ab75e11270e9d') in 0.012060 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 92
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 5.389919 seconds.
-  path: Assets/Prefabs/Items/Usables/Bows/WoodenBowUsable.prefab
-  artifactKey: Guid(6d3ecc28fc8288f4994af8a1b5e3a6df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Items/Usables/Bows/WoodenBowUsable.prefab using Guid(6d3ecc28fc8288f4994af8a1b5e3a6df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a481c53fa455d21a69e885a2cafbbc') in 0.015108 seconds
+  Time since last request: 0.022241 seconds.
+  path: Assets/ThirdParty/500_skillicons/Skill_nobg/Assassinskill_27_nobg.png
+  artifactKey: Guid(2f8d09cd10a0d5e42a7506452fc46aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/Skill_nobg/Assassinskill_27_nobg.png using Guid(2f8d09cd10a0d5e42a7506452fc46aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7249a33a5685ee25d6cd0a647f1263a') in 0.011771 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 92
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image G:\Unity\UnityProjects\Git\Roguelike\Card Rouge-Like\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\Unity\UnityProjects\Git\Roguelike\Card Rouge-Like\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.681 seconds
-Refreshing native plugins compatible for Editor in 3.35 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.021 seconds
-Domain Reload Profiling: 1702ms
-	BeginReloadAssembly (168ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (57ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (18ms)
-	LoadAllAssembliesAndSetupDomain (462ms)
-		LoadAssemblies (246ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (287ms)
-			TypeCache.Refresh (267ms)
-				TypeCache.ScanAssembly (254ms)
-			ScanForSourceGeneratedMonoScriptInfo (10ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1022ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (450ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (79ms)
-			ProcessInitializeOnLoadAttributes (336ms)
-			ProcessInitializeOnLoadMethodAttributes (24ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Shader 'CartoonCoffee/Particle Additive': fallback shader '2' not found
-Shader 'CartoonCoffee/Particle Basic': fallback shader '2' not found
-Refreshing native plugins compatible for Editor in 3.80 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6345 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 71 unused Assets / (3.0 MB). Loaded Objects now: 7096.
-Memory consumption went from 235.3 MB to 232.3 MB.
-Total: 5.371200 ms (FindLiveObjects: 0.441100 ms CreateObjectMapping: 0.483200 ms MarkObjects: 3.539800 ms  DeleteObjects: 0.906400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image G:\Unity\UnityProjects\Git\Roguelike\Card Rouge-Like\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\Unity\UnityProjects\Git\Roguelike\Card Rouge-Like\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.623 seconds
-Refreshing native plugins compatible for Editor in 2.47 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.941 seconds
-Domain Reload Profiling: 1563ms
-	BeginReloadAssembly (160ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (52ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (18ms)
-	LoadAllAssembliesAndSetupDomain (412ms)
-		LoadAssemblies (241ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (240ms)
-			TypeCache.Refresh (224ms)
-				TypeCache.ScanAssembly (214ms)
-			ScanForSourceGeneratedMonoScriptInfo (7ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (942ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (404ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (73ms)
-			ProcessInitializeOnLoadAttributes (298ms)
-			ProcessInitializeOnLoadMethodAttributes (23ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Shader 'CartoonCoffee/Particle Additive': fallback shader '2' not found
-Shader 'CartoonCoffee/Particle Basic': fallback shader '2' not found
-Refreshing native plugins compatible for Editor in 3.07 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6345 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 70 unused Assets / (3.0 MB). Loaded Objects now: 7110.
-Memory consumption went from 237.2 MB to 234.2 MB.
-Total: 5.022600 ms (FindLiveObjects: 0.493800 ms CreateObjectMapping: 0.189600 ms MarkObjects: 3.566600 ms  DeleteObjects: 0.771600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image G:\Unity\UnityProjects\Git\Roguelike\Card Rouge-Like\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\Unity\UnityProjects\Git\Roguelike\Card Rouge-Like\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.622 seconds
-Refreshing native plugins compatible for Editor in 3.01 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.148 seconds
-Domain Reload Profiling: 1769ms
-	BeginReloadAssembly (160ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (49ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (18ms)
-	LoadAllAssembliesAndSetupDomain (410ms)
-		LoadAssemblies (244ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (238ms)
-			TypeCache.Refresh (227ms)
-				TypeCache.ScanAssembly (216ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (1148ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (535ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (110ms)
-			ProcessInitializeOnLoadAttributes (385ms)
-			ProcessInitializeOnLoadMethodAttributes (29ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Shader 'CartoonCoffee/Particle Additive': fallback shader '2' not found
-Shader 'CartoonCoffee/Particle Basic': fallback shader '2' not found
-Refreshing native plugins compatible for Editor in 3.10 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6345 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 70 unused Assets / (3.0 MB). Loaded Objects now: 7124.
-Memory consumption went from 239.1 MB to 236.2 MB.
-Total: 7.222900 ms (FindLiveObjects: 0.879700 ms CreateObjectMapping: 0.395900 ms MarkObjects: 4.976300 ms  DeleteObjects: 0.970100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 98.799221 seconds.
-  path: Assets/Prefabs/Items/Pickupable/Weapons/Bows/WoodenBowPickupable.prefab
-  artifactKey: Guid(1e928eee47dfa6940ab36f558379c803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Items/Pickupable/Weapons/Bows/WoodenBowPickupable.prefab using Guid(1e928eee47dfa6940ab36f558379c803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97d6c148e968bd9c7aaff0554d9505a1') in 0.069362 seconds
+  Time since last request: 0.300657 seconds.
+  path: Assets/ThirdParty/500_skillicons/Skill_standart/Assassinskill_30.png
+  artifactKey: Guid(5a441b2193a499947aad989183fc7855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/Skill_standart/Assassinskill_30.png using Guid(5a441b2193a499947aad989183fc7855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '341c70e01cbafb8e844b8a8397a808a1') in 0.011589 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 92
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image G:\Unity\UnityProjects\Git\Roguelike\Card Rouge-Like\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\Unity\UnityProjects\Git\Roguelike\Card Rouge-Like\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.612 seconds
-Refreshing native plugins compatible for Editor in 2.54 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.117 seconds
-Domain Reload Profiling: 1728ms
-	BeginReloadAssembly (168ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (57ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (18ms)
-	LoadAllAssembliesAndSetupDomain (392ms)
-		LoadAssemblies (240ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (223ms)
-			TypeCache.Refresh (213ms)
-				TypeCache.ScanAssembly (203ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1117ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (553ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (99ms)
-			ProcessInitializeOnLoadAttributes (410ms)
-			ProcessInitializeOnLoadMethodAttributes (32ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Shader 'CartoonCoffee/Particle Additive': fallback shader '2' not found
-Shader 'CartoonCoffee/Particle Basic': fallback shader '2' not found
-Refreshing native plugins compatible for Editor in 3.66 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6345 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 71 unused Assets / (3.0 MB). Loaded Objects now: 7138.
-Memory consumption went from 241.1 MB to 238.1 MB.
-Total: 7.158000 ms (FindLiveObjects: 0.649200 ms CreateObjectMapping: 0.435700 ms MarkObjects: 4.620800 ms  DeleteObjects: 1.451800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image G:\Unity\UnityProjects\Git\Roguelike\Card Rouge-Like\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\Unity\UnityProjects\Git\Roguelike\Card Rouge-Like\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.691 seconds
-Refreshing native plugins compatible for Editor in 2.75 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.059 seconds
-Domain Reload Profiling: 1750ms
-	BeginReloadAssembly (164ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (15ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (49ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (18ms)
-	LoadAllAssembliesAndSetupDomain (475ms)
-		LoadAssemblies (247ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (299ms)
-			TypeCache.Refresh (280ms)
-				TypeCache.ScanAssembly (263ms)
-			ScanForSourceGeneratedMonoScriptInfo (8ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (1060ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (450ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (83ms)
-			ProcessInitializeOnLoadAttributes (333ms)
-			ProcessInitializeOnLoadMethodAttributes (24ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Shader 'CartoonCoffee/Particle Additive': fallback shader '2' not found
-Shader 'CartoonCoffee/Particle Basic': fallback shader '2' not found
-Refreshing native plugins compatible for Editor in 2.95 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6345 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 70 unused Assets / (3.0 MB). Loaded Objects now: 7152.
-Memory consumption went from 243.0 MB to 240.0 MB.
-Total: 4.926400 ms (FindLiveObjects: 0.441700 ms CreateObjectMapping: 0.186700 ms MarkObjects: 3.469900 ms  DeleteObjects: 0.826500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image G:\Unity\UnityProjects\Git\Roguelike\Card Rouge-Like\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\Unity\UnityProjects\Git\Roguelike\Card Rouge-Like\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.608 seconds
-Refreshing native plugins compatible for Editor in 3.25 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.019 seconds
-Domain Reload Profiling: 1627ms
-	BeginReloadAssembly (156ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (45ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (18ms)
-	LoadAllAssembliesAndSetupDomain (400ms)
-		LoadAssemblies (240ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (231ms)
-			TypeCache.Refresh (215ms)
-				TypeCache.ScanAssembly (204ms)
-			ScanForSourceGeneratedMonoScriptInfo (6ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1020ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (434ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (81ms)
-			ProcessInitializeOnLoadAttributes (319ms)
-			ProcessInitializeOnLoadMethodAttributes (24ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Shader 'CartoonCoffee/Particle Additive': fallback shader '2' not found
-Shader 'CartoonCoffee/Particle Basic': fallback shader '2' not found
-Refreshing native plugins compatible for Editor in 3.15 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6345 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 70 unused Assets / (3.0 MB). Loaded Objects now: 7166.
-Memory consumption went from 244.9 MB to 242.0 MB.
-Total: 5.746100 ms (FindLiveObjects: 0.453800 ms CreateObjectMapping: 0.150300 ms MarkObjects: 4.276400 ms  DeleteObjects: 0.864200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 84.707553 seconds.
-  path: Assets/Prefabs/Items/Pickupable/Ammo/DestroyedWoodenArrowPickupable.prefab
-  artifactKey: Guid(1710b4f41f14231458af6e149febed48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Items/Pickupable/Ammo/DestroyedWoodenArrowPickupable.prefab using Guid(1710b4f41f14231458af6e149febed48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4094f0f7791c22cedded922b56cadea') in 0.070918 seconds
+  Time since last request: 0.450879 seconds.
+  path: Assets/ThirdParty/500_skillicons/Skill_nobg/Assassinskill_32_nobg.png
+  artifactKey: Guid(fa3c17d516451cd458bb20d71a4929f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/Skill_nobg/Assassinskill_32_nobg.png using Guid(fa3c17d516451cd458bb20d71a4929f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2deee0c1711fdb54db8247ec83d67f7c') in 0.012630 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 46
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 2.464983 seconds.
-  path: Assets/Prefabs/Items/Pickupable/Ammo/DestroyedWoodenArrowPickupable.prefab
-  artifactKey: Guid(1710b4f41f14231458af6e149febed48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Items/Pickupable/Ammo/DestroyedWoodenArrowPickupable.prefab using Guid(1710b4f41f14231458af6e149febed48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce7ac9cf4983e75e72eb7e0970072bed') in 0.043846 seconds
+  Time since last request: 0.057207 seconds.
+  path: Assets/ThirdParty/500_skillicons/Skill_nobg/Assassinskill_34_nobg.png
+  artifactKey: Guid(468760a57a9b69f4e8e669f23b0ded09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/Skill_nobg/Assassinskill_34_nobg.png using Guid(468760a57a9b69f4e8e669f23b0ded09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d5d7d25afa1f50d12fbd73676bac89') in 0.011787 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 46
+Number of asset objects unloaded after import = 3
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image G:\Unity\UnityProjects\Git\Roguelike\Card Rouge-Like\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\Unity\UnityProjects\Git\Roguelike\Card Rouge-Like\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.607 seconds
-Refreshing native plugins compatible for Editor in 2.70 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.170 seconds
-Domain Reload Profiling: 1776ms
-	BeginReloadAssembly (165ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (53ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (18ms)
-	LoadAllAssembliesAndSetupDomain (388ms)
-		LoadAssemblies (241ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (219ms)
-			TypeCache.Refresh (209ms)
-				TypeCache.ScanAssembly (198ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (1170ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (550ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (91ms)
-			ProcessInitializeOnLoadAttributes (414ms)
-			ProcessInitializeOnLoadMethodAttributes (35ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Shader 'CartoonCoffee/Particle Additive': fallback shader '2' not found
-Shader 'CartoonCoffee/Particle Basic': fallback shader '2' not found
-Refreshing native plugins compatible for Editor in 3.21 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6345 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 70 unused Assets / (3.0 MB). Loaded Objects now: 7180.
-Memory consumption went from 246.9 MB to 243.9 MB.
-Total: 7.432000 ms (FindLiveObjects: 0.603800 ms CreateObjectMapping: 0.472700 ms MarkObjects: 5.212800 ms  DeleteObjects: 1.141700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+Received Import Request.
+  Time since last request: 0.016778 seconds.
+  path: Assets/ThirdParty/500_skillicons/Skill_standart/Assassinskill_37.png
+  artifactKey: Guid(5e329be6a1c80154e96805af33766b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/Skill_standart/Assassinskill_37.png using Guid(5e329be6a1c80154e96805af33766b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed44eb77d5b393c27d95f02e544a898a') in 0.011210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.003110 seconds.
+  path: Assets/ThirdParty/500_skillicons/Skill_standart/Assassinskill_38.png
+  artifactKey: Guid(7541aa08aae8c784eac6c5145bf2d47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/Skill_standart/Assassinskill_38.png using Guid(7541aa08aae8c784eac6c5145bf2d47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6160dcceedeb46ad60b1fe3395d297bf') in 0.011883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.340133 seconds.
+  path: Assets/ThirdParty/500_skillicons/Skill_standart/Assassinskill_40.png
+  artifactKey: Guid(f66c20694df104748837a5e053635218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/Skill_standart/Assassinskill_40.png using Guid(f66c20694df104748837a5e053635218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eabfcfb37dbe882f47940c98cf86a75f') in 0.015198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.040544 seconds.
+  path: Assets/ThirdParty/500_skillicons/Skill_nobg/Assassinskill_42_nobg.png
+  artifactKey: Guid(ad6fbae49d78f374288e1a01fd1ac8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/Skill_nobg/Assassinskill_42_nobg.png using Guid(ad6fbae49d78f374288e1a01fd1ac8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9a54de2900ed3ed429371a5351b7a90') in 0.012427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002329 seconds.
+  path: Assets/ThirdParty/500_skillicons/Skill_standart/Assassinskill_44.png
+  artifactKey: Guid(564ea2649d5a9dc4696f4b6d925d525c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/Skill_standart/Assassinskill_44.png using Guid(564ea2649d5a9dc4696f4b6d925d525c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48a877d997c8d0af416275a521e9d595') in 0.013817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.003409 seconds.
+  path: Assets/ThirdParty/500_skillicons/Skill_standart/Assassinskill_45.png
+  artifactKey: Guid(abd0b44fc0e203d439ab1ae8491d7c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/Skill_standart/Assassinskill_45.png using Guid(abd0b44fc0e203d439ab1ae8491d7c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea1c90cee66c869043d50dee6b3add2f') in 0.012663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.341006 seconds.
+  path: Assets/ThirdParty/500_skillicons/Skill_nobg/Assassinskill_47_nobg.png
+  artifactKey: Guid(66dcd1b7191ad8544b4151fbbc5c602c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/Skill_nobg/Assassinskill_47_nobg.png using Guid(66dcd1b7191ad8544b4151fbbc5c602c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39ca644319cbe514376758f1d41a7d25') in 0.025244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.018129 seconds.
+  path: Assets/ThirdParty/500_skillicons/Skill_nobg/Assassinskill_50_nobg.png
+  artifactKey: Guid(749ebeaab4c32d5449d7353e16879fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/Skill_nobg/Assassinskill_50_nobg.png using Guid(749ebeaab4c32d5449d7353e16879fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a2e809026f3d3afebc22a40e0f00871') in 0.011978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.717484 seconds.
+  path: Assets/ThirdParty/500_skillicons/BonusIcons/neutral_nobg/bear_paw_nobg.png
+  artifactKey: Guid(5712191d84ca72c42a9fea81d3e4178a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/BonusIcons/neutral_nobg/bear_paw_nobg.png using Guid(5712191d84ca72c42a9fea81d3e4178a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '841d6fff484e02122abc549c2e756250') in 0.013101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.662359 seconds.
+  path: Assets/ThirdParty/500_skillicons/BonusIcons/neutral_nobg/claw_strike_nobg.png
+  artifactKey: Guid(44b1ed53e28ba76428f2082458276d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/BonusIcons/neutral_nobg/claw_strike_nobg.png using Guid(44b1ed53e28ba76428f2082458276d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5250d62799d49a02f03f0bba82d8e5da') in 0.023337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.873021 seconds.
+  path: Assets/ThirdParty/500_skillicons/BonusIcons/neutral_nobg/dragon_coldbreath_nobg.png
+  artifactKey: Guid(d57ff5f327c6c124cbb69b01ac3ffe05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/BonusIcons/neutral_nobg/dragon_coldbreath_nobg.png using Guid(d57ff5f327c6c124cbb69b01ac3ffe05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '088f91f4b5edcc77008d86600e1b83c6') in 0.013123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.264826 seconds.
+  path: Assets/ThirdParty/500_skillicons/BonusIcons/neutral_nobg/drainlife_nobg.png
+  artifactKey: Guid(0c42cbf833b0a4246a074b02fe581b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/BonusIcons/neutral_nobg/drainlife_nobg.png using Guid(0c42cbf833b0a4246a074b02fe581b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dde03f0cb74c6d07ed21762d4f351836') in 0.014736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.017185 seconds.
+  path: Assets/ThirdParty/500_skillicons/Skill_nobg/Druideskill_01_nobg.png
+  artifactKey: Guid(d1d97841c1e82d845bd9c9e25566f9e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/Skill_nobg/Druideskill_01_nobg.png using Guid(d1d97841c1e82d845bd9c9e25566f9e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebee6c7a04573f99eaf34ef79f2c098f') in 0.018770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.315272 seconds.
+  path: Assets/ThirdParty/500_skillicons/Skill_standart/Druideskill_05.png
+  artifactKey: Guid(aae8de6dc3bfdd84f8770ce5158f05d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/Skill_standart/Druideskill_05.png using Guid(aae8de6dc3bfdd84f8770ce5158f05d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '583ab5b27139e8d4bfd8585309505256') in 0.018093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.014869 seconds.
+  path: Assets/ThirdParty/500_skillicons/Skill_nobg/Druideskill_06_nobg.png
+  artifactKey: Guid(dff440dbf1c188b48b10c8d7e47da4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/Skill_nobg/Druideskill_06_nobg.png using Guid(dff440dbf1c188b48b10c8d7e47da4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a5a99cd289bd8353195f6dd08760a30') in 0.017220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.025366 seconds.
+  path: Assets/ThirdParty/500_skillicons/Skill_standart/Druideskill_08.png
+  artifactKey: Guid(d3e169a3942715a4b8f785fdfce429f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/Skill_standart/Druideskill_08.png using Guid(d3e169a3942715a4b8f785fdfce429f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ddfdcc8519c51b568e790577ab93058') in 0.011952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.034611 seconds.
+  path: Assets/ThirdParty/500_skillicons/Skill_standart/Druideskill_10.png
+  artifactKey: Guid(d1b2ea4180c29ba4ca38111d358c8086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/Skill_standart/Druideskill_10.png using Guid(d1b2ea4180c29ba4ca38111d358c8086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ab067f4bfdcb5748749cdde25b9db33') in 0.013942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001140 seconds.
+  path: Assets/ThirdParty/500_skillicons/Skill_standart/Druideskill_11.png
+  artifactKey: Guid(0f38e2a2a2abcaa41858729e4d9988bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/Skill_standart/Druideskill_11.png using Guid(0f38e2a2a2abcaa41858729e4d9988bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '524bb5b94720c027dc2545f9a98e89b2') in 0.013999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.852049 seconds.
+  path: Assets/ThirdParty/500_skillicons/Skill_nobg/Druideskill_12_nobg.png
+  artifactKey: Guid(64de7ba25cfacd540ad6a20fc8b5aaa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/Skill_nobg/Druideskill_12_nobg.png using Guid(64de7ba25cfacd540ad6a20fc8b5aaa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b644ebecaaebed2d5ac3ffe5c6b53735') in 0.033463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.021248 seconds.
+  path: Assets/ThirdParty/500_skillicons/Skill_nobg/Druideskill_14_nobg.png
+  artifactKey: Guid(0bade031cda470b40aeff2755df90503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/Skill_nobg/Druideskill_14_nobg.png using Guid(0bade031cda470b40aeff2755df90503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea0cf25d290b1927baa3fddc252288d0') in 0.012882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001907 seconds.
+  path: Assets/ThirdParty/500_skillicons/Skill_standart/Druideskill_16.png
+  artifactKey: Guid(a3bd1739aa73e17469985594fea9c628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/Skill_standart/Druideskill_16.png using Guid(a3bd1739aa73e17469985594fea9c628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95209dfbb23a289d6a12e94a69caf834') in 0.017598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.019246 seconds.
+  path: Assets/ThirdParty/500_skillicons/Skill_nobg/Engineerskill_33_nobg.png
+  artifactKey: Guid(c4eef961c0588a64dba1bf4ec8b4001e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/Skill_nobg/Engineerskill_33_nobg.png using Guid(c4eef961c0588a64dba1bf4ec8b4001e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41282dd32fa468dab4aa33ba85314f3d') in 0.012103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.022046 seconds.
+  path: Assets/ThirdParty/500_skillicons/Skill_standart/Engineerskill_35.png
+  artifactKey: Guid(1061bb1ddc3b44546bb68138462ff17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/Skill_standart/Engineerskill_35.png using Guid(1061bb1ddc3b44546bb68138462ff17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ac344ff8749937211a4a101ef3d4287') in 0.015387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002528 seconds.
+  path: Assets/ThirdParty/500_skillicons/Skill_standart/Engineerskill_37.png
+  artifactKey: Guid(ac7fb02a4f6662d4fac23eb6e57ab85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/Skill_standart/Engineerskill_37.png using Guid(ac7fb02a4f6662d4fac23eb6e57ab85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc1ded5e94c308d629e8e5ab8b607119') in 0.011636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.021270 seconds.
+  path: Assets/ThirdParty/500_skillicons/Skill_standart/Engineerskill_39.png
+  artifactKey: Guid(49d0d52815d7fb64ea2207e4bae38492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/Skill_standart/Engineerskill_39.png using Guid(49d0d52815d7fb64ea2207e4bae38492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdef5a10440696ad3c4462c0da6db31e') in 0.012663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.012955 seconds.
+  path: Assets/ThirdParty/500_skillicons/Skill_nobg/Engineerskill_40_nobg.png
+  artifactKey: Guid(92f76237d03c00d44870445ca93cdd05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/Skill_nobg/Engineerskill_40_nobg.png using Guid(92f76237d03c00d44870445ca93cdd05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4db50be075fb05c8b32ebe5e60fbe16') in 0.012535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002183 seconds.
+  path: Assets/ThirdParty/500_skillicons/Skill_standart/Engineerskill_43.png
+  artifactKey: Guid(ae6cb1f2598cdea4f832161dfe0f69d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/Skill_standart/Engineerskill_43.png using Guid(ae6cb1f2598cdea4f832161dfe0f69d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef565a790c452ec38a5107bca9933677') in 0.014899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.018014 seconds.
+  path: Assets/ThirdParty/500_skillicons/Skill_nobg/Engineerskill_45_nobg.png
+  artifactKey: Guid(b05a991ca30c9c84f8cc27235af3b0d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/500_skillicons/Skill_nobg/Engineerskill_45_nobg.png using Guid(b05a991ca30c9c84f8cc27235af3b0d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccc4cab4b343caec443ab1ddc20efe60') in 0.012093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

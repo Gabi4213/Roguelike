@@ -13,10 +13,23 @@ public class ObjectInstaniatingInventorySlot : MonoBehaviour
         {
             InventoryItem inventoryItem = GetComponentInChildren<InventoryItem>();
 
-            Transform player = GameObject.FindGameObjectWithTag("Player").transform;
+            if (inventoryItem == null)
+            {
+                InventoryAbility inventoryAbility = GetComponentInChildren<InventoryAbility>();
 
-            instantiatedObject = Instantiate(inventoryItem.item.usablePrefab, player);
-            instantiatedObject.transform.position = Vector3.zero;
+                Transform player = GameObject.FindGameObjectWithTag("Player").transform;
+
+                instantiatedObject = Instantiate(inventoryAbility.ability.usableAbility, player);
+                instantiatedObject.transform.position = Vector3.zero;
+                instantiatedObject.name = inventoryAbility.ability.instantiatedName;
+            }
+            else
+            {
+                Transform player = GameObject.FindGameObjectWithTag("Player").transform;
+
+                instantiatedObject = Instantiate(inventoryItem.item.usablePrefab, player);
+                instantiatedObject.transform.position = Vector3.zero;
+            }
         }
         else if (transform.childCount == 0 && instantiatedObject != null)
         { 

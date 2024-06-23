@@ -24,6 +24,33 @@
                     "initialStateCheck": false
                 },
                 {
+                    "name": "Ability1",
+                    "type": "Button",
+                    "id": "dc7ccd64-c8f3-425c-a0ad-eed5011dbd06",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Ability2",
+                    "type": "Button",
+                    "id": "cf0d5cb1-bce4-47f5-897c-914a2c036452",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Ability3",
+                    "type": "Button",
+                    "id": "57a1b344-f235-4598-930c-2f49e1821708",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
                     "name": "ToggleInventory",
                     "type": "Button",
                     "id": "69c404f8-0e51-4313-91b3-5a9ff341bb7c",
@@ -187,7 +214,7 @@
                 {
                     "name": "",
                     "id": "498d83e4-e05f-4780-abb5-4da2b925bf5e",
-                    "path": "<Keyboard>/1",
+                    "path": "<Keyboard>/c",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -198,11 +225,44 @@
                 {
                     "name": "",
                     "id": "71770b53-4fdb-48e2-a10f-09a9a6eed6ca",
-                    "path": "<Keyboard>/2",
+                    "path": "<Keyboard>/v",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "ConsumeSlot2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1bb1fa5f-8b52-410d-a64c-a2f3e8665891",
+                    "path": "<Keyboard>/1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Ability1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4be95a3f-a010-4a04-a7aa-2acac8ff7f27",
+                    "path": "<Keyboard>/2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Ability2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "686a462c-2fc6-4756-9869-c43699670918",
+                    "path": "<Keyboard>/3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Ability3",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

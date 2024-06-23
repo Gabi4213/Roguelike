@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f0d886737785de428ea7473ff3a9e5d, type: 3}
+  m_Name: GoldenTouchAbilitiy
+  m_EditorClassIdentifier: 
+  abilityName: Golden Touch
+  instantiatedName: GoldenTouch
+  description: Temporarily turns enemies to gold, freezing them in place.
+  damage: 0
+  cooldown: 10
+  duration: 3
+  abilityLevel: 0
+  usableAbility: {fileID: 6577821962272670663, guid: d95622c013c9a664f8ffd33de04df71c,
+    type: 3}
+  image: {fileID: 21300000, guid: f6e82d6c62e315746a98572172564fb3, type: 3}

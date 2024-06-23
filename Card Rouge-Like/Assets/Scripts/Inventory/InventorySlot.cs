@@ -36,6 +36,8 @@ public class InventorySlot : MonoBehaviour, IDropHandler, IPointerEnterHandler, 
         {
             InventoryItem inventoryItem = eventData.pointerDrag.GetComponent<InventoryItem>();
 
+            if (!inventoryItem) return;
+
             foreach(ItemType type in allowedItemTypes)
             {
                 if(type == inventoryItem.item.type)

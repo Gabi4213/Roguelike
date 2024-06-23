@@ -46,8 +46,7 @@ public enum ItemType
     Armor, 
     Shield,
     Ammo,
-    Other,
-    Ability
+    Other
 }
 
 public enum ActionType

@@ -50,7 +50,6 @@ public class BaseStaffController : MonoBehaviour
         //camera shake
         CameraFollow.instance.ShakeCamera();
 
-
         while (elapsedTime < pulseSpeed)
         {
             float pulsation = Mathf.Sin((elapsedTime / pulseSpeed) * Mathf.PI) * pulseAmount;
