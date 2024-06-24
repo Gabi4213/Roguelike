@@ -14,6 +14,7 @@ public class InventoryAbility : MonoBehaviour, IBeginDragHandler, IDragHandler, 
     [Header("UI")]
     public Image image;
     public Image cooldownImage;
+    public TextMeshProUGUI cooldownText;
 
     [HideInInspector] public Ability ability;
     [HideInInspector] public int count = 1;

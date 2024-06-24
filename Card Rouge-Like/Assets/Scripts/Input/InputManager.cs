@@ -8,7 +8,8 @@ public class InputManager : MonoBehaviour
     public static Vector2 movement;
 
     public static bool attack;
-    public static bool ability1, ability2, ability3;
+    public static bool[] abilities;
+
     public static bool inventoryOpen;
     public static bool consumeSlotOne;
     public static bool consumeSlotTwo;
@@ -31,6 +32,8 @@ public class InputManager : MonoBehaviour
     {
         playerInput = GetComponent<PlayerInput>();
 
+        abilities = new bool[3];
+
         moveAction = playerInput.actions["Move"];
         attackAction = playerInput.actions["Attack"];
         openInventoryAction = playerInput.actions["ToggleInventory"];
@@ -48,9 +51,9 @@ public class InputManager : MonoBehaviour
         movement = moveAction.ReadValue<Vector2>();
         attack = attackAction.WasPressedThisFrame();
 
-        ability1 = ability1Action.WasPressedThisFrame();
-        ability2 = ability2Action.WasPressedThisFrame();
-        ability3 = ability3Action.WasPressedThisFrame();
+        abilities[0] = ability1Action.WasPressedThisFrame();
+        abilities[1] = ability2Action.WasPressedThisFrame();
+        abilities[2] = ability3Action.WasPressedThisFrame();
 
         consumeSlotOne = consumeSlotOneAction.WasPressedThisFrame();
         consumeSlotTwo = consumeSlotTwoAction.WasPressedThisFrame();
