@@ -1,21 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 
 public class PlayerUIManager : MonoBehaviour
 {
     public static PlayerUIManager instance;
 
-    public Transform healthUIGroup;
-    public GameObject healthUIPrefab;
+    [Header("Player Health")]
+    public Image healthBarFill;
+    public Color healthyColor, moderateColor, criticalColor;
 
+    [Header("Player Stats")]
     public TextMeshProUGUI itemNameText, itemDescriptionText;
-
     public TextMeshProUGUI[] statsText;
-
-    private GameObject[] hearts;
-
     public Color defaultStatsColor, increasedStatsColor, decreasedStatsColor;
     public Color[] rarityTextColors;
 
@@ -29,39 +28,27 @@ public class PlayerUIManager : MonoBehaviour
 
     private void Start()
     {
-        SetUpHealthUI();
-    }
-
-    private void SetUpHealthUI()
-    {
-        hearts = new GameObject[PlayerStatistics.instance.health];
-        for (int i =0; i < PlayerStatistics.instance.health; i++)
-        {
-            GameObject go =  Instantiate(healthUIPrefab, healthUIGroup);
-            hearts[i] = go;
-            if (i < PlayerStatistics.instance.currentHealth)
-            {
-                go.GetComponent<HeartSlot>().filled = true;
-            }
-            else
-            {
-                go.GetComponent<HeartSlot>().filled = false;
-            }
-        }
+        UpdateHealthUI();
     }
 
     public void UpdateHealthUI()
     {
-        for (int i = 0; i < hearts.Length; i++)
+        float currentHealth = PlayerStatistics.instance.currentHealth;
+        float maxHealth = PlayerStatistics.instance.health;
+
+        healthBarFill.fillAmount = currentHealth / maxHealth;
+
+        if (currentHealth >= maxHealth * 0.5f)
         {
-            if (i < PlayerStatistics.instance.currentHealth)
-            {
-                hearts[i].GetComponent<HeartSlot>().filled = true;
-            }
-            else
-            {
-                hearts[i].GetComponent<HeartSlot>().filled = false;
-            }
+            healthBarFill.color = healthyColor;
+        }
+        else if (currentHealth >= maxHealth * 0.2f)
+        {
+            healthBarFill.color = moderateColor;
+        }
+        else
+        {
+            healthBarFill.color = criticalColor;
         }
     }
 }

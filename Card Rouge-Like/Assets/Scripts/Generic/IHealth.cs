@@ -7,7 +7,7 @@ using static UnityEngine.Rendering.DebugUI;
 public class IHealth : MonoBehaviour
 {
     public float maxHealth;
-    private float currentHealth;
+    public float currentHealth;
 
     public GameObject healthBar;
     public GameObject healthBarFill;

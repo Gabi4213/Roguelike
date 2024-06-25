@@ -36,10 +36,6 @@ public class PlayerStatistics : MonoBehaviour
     private float defaultMoveSpeed;
     public GameObject[] specialInventorySlots;
 
-
-    // Boolean to track if the player is currently taking damage
-    private bool takingDamage = false;
-
     private void Awake()
     {
         if (!instance)

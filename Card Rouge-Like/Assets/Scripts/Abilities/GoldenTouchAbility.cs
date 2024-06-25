@@ -76,7 +76,6 @@ public class GoldenTouchAbility : MonoBehaviour
         {
             rangeVisual.SetActive(false); // Hide the visual
         }
-        else
 
         // Wait for the ability duration
         yield return new WaitForSeconds(abilityBase.ability.duration);
