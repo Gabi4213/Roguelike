@@ -102,7 +102,7 @@ public class Enemy : MonoBehaviour
 
     void Follow()
     {
-        if (target != null)
+        if (target != null && currentState != EnemyState.Frozen)
         {
             // Calculate the direction towards the target
             Vector3 direction = (target.position - transform.position).normalized;
@@ -127,7 +127,7 @@ public class Enemy : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") && currentState != EnemyState.Frozen)
         {
             SetState(EnemyState.Attack);
         }
@@ -135,7 +135,7 @@ public class Enemy : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") && currentState != EnemyState.Frozen)
         {
             SetState(EnemyState.Follow);
         }
