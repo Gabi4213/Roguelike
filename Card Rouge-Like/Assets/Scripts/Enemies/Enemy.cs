@@ -15,6 +15,8 @@ public class Enemy : MonoBehaviour
 
     [Header("Animation Data")]
     public Animator anim;
+    public SpriteRenderer spriteRenderer;
+    public Sprite defaultSprite, hitSprite;
 
     private Rigidbody2D rb;
     private Transform target;
@@ -55,13 +57,22 @@ public class Enemy : MonoBehaviour
             case EnemyState.TakingDamage:
                 if (!enemyHit)
                 {
-                    enemyHit = true;
+                    enemyHit = true;                   
                     StartCoroutine(EnemyHit());
                 }
                 break;
             case EnemyState.Dead:
                 StartCoroutine(Dead());
                 break;
+        }
+
+        if(currentState == EnemyState.Frozen)
+        {
+            anim.SetBool("Frozen", true);
+        }
+        else
+        {
+            anim.SetBool("Frozen", false);
         }
     }
 
@@ -162,8 +173,10 @@ public class Enemy : MonoBehaviour
     IEnumerator EnemyHit()
     {
         anim.SetTrigger("Hit");
-        Debug.Log("Hit");
         anim.SetBool("Moving", false);
+
+        //Sprite Change
+        spriteRenderer.sprite = hitSprite;
 
         hitFX.Play();
 
@@ -175,6 +188,7 @@ public class Enemy : MonoBehaviour
 
         yield return new WaitForSeconds(0.3f);
         enemyHit = false;
+        spriteRenderer.sprite = defaultSprite;
         SetState(EnemyState.Recover);
     }
 

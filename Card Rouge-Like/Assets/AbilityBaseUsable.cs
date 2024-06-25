@@ -9,6 +9,7 @@ public class AbilityBaseUsable : MonoBehaviour
     public float currentCooldown;
     [Header("0 = first ability, 1 = second & 2= third")]
     public int abilityIndex;
+    public bool inUse;
     private bool canUse;
 
     private InventoryAbility currentInventoryAbility;
@@ -33,6 +34,7 @@ public class AbilityBaseUsable : MonoBehaviour
 
         if (InputManager.abilities[abilityIndex] && canUse)
         {
+            inUse = true;
             currentCooldown = ability.cooldown;
         }
 

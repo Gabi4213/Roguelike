@@ -20,7 +20,6 @@ public class ObjectInstaniatingInventorySlot : MonoBehaviour
                 Transform player = GameObject.FindGameObjectWithTag("Player").transform;
 
                 instantiatedObject = Instantiate(inventoryAbility.ability.usableAbility, player);
-                instantiatedObject.transform.position = Vector3.zero;
                 instantiatedObject.name = inventoryAbility.ability.instantiatedName;
             }
             else

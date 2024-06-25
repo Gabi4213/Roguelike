@@ -45,6 +45,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e2759bd6c2570b40a3dab3f16a118f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  range: 10
+  abilityBase: {fileID: 8932337227682437921}
+  goldenSprite: {fileID: 21300000, guid: b2235f59f0a467244965f911a9c4cb49, type: 3}
+  freezeParticlePrefab: {fileID: 3331884730397508130, guid: 905349cf7068ba3488180091ba4b5176,
+    type: 3}
+  unfreezeParticlePrefab: {fileID: 3331884730397508130, guid: 95e1758ecacdf1c4fb790b6989bdf2ac,
+    type: 3}
 --- !u!114 &8932337227682437921
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60,3 +67,4 @@ MonoBehaviour:
   ability: {fileID: 11400000, guid: 7a0c3c472c4891845ab62bee43a65f37, type: 2}
   currentCooldown: 0
   abilityIndex: 0
+  inUse: 0
