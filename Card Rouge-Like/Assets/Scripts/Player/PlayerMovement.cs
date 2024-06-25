@@ -90,7 +90,7 @@ public class PlayerMovement : MonoBehaviour
         previousMovement = movement;
     }
 
-    private void StopPlayer()
+    public void StopPlayer()
     {
         rb.velocity = Vector2.zero;
         //animator.SetFloat(horizontal, 0);

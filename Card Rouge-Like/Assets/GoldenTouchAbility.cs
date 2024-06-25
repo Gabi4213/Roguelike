@@ -21,10 +21,13 @@ public class GoldenTouchAbility : MonoBehaviour
     private HashSet<GameObject> frozenEnemies = new HashSet<GameObject>(); // Set to store frozen enemies
     private float currentRange; // Current range value during expansion
 
+    private PlayerMovement playerMove;
+
     void Start()
     {
         // Instantiate the range visual GameObject
         rangeVisual.SetActive(false); // Hide the visual initially
+        playerMove = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovement>();
     }
 
     void OnDrawGizmos()
@@ -60,6 +63,7 @@ public class GoldenTouchAbility : MonoBehaviour
             currentRange += growSpeed * Time.deltaTime;
             rangeVisual.transform.localScale = Vector3.one * currentRange * 1.1f; // Adjust the scale based on currentRange
             FindAndFreezeEnemiesInRange();
+            playerMove.StopPlayer();
             yield return null;
         }
 
@@ -72,12 +76,10 @@ public class GoldenTouchAbility : MonoBehaviour
         {
             rangeVisual.SetActive(false); // Hide the visual
         }
+        else
 
         // Wait for the ability duration
         yield return new WaitForSeconds(abilityBase.ability.duration);
-
-        //camera shake
-        CameraFollow.instance.ShakeCamera();
 
         // Unfreeze enemies
         UnfreezeEnemies();
@@ -118,9 +120,12 @@ public class GoldenTouchAbility : MonoBehaviour
 
     void UnfreezeEnemies()
     {
+        //camera shake
+        CameraFollow.instance.ShakeCamera();
+
         foreach (GameObject enemy in frozenEnemies)
         {
-            if (enemy != null) // Check if the enemy still exists
+            if (enemy != null && enemy.GetComponent<Enemy>().currentState == EnemyState.Frozen) // Check if the enemy still exists
             {
                 UnfreezeEnemy(enemy);
             }
