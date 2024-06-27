@@ -13,7 +13,8 @@ public class InventoryItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
 {
     [Header("UI")]
     public Image image;
-    public Image rarityBorderImage;
+    public Image rarityBorderBackgroundImage, rarityBorderImage;
+    public Sprite[] rarityBorderBackgrounds;
     public Sprite[] rarityBorders;
     public Material[] rarityMaterials;
     public TextMeshProUGUI countText;
@@ -36,35 +37,43 @@ public class InventoryItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
         {
             case Rarity.Base:
                 rarityBorderImage.sprite = rarityBorders[0];
-                rarityBorderImage.material = rarityMaterials[0];
+                rarityBorderBackgroundImage.sprite = rarityBorderBackgrounds[0];
+                rarityBorderBackgroundImage.material = rarityMaterials[0];
                 break;
             case Rarity.Uncommon:
                 rarityBorderImage.sprite = rarityBorders[1];
-                rarityBorderImage.material = rarityMaterials[1];
+                rarityBorderBackgroundImage.sprite = rarityBorderBackgrounds[1];
+                rarityBorderBackgroundImage.material = rarityMaterials[1];
                 break;
             case Rarity.Rare:
                 rarityBorderImage.sprite = rarityBorders[2];
-                rarityBorderImage.material = rarityMaterials[2];
+                rarityBorderBackgroundImage.sprite = rarityBorderBackgrounds[2];
+                rarityBorderBackgroundImage.material = rarityMaterials[2];
                 break;
             case Rarity.Ultimate:
                 rarityBorderImage.sprite = rarityBorders[3];
-                rarityBorderImage.material = rarityMaterials[3];
+                rarityBorderBackgroundImage.sprite = rarityBorderBackgrounds[3];
+                rarityBorderBackgroundImage.material = rarityMaterials[3];
                 break;
             case Rarity.Godly:
                 rarityBorderImage.sprite = rarityBorders[4];
-                rarityBorderImage.material = rarityMaterials[4];
+                rarityBorderBackgroundImage.sprite = rarityBorderBackgrounds[4];
+                rarityBorderBackgroundImage.material = rarityMaterials[4];
                 break;
             case Rarity.Angelic:
                 rarityBorderImage.sprite = rarityBorders[5];
-                rarityBorderImage.material = rarityMaterials[5];
+                rarityBorderBackgroundImage.sprite = rarityBorderBackgrounds[5];
+                rarityBorderBackgroundImage.material = rarityMaterials[5];
                 break;
             case Rarity.Demonic:
                 rarityBorderImage.sprite = rarityBorders[6];
-                rarityBorderImage.material = rarityMaterials[6];
+                rarityBorderBackgroundImage.sprite = rarityBorderBackgrounds[6];
+                rarityBorderBackgroundImage.material = rarityMaterials[6];
                 break;
             case Rarity.Glorious:
                 rarityBorderImage.sprite = rarityBorders[7];
-                rarityBorderImage.material = rarityMaterials[7];
+                rarityBorderBackgroundImage.sprite = rarityBorderBackgrounds[7];
+                rarityBorderBackgroundImage.material = rarityMaterials[7];
                 break;
         }
     }
