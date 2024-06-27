@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
     private Animator animator;
 
     public Vector2 movement;
-    private Rigidbody2D rb;
+    public Rigidbody2D rb;
 
     public float knockbackForce;
 
@@ -30,6 +30,7 @@ public class PlayerMovement : MonoBehaviour
     public bool canMove = true;
 
     private Vector2 previousMovement;
+    public Vector2 lastMovement;
 
     private bool isRunning;
     private Coroutine dustCoroutine;
@@ -82,6 +83,7 @@ public class PlayerMovement : MonoBehaviour
         //if we are moving set the last move direction. otherwise when we are not keep the last one set
         if (movement != Vector2.zero)
         {
+            lastMovement = new Vector2(movement.x, movement.y);
             animator.SetFloat(lastHorizontal, movement.x);
             animator.SetFloat(lastVertical, movement.y);
         }
