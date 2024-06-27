@@ -63,6 +63,7 @@ public enum Rarity
     Rare,
     Ultimate,
     Godly,
+    Wraithboud,
     Angelic,
     Demonic,
     Glorious

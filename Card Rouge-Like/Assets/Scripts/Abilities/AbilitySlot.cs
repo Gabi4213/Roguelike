@@ -4,7 +4,6 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using TMPro;
-using static UnityEditor.Progress;
 using Unity.VisualScripting;
 
 public class AbilitySlot : MonoBehaviour, IDropHandler, IPointerEnterHandler, IPointerExitHandler

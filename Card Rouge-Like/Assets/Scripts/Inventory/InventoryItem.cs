@@ -60,20 +60,25 @@ public class InventoryItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
                 rarityBorderBackgroundImage.sprite = rarityBorderBackgrounds[4];
                 rarityBorderBackgroundImage.material = rarityMaterials[4];
                 break;
-            case Rarity.Angelic:
+            case Rarity.Wraithboud:
                 rarityBorderImage.sprite = rarityBorders[5];
                 rarityBorderBackgroundImage.sprite = rarityBorderBackgrounds[5];
                 rarityBorderBackgroundImage.material = rarityMaterials[5];
                 break;
-            case Rarity.Demonic:
+            case Rarity.Angelic:
                 rarityBorderImage.sprite = rarityBorders[6];
                 rarityBorderBackgroundImage.sprite = rarityBorderBackgrounds[6];
                 rarityBorderBackgroundImage.material = rarityMaterials[6];
                 break;
-            case Rarity.Glorious:
+            case Rarity.Demonic:
                 rarityBorderImage.sprite = rarityBorders[7];
                 rarityBorderBackgroundImage.sprite = rarityBorderBackgrounds[7];
                 rarityBorderBackgroundImage.material = rarityMaterials[7];
+                break;
+            case Rarity.Glorious:
+                rarityBorderImage.sprite = rarityBorders[8];
+                rarityBorderBackgroundImage.sprite = rarityBorderBackgrounds[8];
+                rarityBorderBackgroundImage.material = rarityMaterials[8];
                 break;
         }
     }
