@@ -84,8 +84,8 @@ public class PlayerMovement : MonoBehaviour
         if (movement != Vector2.zero)
         {
             lastMovement = new Vector2(movement.x, movement.y);
-            animator.SetFloat(lastHorizontal, movement.x);
-            animator.SetFloat(lastVertical, movement.y);
+            animator.SetFloat(lastHorizontal, lastMovement.x);
+            animator.SetFloat(lastVertical, lastMovement.y);
         }
 
         // Update the previousMovement to the current movement

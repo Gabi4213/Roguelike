@@ -1,5 +1,6 @@
+using NUnit.Framework.Constraints;
 using System.Collections;
-using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class Enemy : MonoBehaviour
@@ -10,6 +11,8 @@ public class Enemy : MonoBehaviour
     public float knockbackSpeed;
     public float moveSpeed;
     public float stoppingDistance;
+    public float atertTime;
+    public float spottedDistance;
 
     public bool enemyHit;
 
@@ -30,21 +33,33 @@ public class Enemy : MonoBehaviour
 
     public GameObject killedFX;
 
+    public Animator AboveHeadTextAnim;
+    public TextMeshPro aboveNameText;
+
+    private bool enemyActivated;
+    private bool enemyAlerted;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         target = GameObject.FindGameObjectWithTag("Player").transform;
+        aboveNameText.text = "";
+        enemyActivated = false;
         enemyHit = false;
-        currentState = EnemyState.Follow;
+        currentState = EnemyState.Frozen;
     }
 
     private void Update()
-    {
+    {       
         switch (currentState)
         {
             case EnemyState.Frozen:
+                ActivateEnemy();
                 Frozen();
                 break;
+            case EnemyState.Alerted:
+                Alerted();
+            break;
             case EnemyState.Follow:
                 Follow();
                 break;
@@ -73,6 +88,17 @@ public class Enemy : MonoBehaviour
         else
         {
             anim.SetBool("Frozen", false);
+        }
+    }
+
+    void ActivateEnemy()
+    {
+        if (enemyActivated) return;
+        float distanceToPlayer = Vector3.Distance(transform.position, target.position);
+        if (distanceToPlayer <= spottedDistance)
+        {
+            enemyActivated = true;
+            SetState(EnemyState.Alerted);
         }
     }
 
@@ -125,7 +151,21 @@ public class Enemy : MonoBehaviour
         }
     }
 
+    void Alerted()
+    {
+        if (enemyAlerted) return;
+        StartCoroutine(EnemyAlerted());
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player") && currentState != EnemyState.Frozen)
+        {
+            SetState(EnemyState.Attack);
+        }
+    }
+
+    private void OnTriggerStay2D(Collider2D other)
     {
         if (other.CompareTag("Player") && currentState != EnemyState.Frozen)
         {
@@ -209,11 +249,25 @@ public class Enemy : MonoBehaviour
         yield return new WaitForSeconds(damageDelay);
         canDealDamage = true;
     }
+
+    IEnumerator EnemyAlerted()
+    {
+        enemyAlerted = true;
+        aboveNameText.text = "!";
+        AboveHeadTextAnim.SetTrigger("Play");
+        rb.velocity = Vector3.zero;
+
+        yield return new WaitForSeconds(atertTime);
+
+        aboveNameText.text = "";
+        SetState(EnemyState.Follow);
+    }
 }
 
 public enum EnemyState
 {
     Frozen,
+    Alerted,
     Follow,
     Recover,
     Attack,

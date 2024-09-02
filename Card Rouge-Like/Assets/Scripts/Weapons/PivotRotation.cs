@@ -13,6 +13,10 @@ public class PivotRotation : MonoBehaviour
     // Reference to the sprite renderer component
     public SpriteRenderer spriteRenderer;
 
+    // Store the direction values
+    private float horizontalDirection;
+    private float verticalDirection;
+
     private void Start()
     {
         pivot = transform.parent;
@@ -51,5 +55,15 @@ public class PivotRotation : MonoBehaviour
             spriteRenderer.flipY = false;
             projSpawnPoint.transform.localPosition = normalProjPos;
         }
+
+        // Calculate direction for later use
+        horizontalDirection = Mathf.Round(Mathf.Cos(angle * Mathf.Deg2Rad));
+        verticalDirection = Mathf.Round(Mathf.Sin(angle * Mathf.Deg2Rad));
+    }
+
+    // Method to get the direction values
+    public Vector2 GetDirection()
+    {
+        return new Vector2(horizontalDirection, verticalDirection);
     }
 }

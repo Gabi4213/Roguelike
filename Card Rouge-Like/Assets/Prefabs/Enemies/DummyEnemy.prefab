@@ -851,6 +851,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100000
+  currentHealth: 0
   healthBar: {fileID: 101173913684467572}
   healthBarFill: {fileID: 6296042002969485477}
   damageText: {fileID: 8894758107576684849}
@@ -875,6 +876,7 @@ MonoBehaviour:
   knockbackSpeed: 0
   moveSpeed: 0
   stoppingDistance: 1
+  atertTime: 0
   enemyHit: 0
   anim: {fileID: 8880943540465644899}
   spriteRenderer: {fileID: 2366823240492588860}
@@ -885,6 +887,7 @@ MonoBehaviour:
   damageDelay: 3
   killedFX: {fileID: 8589686904382956699, guid: eebf26e560c5d834dbb5914d21ad79ca,
     type: 3}
+  damageText: {fileID: 8894758107576684849}
 --- !u!1001 &2311847116471799778
 PrefabInstance:
   m_ObjectHideFlags: 0

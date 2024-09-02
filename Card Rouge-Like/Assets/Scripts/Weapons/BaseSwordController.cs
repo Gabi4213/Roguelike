@@ -1,7 +1,8 @@
+using Demo_Project;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using static UnityEditor.Searcher.SearcherWindow.Alignment;
 
 public class BaseSwordController : MonoBehaviour
 {
@@ -20,14 +21,22 @@ public class BaseSwordController : MonoBehaviour
     private Vector3 initialScale;
     private bool canAttack = true; // Flag to check if the player can attack
 
-    private Animator playerAnimator; 
+    private GameObject player;
+    private Animator playerAnimator;
     public Item item;
+
+    // Reference to the PivotRotation script
+    private PivotRotation pivotRotation;
 
     private void Start()
     {
         initialScale = transform.localScale;
 
-        playerAnimator = GameObject.FindGameObjectWithTag("Player").GetComponentInChildren<Animator>();
+        player = GameObject.FindGameObjectWithTag("Player");
+        playerAnimator = player.GetComponentInChildren<Animator>();
+
+        // Find the PivotRotation script (assumes it's on the same GameObject as this script)
+        pivotRotation = GetComponent<PivotRotation>();
 
         if (weaponAttackFxAnimation)
         {
@@ -59,7 +68,7 @@ public class BaseSwordController : MonoBehaviour
     {
         float elapsedTime = 0f;
 
-        //camera shake
+        // Camera shake
         CameraFollow.instance.ShakeCamera();
 
         if (weaponAttackFxAnimation)
@@ -81,6 +90,13 @@ public class BaseSwordController : MonoBehaviour
 
     private IEnumerator AttackCooldown()
     {
+        // Get the current direction from the PivotRotation script
+        Vector2 direction = pivotRotation.GetDirection();
+
+        // Set the animator parameters based on the direction
+        playerAnimator.SetFloat("LastHorizontal", direction.x);
+        playerAnimator.SetFloat("LastVertical", direction.y);
+
         playerAnimator.SetTrigger("Attack");
         canAttack = false;
         yield return new WaitForSeconds(PlayerStatistics.instance.attackSpeed);
