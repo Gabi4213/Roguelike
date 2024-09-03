@@ -98,8 +98,10 @@ public class BaseSwordController : MonoBehaviour
         playerAnimator.SetFloat("LastVertical", direction.y);
 
         playerAnimator.SetTrigger("Attack");
+        PlayerStates.instance.SetState(PlayerState.Attack);
         canAttack = false;
         yield return new WaitForSeconds(PlayerStatistics.instance.attackSpeed);
+        PlayerStates.instance.SetState(PlayerState.Idle);
         canAttack = true;
     }
 }

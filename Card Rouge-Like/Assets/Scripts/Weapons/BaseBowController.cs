@@ -98,9 +98,11 @@ public class BaseBowController : MonoBehaviour
 
     private IEnumerator AttackCooldown()
     {
+        PlayerStates.instance.SetState(PlayerState.Attack);
         playerAnimator.SetTrigger("Attack");
         canAttack = false;
         yield return new WaitForSeconds(PlayerStatistics.instance.attackSpeed);
+        PlayerStates.instance.SetState(PlayerState.Idle);
         canAttack = true;
     }
 

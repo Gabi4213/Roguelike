@@ -66,6 +66,8 @@ public class InventorySlot : MonoBehaviour, IDropHandler, IPointerEnterHandler, 
             InventoryItem inventoryItem = transform.GetChild(0).GetComponent<InventoryItem>();
             PlayerUIManager.instance.itemNameText.text = inventoryItem.item.itemName;
             PlayerUIManager.instance.itemDescriptionText.text = inventoryItem.item.description;
+            PlayerUIManager.instance.itemInfoObject.SetActive(true);
+            PlayerUIManager.instance.itemInfoObject.transform.position = transform.position;
 
             ItemStatsSetUp(inventoryItem.item);
         }
@@ -84,6 +86,7 @@ public class InventorySlot : MonoBehaviour, IDropHandler, IPointerEnterHandler, 
         {
             PlayerUIManager.instance.itemNameText.text = "";
             PlayerUIManager.instance.itemDescriptionText.text = "";
+            PlayerUIManager.instance.itemInfoObject.SetActive(false);
 
             for (int i = 0; i < PlayerUIManager.instance.statsText.Length; i++)
             {
@@ -131,18 +134,21 @@ public class InventorySlot : MonoBehaviour, IDropHandler, IPointerEnterHandler, 
             PlayerUIManager.instance.statsText[2].gameObject.SetActive(true);
             PlayerUIManager.instance.statsText[3].gameObject.SetActive(true);
             PlayerUIManager.instance.statsText[4].gameObject.SetActive(true);
+            PlayerUIManager.instance.statsText[5].gameObject.SetActive(true);
 
             PlayerUIManager.instance.statsText[0].text = item.damage.ToString() + " Magic Damage";
             PlayerUIManager.instance.statsText[1].text = item.criticalStrike.ToString() + " Critical Strike";
             PlayerUIManager.instance.statsText[2].text = item.attackSpeed.ToString() + " Attack Speed";
             PlayerUIManager.instance.statsText[3].text = item.projectileSpeed.ToString() + " Projectile Speed";
             PlayerUIManager.instance.statsText[4].text = item.projectileLifetime.ToString() + " Projectile Lifetime";
+            PlayerUIManager.instance.statsText[5].text = item.mannaCost.ToString() + " Manna Cost";
 
             UpdateTextColor("magicDamage", PlayerStatistics.instance.damage, item.damage, PlayerUIManager.instance.statsText[0]);
             UpdateTextColor("criticalStrike", PlayerStatistics.instance.criticalStrike, item.criticalStrike, PlayerUIManager.instance.statsText[1]);
             UpdateTextColor("attackSpeed", PlayerStatistics.instance.attackSpeed, item.attackSpeed, PlayerUIManager.instance.statsText[2]);
             UpdateTextColor("projectileLifetime", PlayerStatistics.instance.projectileSpeed, item.projectileSpeed, PlayerUIManager.instance.statsText[3]);
             UpdateTextColor("projectileLifetime", PlayerStatistics.instance.projectileLifetime, item.projectileLifetime, PlayerUIManager.instance.statsText[4]);
+            UpdateTextColor("mannaCost", PlayerStatistics.instance.mannaCost, item.mannaCost, PlayerUIManager.instance.statsText[5]);
         }
         else if (item.type == ItemType.RangedWeapon)
         {
@@ -181,7 +187,7 @@ public class InventorySlot : MonoBehaviour, IDropHandler, IPointerEnterHandler, 
     void UpdateTextColor(string itemStatName, float playerStat, float itemStat, TextMeshProUGUI textToUpdate)
     {
         //item stats that are better when lower
-        if(itemStatName == "attackSpeed")
+        if(itemStatName == "attackSpeed" || itemStatName == "mannaCost")
         {
             if (playerStat == itemStat)
             {

@@ -11,6 +11,7 @@ public class PlayerStatistics : MonoBehaviour
     [Header("Player")]
     public int health;
     public float defence;
+    public float manna;
     public float hitDuration;
 
     // Attacking
@@ -25,6 +26,11 @@ public class PlayerStatistics : MonoBehaviour
     public float projectileLifetime;
     public float staffProjectileLifetime;
 
+    [Header("Magic")]
+    public float mannaCost;
+    public float mannaRegenSpeed;
+    public float mannaRegenAmount;
+
     //Movement
     [Header("Movement")]
     public float moveSpeed;
@@ -33,8 +39,11 @@ public class PlayerStatistics : MonoBehaviour
 
     //Tracking
     public float currentHealth;
+    public float currentManna;
     private float defaultMoveSpeed;
     public GameObject[] specialInventorySlots;
+
+    private bool currentRegening;
 
     private void Awake()
     {
@@ -43,8 +52,10 @@ public class PlayerStatistics : MonoBehaviour
             instance = this;
         }
 
+        currentRegening = false;
         defaultMoveSpeed = moveSpeed;
         currentHealth = health;
+        currentManna = manna;
         playerMovement = GetComponent<PlayerMovement>();
     }
 
@@ -54,6 +65,13 @@ public class PlayerStatistics : MonoBehaviour
         currentHealth = Mathf.Max(currentHealth, 0f); // Ensure health doesn't go below 0.
         PlayerUIManager.instance.UpdateHealthUI();
         playerMovement.Hit();
+    }
+
+    public void SetManna(float inManna)
+    {
+        currentManna += inManna;
+        currentManna = Mathf.Max(currentManna, 0f); // Ensure health doesn't go below 0.
+        PlayerUIManager.instance.UpdateMannaUI();
     }
 
     private void Update()
@@ -67,6 +85,7 @@ public class PlayerStatistics : MonoBehaviour
         float tempDefence = 0;
         float tempProjectileSpeed = 0;
         float tempProjectileLifetime = 0;
+        float tempMannaCost = 0;
 
         foreach(GameObject slot in specialInventorySlots)
         {
@@ -83,6 +102,7 @@ public class PlayerStatistics : MonoBehaviour
                 tempDefence += inventoryItem.item.defence;
                 tempProjectileSpeed += inventoryItem.item.projectileSpeed;
                 tempProjectileLifetime += inventoryItem.item.projectileLifetime;
+                tempMannaCost += inventoryItem.item.mannaCost;
             }
         }
 
@@ -129,5 +149,39 @@ public class PlayerStatistics : MonoBehaviour
                 moveSpeed = defaultMoveSpeed;
             }
         }
+        if (tempMannaCost != mannaCost)
+        {
+            mannaCost = tempMannaCost;
+        }
+
+        RegenManna();
+    }
+
+    public bool CanRegenManna()
+    {
+        if(currentManna >= manna || currentRegening || PlayerStates.instance.GetState() == PlayerState.Attack)
+        {
+            return false;
+        }
+        else
+        {
+            return true;
+        }
+    }
+
+    public void RegenManna()
+    {
+        if (CanRegenManna())
+        {
+            StartCoroutine(RegenMannaInterval());
+        }
+    }
+
+    IEnumerator RegenMannaInterval()
+    {
+        currentRegening = true;
+        yield return new WaitForSeconds(mannaRegenSpeed);
+        SetManna(+mannaRegenAmount);
+        currentRegening = false;
     }
 }

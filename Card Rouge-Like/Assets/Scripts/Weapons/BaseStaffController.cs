@@ -21,13 +21,12 @@ public class BaseStaffController : MonoBehaviour
     private void Start()
     {
         playerAnimator = GameObject.FindGameObjectWithTag("Player").GetComponentInChildren<Animator>();
-
         initialScale = transform.localScale;
     }
 
     private void Update()
     {
-        if (canAttack && InputManager.attack && !InputManager.inventoryOpen)
+        if (canAttack && InputManager.attack && !InputManager.inventoryOpen && PlayerStatistics.instance.currentManna >= item.mannaCost)
         {
             StartCoroutine(AttackCooldown());
             InstantiateProjectile();
@@ -64,9 +63,12 @@ public class BaseStaffController : MonoBehaviour
 
     private IEnumerator AttackCooldown()
     {
+        PlayerStates.instance.SetState(PlayerState.Attack);
         playerAnimator.SetTrigger("Attack");
         canAttack = false;
+        PlayerStatistics.instance.SetManna(-item.mannaCost);
         yield return new WaitForSeconds(PlayerStatistics.instance.attackSpeed);
+        PlayerStates.instance.SetState(PlayerState.Idle);
         canAttack = true;
     }
 }

@@ -52,6 +52,19 @@ public class PlayerMovement : MonoBehaviour
 
         movement.Set(InputManager.movement.x, InputManager.movement.y);
 
+
+        if (PlayerStates.instance.GetState() != PlayerState.Attack)
+        {
+            if (isRunning && PlayerStates.instance.GetState() != PlayerState.Running)
+            {
+                PlayerStates.instance.SetState(PlayerState.Running);
+            }
+            else if(!isRunning && PlayerStates.instance.GetState() != PlayerState.Idle)
+            {
+                PlayerStates.instance.SetState(PlayerState.Idle);
+            }
+        }
+
         // Check if the player is moving
         if (movement != Vector2.zero)
         {

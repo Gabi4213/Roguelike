@@ -34,6 +34,7 @@ public class Item : ScriptableObject
     public float defence;
     public float projectileSpeed;
     public float projectileLifetime;
+    public float mannaCost;
 }
 
 public enum ItemType

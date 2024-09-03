@@ -61,8 +61,10 @@ public class BaseHammerController : MonoBehaviour
 
     private IEnumerator AttackCooldown()
     {
+        PlayerStates.instance.SetState(PlayerState.Attack);
         canAttack = false;
         yield return new WaitForSeconds(PlayerStatistics.instance.attackSpeed);
+        PlayerStates.instance.SetState(PlayerState.Idle);
         canAttack = true;
     }
 }

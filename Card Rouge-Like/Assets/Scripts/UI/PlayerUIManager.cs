@@ -12,7 +12,11 @@ public class PlayerUIManager : MonoBehaviour
     public Image healthBarFill;
     public Color healthyColor, moderateColor, criticalColor;
 
+    [Header("Player Manna")]
+    public Image mannaBarFill;
+
     [Header("Player Stats")]
+    public GameObject itemInfoObject;
     public TextMeshProUGUI itemNameText, itemDescriptionText;
     public TextMeshProUGUI[] statsText;
     public Color defaultStatsColor, increasedStatsColor, decreasedStatsColor;
@@ -50,5 +54,13 @@ public class PlayerUIManager : MonoBehaviour
         {
             healthBarFill.color = criticalColor;
         }
+    }
+
+    public void UpdateMannaUI()
+    {
+        float currentManna = PlayerStatistics.instance.currentManna;
+        float maxManna = PlayerStatistics.instance.manna;
+
+        mannaBarFill.fillAmount = currentManna / maxManna;
     }
 }
