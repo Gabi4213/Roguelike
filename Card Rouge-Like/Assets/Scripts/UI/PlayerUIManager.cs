@@ -35,6 +35,14 @@ public class PlayerUIManager : MonoBehaviour
         UpdateHealthUI();
     }
 
+    private void Update()
+    {
+        if (Input.GetMouseButtonDown(0) && itemInfoObject.activeSelf)
+        {
+            itemInfoObject.SetActive(false);
+        }
+    }
+
     public void UpdateHealthUI()
     {
         float currentHealth = PlayerStatistics.instance.currentHealth;

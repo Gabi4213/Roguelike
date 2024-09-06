@@ -9,10 +9,12 @@ public class PickupableAbility : MonoBehaviour
     public GameObject pickUpFX;
 
     private SpriteRenderer spriteRenderer; // Reference to the SpriteRenderer component
+    private int abilityIndex;
 
     private void Start()
     {
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        abilityIndex = ability.usableAbility.GetComponent<AbilityBaseUsable>().abilityIndex;
 
         if (!spriteRenderer.sprite)
         {
@@ -31,7 +33,7 @@ public class PickupableAbility : MonoBehaviour
         // Only if the thing colliding is a player
         if (other.tag == "Player")
         {
-            bool result = InventoryManager.instance.AddAbility(ability);
+            bool result = InventoryManager.instance.AddAbility(ability, abilityIndex);
 
             if (result)
             {

@@ -97,7 +97,7 @@ GameObject:
   - component: {fileID: 6568197720813152051}
   m_Layer: 0
   m_Name: SwordProjectile 1
-  m_TagString: Untagged
+  m_TagString: Projectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -253,6 +253,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5be1f5acbba77f142b1159fd624af85d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  itemDamage: 0
+  itemKockbackForce: 0
 --- !u!1 &6993633549525021335
 GameObject:
   m_ObjectHideFlags: 0

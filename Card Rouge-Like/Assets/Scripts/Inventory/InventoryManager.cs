@@ -81,21 +81,21 @@ public class InventoryManager : MonoBehaviour
         return false;
     }
 
-    public bool AddAbility(Ability ability)
-    {     
-        // find an empty slot
-        for (int i = 0; i < abilitySlots.Length; i++)
-        {
-            AbilitySlot slot = abilitySlots[i];
-            InventoryAbility itemInSlot = slot.GetComponentInChildren<InventoryAbility>();
+    public bool AddAbility(Ability ability, int indexSlot)
+    {    
+        AbilitySlot slot = abilitySlots[indexSlot];
+        InventoryAbility itemInSlot = slot.GetComponentInChildren<InventoryAbility>();
 
-            if (itemInSlot == null)
-            {
-                SpawnNewAbility(ability, slot);
-                return true;
-            }
+        if (itemInSlot == null)
+        {
+            SpawnNewAbility(ability, slot);
+            return true;
         }
-        return false;
+        else
+        {
+
+            return false;
+        }     
     }
 
     void SpawnNewItem(Item item, InventorySlot slot)
