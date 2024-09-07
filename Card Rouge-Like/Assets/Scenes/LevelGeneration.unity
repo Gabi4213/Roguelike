@@ -404,11 +404,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4bc927862cc0ad46baa9b76147fc6f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  roomPrefab: {fileID: 8686048691524057757, guid: bba04e6b6c20bd24d9770b69338842e8,
-    type: 3}
+  roomPrefabs:
+  - {fileID: 8686048691524057757, guid: fb3f763eb2f7d7949924b0192b94a75a, type: 3}
+  - {fileID: 8686048691524057757, guid: bba04e6b6c20bd24d9770b69338842e8, type: 3}
+  roomPrefabChances:
+  - 80
+  - 20
   roomCountsPerLevel:
-  - {x: 2, y: 2}
   - {x: 3, y: 5}
+  - {x: 5, y: 8}
   currentLevel: 1
 --- !u!4 &2109956600
 Transform:

@@ -3,7 +3,9 @@ using UnityEngine;
 
 public class LevelGenerator : MonoBehaviour
 {
-    public GameObject roomPrefab; // The room prefab to instantiate
+    public GameObject[] roomPrefabs; // Array of room prefabs to instantiate
+    public List<float> roomPrefabChances; // List of probabilities for each prefab (0 to 100%)
+
     public Vector2[] roomCountsPerLevel; // Array to store min and max room counts per level
     public int currentLevel = 0; // The current dungeon level
     private List<Room> placedRooms = new List<Room>(); // List of placed rooms to track them
@@ -67,7 +69,6 @@ public class LevelGenerator : MonoBehaviour
             room.DisableUnusedDoors();
         }
     }
-
 
     // Tries to place a room in the specified direction from the given room
     bool TryPlaceRoom(Room currentRoom, RoomDirection direction, out Room newRoom, out Vector3 newRoomPos)
@@ -159,8 +160,33 @@ public class LevelGenerator : MonoBehaviour
     // Method to instantiate a new room at a specific position
     Room InstantiateRoom(Vector3 position)
     {
-        GameObject newRoomObj = Instantiate(roomPrefab, position, Quaternion.identity);
+        GameObject chosenRoomPrefab = ChooseRoomPrefab(); // Choose a room prefab based on probabilities
+        GameObject newRoomObj = Instantiate(chosenRoomPrefab, position, Quaternion.identity);
         return newRoomObj.GetComponent<Room>();
+    }
+
+    // Method to choose a room prefab based on probabilities
+    GameObject ChooseRoomPrefab()
+    {
+        float total = 0;
+        foreach (float chance in roomPrefabChances)
+        {
+            total += chance;
+        }
+
+        float randomValue = Random.Range(0, total);
+        float cumulative = 0;
+
+        for (int i = 0; i < roomPrefabChances.Count; i++)
+        {
+            cumulative += roomPrefabChances[i];
+            if (randomValue < cumulative)
+            {
+                return roomPrefabs[i];
+            }
+        }
+
+        return roomPrefabs[0]; // Default return to prevent errors
     }
 
     // Get a random available direction from the given room
