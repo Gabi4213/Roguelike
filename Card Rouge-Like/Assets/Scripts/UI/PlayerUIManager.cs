@@ -11,6 +11,7 @@ public class PlayerUIManager : MonoBehaviour
     [Header("Player Health")]
     public Image healthBarFill;
     public Color healthyColor, moderateColor, criticalColor;
+    public TextMeshProUGUI healthBarText;
 
     [Header("Player Manna")]
     public Image mannaBarFill;
@@ -67,6 +68,8 @@ public class PlayerUIManager : MonoBehaviour
         {
             healthBarFill.color = criticalColor;
         }
+
+        healthBarText.text = currentHealth.ToString() + " / " + maxHealth.ToString();
     }
 
     public void UpdateMannaUI()
