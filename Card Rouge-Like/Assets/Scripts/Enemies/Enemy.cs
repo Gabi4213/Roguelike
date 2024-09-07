@@ -39,9 +39,12 @@ public class Enemy : MonoBehaviour
     private bool enemyActivated;
     private bool enemyAlerted;
 
+    private DropLoot dropLoot;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        dropLoot = GetComponent<DropLoot>();
         target = GameObject.FindGameObjectWithTag("Player").transform;
         aboveNameText.text = "";
         enemyActivated = false;
@@ -196,7 +199,9 @@ public class Enemy : MonoBehaviour
 
         yield return new WaitForSeconds(0.5f); // Delay before destruction
 
-        Instantiate(killedFX,transform.position, Quaternion.identity); 
+        Instantiate(killedFX,transform.position, Quaternion.identity);
+        dropLoot.DropSoulFragments();
+        dropLoot.DropItems();
         Destroy(gameObject);
     }
 

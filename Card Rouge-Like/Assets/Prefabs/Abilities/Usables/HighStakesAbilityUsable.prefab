@@ -197,6 +197,10 @@ MonoBehaviour:
   - {fileID: 511180177762784804, guid: ae92900ebc277814982b7c68d433656f, type: 3}
   - {fileID: 511180177762784804, guid: 40fdeb9feb727354db3ff896ef031265, type: 3}
   - {fileID: 511180177762784804, guid: 2efa8a26d3a3ab444b9c16372de8067e, type: 3}
+  projectileDestroyParticles:
+  - {fileID: 2784550481307232153, guid: ccaa8a73e01a7dd43a5f903c12c6e64a, type: 3}
+  - {fileID: 2784550481307232153, guid: ce7cc41c20c8d1d4bbc17f21ea8b4362, type: 3}
+  - {fileID: 2784550481307232153, guid: 084656c18231ee94a84d2f162955842b, type: 3}
   cardSprites:
   - {fileID: 21300000, guid: c1c17a8aeec17184384bfa0cc07f9f51, type: 3}
   - {fileID: 21300000, guid: ee61427eb4c98dc44b76a90140f57bc8, type: 3}
@@ -204,7 +208,8 @@ MonoBehaviour:
   cardSpriteRenderer: {fileID: 5285674608691114334}
   cardShuffleTime: 1
   cardDisplayTime: 0.1
-  cooldownAfterThrow: 15
+  cooldownAfterThrow: 0
   projectileLifetime: 1
-  cardChosenParticlePrefab: {fileID: 3331884730397508130, guid: 71c214c8780738e49b054bf7e36579d9,
+  healthIncreaseAmount: 1
+  cardChosenParticlePrefab: {fileID: 3331884730397508130, guid: 0f04528d6b9090f4b9e34cb8c3e4cc86,
     type: 3}

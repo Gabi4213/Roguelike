@@ -22,6 +22,9 @@ public class PlayerUIManager : MonoBehaviour
     public Color defaultStatsColor, increasedStatsColor, decreasedStatsColor;
     public Color[] rarityTextColors;
 
+    [Header("Soul Shards")]
+    public TextMeshProUGUI soulShardsText;
+
     private void Awake()
     {
         if (!instance)
@@ -33,6 +36,8 @@ public class PlayerUIManager : MonoBehaviour
     private void Start()
     {
         UpdateHealthUI();
+        UpdateMannaUI();
+        UpdateSoulsUI();
     }
 
     private void Update()
@@ -70,5 +75,10 @@ public class PlayerUIManager : MonoBehaviour
         float maxManna = PlayerStatistics.instance.manna;
 
         mannaBarFill.fillAmount = currentManna / maxManna;
+    }
+
+    public void UpdateSoulsUI()
+    {
+        soulShardsText.text = PlayerStatistics.instance.soulFragments.ToString();
     }
 }

@@ -8,6 +8,7 @@ public class HighStakesAbility : MonoBehaviour
     public AbilityBaseUsable abilityBase; // Reference to the base ability
     public Transform spawnPoint; // Projectile spawn point
     public GameObject[] projectilePrefabs; // Array of projectile prefabs
+    public GameObject[] projectileDestroyParticles; // Array of projectile prefabs
 
     [Header("Sprites")]
     public Sprite[] cardSprites; // Array of card sprites
@@ -18,6 +19,13 @@ public class HighStakesAbility : MonoBehaviour
     public float cardDisplayTime; // Time to display each card before shuffling
     public float cooldownAfterThrow; // Cooldown period after throwing a card
     public float projectileLifetime; // Lifetime of the spawned projectile
+
+    // [Header("Ace Card")]
+
+    // [Header("Joker Card")]
+
+    [Header("Hearts Card")]
+    public float healthIncreaseAmount;
 
     [Header("VFX")]
     public GameObject cardChosenParticlePrefab;

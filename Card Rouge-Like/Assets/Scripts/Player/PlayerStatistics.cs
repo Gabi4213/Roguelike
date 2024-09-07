@@ -7,6 +7,11 @@ public class PlayerStatistics : MonoBehaviour
 {
     public static PlayerStatistics instance;
 
+    //game
+    [Header("Game")]
+    public int soulFragments;
+    public int Karma;
+
     //Player
     [Header("Player")]
     public int health;
@@ -183,5 +188,12 @@ public class PlayerStatistics : MonoBehaviour
         yield return new WaitForSeconds(mannaRegenSpeed);
         SetManna(+mannaRegenAmount);
         currentRegening = false;
+    }
+
+
+    public void SetSoulFragments(int inSouls)
+    {
+        soulFragments += inSouls;
+        PlayerUIManager.instance.UpdateSoulsUI();
     }
 }

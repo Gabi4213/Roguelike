@@ -1,3 +1,4 @@
+using Demo_Project;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,11 +7,11 @@ public class CardProjectile : MonoBehaviour
 {
     public HighStakesAbility parentAbility;
     public float projectileLifetime;
-    public GameObject destroyEffect;
     public float projectileSpeed;
     public bool destroyOnImpact;
 
     public bool hasVelocity = true;
+    public int cardIndex; //what card is it 0= ace, 1 = joker, 2 = 2 of hearts
 
     private void Start()
     {
@@ -32,26 +33,57 @@ public class CardProjectile : MonoBehaviour
     {
         yield return new WaitForSeconds(projectileLifetime);
 
-        if (destroyEffect)
+        if (parentAbility.projectileDestroyParticles[cardIndex])
         {
-            Instantiate(destroyEffect, transform.position, Quaternion.identity);
+            Instantiate(parentAbility.projectileDestroyParticles[cardIndex], transform.position, Quaternion.identity);
         }
         Destroy(gameObject);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "Player" || other.gameObject.tag == "Projectile") return;
+        if (other.gameObject.tag != "Enemy") return;
 
         if (destroyOnImpact)
         {
-            if (destroyEffect)
+            if (parentAbility.projectileDestroyParticles[cardIndex])
             {
-                Instantiate(destroyEffect, transform.position, Quaternion.identity);
+                Instantiate(parentAbility.projectileDestroyParticles[cardIndex], transform.position, Quaternion.identity);
+            }
+
+            switch (cardIndex)
+            {
+                case 0:
+                    CardOne();
+                    break;
+                case 1:
+                    CardTwo();
+                    break;
+                case 2:
+                    CardThree();
+                    break;
             }
 
             // Destroy the projectile after the set lifetime
             Destroy(gameObject);
         }
+    }
+
+    //Ace
+    void CardOne()
+    {
+
+    }
+
+    //Joker
+    void CardTwo()
+    {
+
+    }
+
+    //2 of Hearts
+    void CardThree()
+    {
+        PlayerStatistics.instance.SetHealth(parentAbility.healthIncreaseAmount);
     }
 }

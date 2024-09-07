@@ -918,6 +918,7 @@ GameObject:
   - component: {fileID: 7394266949260388817}
   - component: {fileID: 522877090230420467}
   - component: {fileID: 4204433753857236227}
+  - component: {fileID: 2661061367384899280}
   m_Layer: 0
   m_Name: GoblinEnemy
   m_TagString: Enemy
@@ -1118,6 +1119,29 @@ MonoBehaviour:
     type: 3}
   AboveHeadTextAnim: {fileID: 369442382854771249}
   aboveNameText: {fileID: 948596125875874875}
+--- !u!114 &2661061367384899280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7108351623830310552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91a4077cc3664174aa99b0ceeccbf321, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soulFragment: {fileID: 1712887914726788661, guid: f5b83d9c99cf17a4a8ceb1619e175c4e,
+    type: 3}
+  minSouls: 1
+  maxSouls: 3
+  dropRadius: 1
+  itemDrops:
+  - {fileID: 1712887914726788661, guid: dfcfb69def2c3d04499b54707ca6894a, type: 3}
+  - {fileID: 1712887914726788661, guid: daab4322ec1170146b979cc4c374a8a7, type: 3}
+  itemDropChances:
+  - 5
+  - 2
 --- !u!1001 &2311847116471799778
 PrefabInstance:
   m_ObjectHideFlags: 0
