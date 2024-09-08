@@ -12,8 +12,15 @@ public class Room : MonoBehaviour
     public Room roomLeft;
     public Room roomRight;
 
+    public bool isPlayerInRoom;
+    
+    public GameObject player;
+
     private void Start()
     {
+        player = GameObject.FindGameObjectWithTag("Player");
+
+
         if (roomAbove)
         {
             doorTop.connectedRoom = roomAbove;

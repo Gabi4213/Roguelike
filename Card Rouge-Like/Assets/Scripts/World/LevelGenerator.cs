@@ -11,9 +11,74 @@ public class LevelGenerator : MonoBehaviour
     private List<Room> placedRooms = new List<Room>(); // List of placed rooms to track them
     private HashSet<Vector3Int> occupiedPositions = new HashSet<Vector3Int>(); // Track positions of placed rooms using integer grid
 
+    public int maxRetryAttempts = 10; // Max number of retries for generating the dungeon
+    private int currentAttemps;
+
     void Start()
     {
-        GenerateDungeon();
+        GenerateDungeonWithRetries();
+    }
+
+    // Retry mechanism for dungeon generation
+    void GenerateDungeonWithRetries()
+    {
+        currentAttemps = 0;
+        bool success = false;
+
+        // Retry until successful or max attempts reached
+        while (!success && currentAttemps < maxRetryAttempts)
+        {
+            ClearPreviousGeneration(); // Clear the previous generation
+            GenerateDungeon();
+
+            if (CheckForOverlaps())
+            {
+                Debug.LogWarning("Dungeon generation failed. Retrying...");
+                currentAttemps++;
+            }
+            else
+            {
+                success = true;
+                Debug.Log("Dungeon generated successfully!");
+            }
+        }
+
+        if (!success)
+        {
+            Debug.LogError("Failed to generate dungeon after maximum retries.");
+        }
+    }
+
+    // Clear any previously placed rooms and reset the occupied positions
+    void ClearPreviousGeneration()
+    {
+        foreach (Room room in placedRooms)
+        {
+            Destroy(room.gameObject);
+        }
+
+        placedRooms.Clear();
+        occupiedPositions.Clear();
+    }
+
+    // Check if any rooms are overlapping
+    bool CheckForOverlaps()
+    {
+        HashSet<Vector3Int> checkedPositions = new HashSet<Vector3Int>();
+
+        foreach (Room room in placedRooms)
+        {
+            Vector3Int roomPos = Vector3Int.RoundToInt(room.transform.position);
+            if (checkedPositions.Contains(roomPos))
+            {
+                // If a position is found more than once, there's an overlap
+                Debug.LogError($"Overlap detected at position {roomPos}");
+                return true;
+            }
+            checkedPositions.Add(roomPos);
+        }
+
+        return false; // No overlaps detected
     }
 
     void GenerateDungeon()
