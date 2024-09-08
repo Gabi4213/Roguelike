@@ -4993,6 +4993,11 @@ PrefabInstance:
       propertyPath: 'specialInventorySlots.Array.data[2]'
       value: 
       objectReference: {fileID: 265916052}
+    - target: {fileID: 7139852191813625153, guid: 017ec200a34af214dbc7abe481a39334,
+        type: 3}
+      propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5463,15 +5468,20 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6298317855125694522, guid: f968922b07294c644ae6d58df4b764bb,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298317855125694522, guid: f968922b07294c644ae6d58df4b764bb,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7108351623830310552, guid: f968922b07294c644ae6d58df4b764bb,
         type: 3}
       propertyPath: m_Name
       value: BaseEnemy
-      objectReference: {fileID: 0}
-    - target: {fileID: 7108351623830310552, guid: f968922b07294c644ae6d58df4b764bb,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8109439142541540146, guid: f968922b07294c644ae6d58df4b764bb,
         type: 3}
@@ -12052,7 +12062,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 53.299988, y: -780.6}
+  m_AnchoredPosition: {x: 53.30005, y: -780.6}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &2124266630 stripped

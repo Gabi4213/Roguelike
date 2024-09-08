@@ -12,6 +12,26 @@ public class Room : MonoBehaviour
     public Room roomLeft;
     public Room roomRight;
 
+    private void Start()
+    {
+        if (roomAbove)
+        {
+            doorTop.connectedRoom = roomAbove;
+        }
+        if (roomBelow)
+        {
+            doorBottom.connectedRoom = roomBelow;
+        }
+        if (roomLeft)
+        {
+            doorLeft.connectedRoom = roomLeft;
+        }
+        if (roomRight)
+        {
+            doorRight.connectedRoom = roomRight;
+        }
+    }
+
     // Method to check if this room has an available spot in a given direction
     public bool HasAvailableDirection(RoomDirection direction)
     {

@@ -162,6 +162,7 @@ public class Enemy : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        Debug.Log("Trigger Enter");
         if (other.CompareTag("Player") && currentState != EnemyState.Frozen)
         {
             SetState(EnemyState.Attack);
