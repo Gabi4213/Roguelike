@@ -11,7 +11,7 @@ public class RoomPlayerCheck : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            room.isPlayerInRoom = true;
+            //room.isPlayerInRoom = true;
         }
     }
 
@@ -20,7 +20,7 @@ public class RoomPlayerCheck : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            room.isPlayerInRoom = false;
+           // room.isPlayerInRoom = false;
         }
     }
 }

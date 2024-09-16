@@ -4217,14 +4217,31 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2914640388735443814, guid: 0c3e026338b9507408d7dc22c0904ef9,
         type: 3}
+      propertyPath: roomPrefab
+      value: 
+      objectReference: {fileID: 1796224598825886739, guid: fb3f763eb2f7d7949924b0192b94a75a,
+        type: 3}
+    - target: {fileID: 2914640388735443814, guid: 0c3e026338b9507408d7dc22c0904ef9,
+        type: 3}
+      propertyPath: numberOfRooms
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2914640388735443814, guid: 0c3e026338b9507408d7dc22c0904ef9,
+        type: 3}
       propertyPath: roomPrefabs.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2914640388735443814, guid: 0c3e026338b9507408d7dc22c0904ef9,
         type: 3}
       propertyPath: 'roomPrefabs.Array.data[1]'
       value: 
-      objectReference: {fileID: 8686048691524057757, guid: 758ab04f3b3c4d242812fa6e1e19ebb5,
+      objectReference: {fileID: 8686048691524057757, guid: bba04e6b6c20bd24d9770b69338842e8,
+        type: 3}
+    - target: {fileID: 2914640388735443814, guid: 0c3e026338b9507408d7dc22c0904ef9,
+        type: 3}
+      propertyPath: 'roomPrefabs.Array.data[2]'
+      value: 
+      objectReference: {fileID: 8686048691524057757, guid: fb3f763eb2f7d7949924b0192b94a75a,
         type: 3}
     - target: {fileID: 2914640388735443814, guid: 0c3e026338b9507408d7dc22c0904ef9,
         type: 3}
@@ -12090,7 +12107,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 53.30005, y: -780.6}
+  m_AnchoredPosition: {x: 55.19995, y: -785.6}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &2124266630 stripped
