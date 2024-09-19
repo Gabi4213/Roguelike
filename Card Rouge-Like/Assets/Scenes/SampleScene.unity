@@ -4207,122 +4207,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 594204929}
   m_CullTransparentMesh: 1
---- !u!1001 &604511303
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2914640388735443814, guid: 0c3e026338b9507408d7dc22c0904ef9,
-        type: 3}
-      propertyPath: roomPrefab
-      value: 
-      objectReference: {fileID: 1796224598825886739, guid: fb3f763eb2f7d7949924b0192b94a75a,
-        type: 3}
-    - target: {fileID: 2914640388735443814, guid: 0c3e026338b9507408d7dc22c0904ef9,
-        type: 3}
-      propertyPath: numberOfRooms
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2914640388735443814, guid: 0c3e026338b9507408d7dc22c0904ef9,
-        type: 3}
-      propertyPath: roomPrefabs.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2914640388735443814, guid: 0c3e026338b9507408d7dc22c0904ef9,
-        type: 3}
-      propertyPath: 'roomPrefabs.Array.data[1]'
-      value: 
-      objectReference: {fileID: 8686048691524057757, guid: bba04e6b6c20bd24d9770b69338842e8,
-        type: 3}
-    - target: {fileID: 2914640388735443814, guid: 0c3e026338b9507408d7dc22c0904ef9,
-        type: 3}
-      propertyPath: 'roomPrefabs.Array.data[2]'
-      value: 
-      objectReference: {fileID: 8686048691524057757, guid: fb3f763eb2f7d7949924b0192b94a75a,
-        type: 3}
-    - target: {fileID: 2914640388735443814, guid: 0c3e026338b9507408d7dc22c0904ef9,
-        type: 3}
-      propertyPath: roomPrefabChances.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2914640388735443814, guid: 0c3e026338b9507408d7dc22c0904ef9,
-        type: 3}
-      propertyPath: 'roomPrefabChances.Array.data[1]'
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 2914640388735443814, guid: 0c3e026338b9507408d7dc22c0904ef9,
-        type: 3}
-      propertyPath: roomCountsPerLevel.Array.data[1].x
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 2914640388735443814, guid: 0c3e026338b9507408d7dc22c0904ef9,
-        type: 3}
-      propertyPath: roomCountsPerLevel.Array.data[1].y
-      value: 16
-      objectReference: {fileID: 0}
-    - target: {fileID: 5364748471719201319, guid: 0c3e026338b9507408d7dc22c0904ef9,
-        type: 3}
-      propertyPath: m_Name
-      value: LevelGenerator
-      objectReference: {fileID: 0}
-    - target: {fileID: 8118050855816711568, guid: 0c3e026338b9507408d7dc22c0904ef9,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8118050855816711568, guid: 0c3e026338b9507408d7dc22c0904ef9,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8118050855816711568, guid: 0c3e026338b9507408d7dc22c0904ef9,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8118050855816711568, guid: 0c3e026338b9507408d7dc22c0904ef9,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8118050855816711568, guid: 0c3e026338b9507408d7dc22c0904ef9,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8118050855816711568, guid: 0c3e026338b9507408d7dc22c0904ef9,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8118050855816711568, guid: 0c3e026338b9507408d7dc22c0904ef9,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8118050855816711568, guid: 0c3e026338b9507408d7dc22c0904ef9,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8118050855816711568, guid: 0c3e026338b9507408d7dc22c0904ef9,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8118050855816711568, guid: 0c3e026338b9507408d7dc22c0904ef9,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 0c3e026338b9507408d7dc22c0904ef9, type: 3}
 --- !u!1 &618530437 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 411876964054877979, guid: d420dd80f877af649a9434c777eb6796,
@@ -12146,6 +12030,120 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53222df5d4be7444692e5b040ed62ed9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &5364748471115748960
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8118050855347474903}
+  - component: {fileID: 8118050855347474904}
+  - component: {fileID: 8118050855347474905}
+  - component: {fileID: 8118050855347474906}
+  - component: {fileID: 8118050855347474907}
+  m_Layer: 0
+  m_Name: LevelGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8118050855347474903
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5364748471115748960}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8118050855347474904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5364748471115748960}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47694391e66e5fa49b027c9151b5e658, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomPrefabs:
+  - {fileID: 8686048691524057757, guid: d3d7850221f4edc41915fb723b532ece, type: 3}
+  maxRooms: 10
+  gridSize: {x: 100, y: 100}
+  startingRoomPrefab: {fileID: 8686048691524057757, guid: d3d7850221f4edc41915fb723b532ece,
+    type: 3}
+--- !u!114 &8118050855347474905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5364748471115748960}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4bc927862cc0ad46baa9b76147fc6f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomPrefab: {fileID: 1796224598825886739, guid: fb3f763eb2f7d7949924b0192b94a75a,
+    type: 3}
+  numberOfRooms: 5
+  roomCountsPerLevel:
+  - {x: 3, y: 5}
+  currentLevel: 0
+--- !u!114 &8118050855347474906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5364748471115748960}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b2104deafe1b0c4f82d7989f5955613, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingRoom:
+    roomPrefab: {fileID: 8686048691524057757, guid: 5fcd072d086edf14698715dacbd3c351,
+      type: 3}
+    spawnChance: 100
+  roomPrefabs:
+  - roomPrefab: {fileID: 8686048691524057757, guid: 5fcd072d086edf14698715dacbd3c351,
+      type: 3}
+    spawnChance: 50
+  maxRooms: 10
+--- !u!114 &8118050855347474907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5364748471115748960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e17c924edf26d04b8fea6b888f3d71f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomPrefabs:
+  - {fileID: 4749273425980083475, guid: 1ccfaded286c80640890d1e557b35c82, type: 3}
+  - {fileID: 4749273425980083475, guid: fb24def4596ed9948a870edbaa1a4fc1, type: 3}
+  roomSizes:
+  - {x: 1, y: 1}
+  - {x: 1, y: 2}
+  gridWidth: 10
+  gridHeight: 10
+  maxRooms: 10
+  gridSize: {x: 21.4, y: 12, z: 10}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -12169,4 +12167,4 @@ SceneRoots:
   - {fileID: 1486349708}
   - {fileID: 378972620}
   - {fileID: 1900387491}
-  - {fileID: 604511303}
+  - {fileID: 8118050855347474903}

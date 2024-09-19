@@ -4,14 +4,15 @@ using UnityEngine;
 
 public class RoomPlayerCheck : MonoBehaviour
 {
-    public Room room;
+    public Room3 room;
 
     // Check if player enters the room
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            //room.isPlayerInRoom = true;
+            room.isPlayerInRoom = true;
+            room.PlayerInRoom();
         }
     }
 
@@ -20,7 +21,8 @@ public class RoomPlayerCheck : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-           // room.isPlayerInRoom = false;
+            room.isPlayerInRoom = false;
+            room.PlayerNotInRoom();
         }
     }
 }
