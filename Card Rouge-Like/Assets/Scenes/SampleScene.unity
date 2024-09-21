@@ -12113,15 +12113,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b2104deafe1b0c4f82d7989f5955613, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingRoom:
-    roomPrefab: {fileID: 8686048691524057757, guid: 5fcd072d086edf14698715dacbd3c351,
-      type: 3}
-    spawnChance: 100
-  roomPrefabs:
-  - roomPrefab: {fileID: 8686048691524057757, guid: 5fcd072d086edf14698715dacbd3c351,
-      type: 3}
-    spawnChance: 50
-  maxRooms: 10
 --- !u!114 &8118050855347474907
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12143,6 +12134,8 @@ MonoBehaviour:
   gridWidth: 10
   gridHeight: 10
   maxRooms: 10
+  startingRoomPrefab: {fileID: 1961182032003081147, guid: 93f8c3f89f22b9a42b886963ce934249,
+    type: 3}
   gridSize: {x: 21.4, y: 12, z: 10}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
