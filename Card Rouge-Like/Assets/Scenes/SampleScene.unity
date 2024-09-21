@@ -3425,7 +3425,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 10.71, y: 6, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4838,12 +4838,12 @@ PrefabInstance:
     - target: {fileID: 2494063034612913318, guid: 017ec200a34af214dbc7abe481a39334,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 10.71
       objectReference: {fileID: 0}
     - target: {fileID: 2494063034612913318, guid: 017ec200a34af214dbc7abe481a39334,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2494063034612913318, guid: 017ec200a34af214dbc7abe481a39334,
         type: 3}
@@ -12135,8 +12135,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomPrefabs:
-  - {fileID: 4749273425980083475, guid: 1ccfaded286c80640890d1e557b35c82, type: 3}
-  - {fileID: 4749273425980083475, guid: fb24def4596ed9948a870edbaa1a4fc1, type: 3}
+  - {fileID: 1961182032003081147, guid: 1ccfaded286c80640890d1e557b35c82, type: 3}
+  - {fileID: 1961182032003081147, guid: fb24def4596ed9948a870edbaa1a4fc1, type: 3}
   roomSizes:
   - {x: 1, y: 1}
   - {x: 1, y: 2}
