@@ -4898,7 +4898,7 @@ PrefabInstance:
     - target: {fileID: 6908000132149902163, guid: 017ec200a34af214dbc7abe481a39334,
         type: 3}
       propertyPath: level
-      value: 1
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6908000132149902163, guid: 017ec200a34af214dbc7abe481a39334,
         type: 3}
@@ -12048,6 +12048,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: DungeonGeneratorManager
       objectReference: {fileID: 0}
+    - target: {fileID: 5888480909424426655, guid: acaeec6fee0eb99428294595202b94c8,
+        type: 3}
+      propertyPath: bossRoomPrefab
+      value: 
+      objectReference: {fileID: 1961182032003081147, guid: bbcf9a6d682d9cd4c97a9331d35c56fb,
+        type: 3}
     - target: {fileID: 5888480909424426655, guid: acaeec6fee0eb99428294595202b94c8,
         type: 3}
       propertyPath: startingRoomPrefab

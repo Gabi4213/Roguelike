@@ -1,6 +1,5 @@
 using UnityEngine;
 using System.Collections.Generic;
-using static Cinemachine.DocumentationSortingAttribute;
 
 public class DungeonGenerator : MonoBehaviour
 {
@@ -13,6 +12,7 @@ public class DungeonGenerator : MonoBehaviour
     private int maxRooms;
     private Vector2Int startRoomSize = new Vector2Int(1, 1); // Starting room size
     public Room startingRoomPrefab; // Assign this in the Inspector for the starting room
+    public Room bossRoomPrefab; // Assign the boss room prefab in the Inspector
     private Vector2Int startRoomPosition = new Vector2Int(0, 0); // Start at (0, 0)
     private List<Vector2Int> availablePositions = new List<Vector2Int>();
     private Dictionary<Vector2Int, Room> placedRooms = new Dictionary<Vector2Int, Room>();
@@ -73,10 +73,35 @@ public class DungeonGenerator : MonoBehaviour
             }
         }
 
+        // Place the boss room at the farthest available position
+        PlaceBossRoom();
+
         // After generation, update doors for all placed rooms
         foreach (var room in placedRooms.Values)
         {
             room.UpdateDoors();
+        }
+    }
+
+    void PlaceBossRoom()
+    {
+        // Find the position farthest from the starting room (0, 0)
+        Vector2Int bossRoomPosition = new Vector2Int(-1, -1);
+        float maxDistance = -1f;
+
+        foreach (var pos in availablePositions)
+        {
+            float distance = Vector2Int.Distance(startRoomPosition, pos);
+            if (distance > maxDistance)
+            {
+                maxDistance = distance;
+                bossRoomPosition = pos;
+            }
+        }
+
+        if (bossRoomPosition != new Vector2Int(-1, -1))
+        {
+            PlaceRoom(bossRoomPosition, new Vector2Int(1, 1), bossRoomPrefab); // Use a suitable size for the boss room
         }
     }
 
@@ -152,7 +177,6 @@ public class DungeonGenerator : MonoBehaviour
                     {
                         room.rightRooms.Add(neighbor);
                         neighbor.leftRooms.Add(room);
-                        Debug.Log($"{room.name} connected to {neighbor.name} on the Right.");
                     }
                 }
 
@@ -165,7 +189,6 @@ public class DungeonGenerator : MonoBehaviour
                     {
                         room.leftRooms.Add(neighbor);
                         neighbor.rightRooms.Add(room);
-                        Debug.Log($"{room.name} connected to {neighbor.name} on the Left.");
                     }
                 }
 
@@ -178,7 +201,6 @@ public class DungeonGenerator : MonoBehaviour
                     {
                         room.topRooms.Add(neighbor);
                         neighbor.bottomRooms.Add(room);
-                        Debug.Log($"{room.name} connected to {neighbor.name} on the Top.");
                     }
                 }
 
@@ -191,7 +213,6 @@ public class DungeonGenerator : MonoBehaviour
                     {
                         room.bottomRooms.Add(neighbor);
                         neighbor.topRooms.Add(room);
-                        Debug.Log($"{room.name} connected to {neighbor.name} on the Bottom.");
                     }
                 }
             }
