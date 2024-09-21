@@ -1,13 +1,13 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-public class Room4 : MonoBehaviour
+public class Room : MonoBehaviour
 {
     // Lists to store multiple adjacent rooms for each side
-    public List<Room4> leftRooms = new List<Room4>();
-    public List<Room4> rightRooms = new List<Room4>();
-    public List<Room4> topRooms = new List<Room4>();
-    public List<Room4> bottomRooms = new List<Room4>();
+    public List<Room> leftRooms = new List<Room>();
+    public List<Room> rightRooms = new List<Room>();
+    public List<Room> topRooms = new List<Room>();
+    public List<Room> bottomRooms = new List<Room>();
 
     // Lists of door GameObjects for each side
     // Ensure that each list has enough door GameObjects in the Unity Editor

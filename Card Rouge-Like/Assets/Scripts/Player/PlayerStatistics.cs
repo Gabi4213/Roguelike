@@ -10,7 +10,8 @@ public class PlayerStatistics : MonoBehaviour
     //game
     [Header("Game")]
     public int soulFragments;
-    public int Karma;
+    public int karma;
+    public int level;
 
     //Player
     [Header("Player")]
