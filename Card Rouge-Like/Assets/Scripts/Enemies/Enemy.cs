@@ -133,26 +133,21 @@ public class Enemy : MonoBehaviour
     {
         if (target != null && currentState != EnemyState.Frozen)
         {
-            // Calculate the direction towards the target
-            Vector3 direction = (target.position - transform.position).normalized;
+            float direction = Mathf.Sign(target.position.x - transform.position.x);
+            float distance = Mathf.Abs(target.position.x - transform.position.x);
 
-            // Calculate the distance to the target
-            float distance = Vector3.Distance(transform.position, target.position);
-
-            // Check if we're within stopping distance
             if (distance > stoppingDistance)
             {
-                // Set the velocity of the Rigidbody to move towards the target
-                SetState(EnemyState.Follow);
-                rb.velocity = direction * moveSpeed;
+                rb.velocity = new Vector2(direction * moveSpeed, rb.velocity.y);
                 anim.SetBool("Moving", true);
             }
             else
             {
-                rb.velocity = Vector3.zero;
+                rb.velocity = new Vector2(0, rb.velocity.y);
             }
         }
     }
+
 
     void Alerted()
     {

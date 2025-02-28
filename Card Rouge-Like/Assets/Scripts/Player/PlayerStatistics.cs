@@ -41,7 +41,7 @@ public class PlayerStatistics : MonoBehaviour
     [Header("Movement")]
     public float moveSpeed;
     public float stability;
-    private PlayerMovement playerMovement;
+    private PlatformerMovement playerMovement;
 
     //Tracking
     public float currentHealth;
@@ -62,7 +62,7 @@ public class PlayerStatistics : MonoBehaviour
         defaultMoveSpeed = moveSpeed;
         currentHealth = health;
         currentManna = manna;
-        playerMovement = GetComponent<PlayerMovement>();
+        playerMovement = GetComponent<PlatformerMovement>();
     }
 
     public void SetHealth(float inHealth)
